@@ -5201,7 +5201,7 @@ function selectAll(){
 function downloadFullCSV(dateSelected){
     console.log(dateSelected)
     var a = document.createElement('a')
-	fileUrl = '../Analysis results/'+dateSelected+'.csv'
+	fileUrl = 'http://193.205.161.53/'+dateSelected+'.csv'
     console.log(fileUrl)
 	a.href = fileUrl
 	a.setAttribute("download",fileUrl)
