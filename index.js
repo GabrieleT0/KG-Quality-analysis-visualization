@@ -441,116 +441,56 @@ function passValue(x,metric) {
 				document.getElementById(`intPie`).style.display = 'block';
 				document.getElementById(`tableInt`).style.display = 'block';
 				document.getElementById(`wrap-tbInt`).style.display = 'block';
-    			if(document.getElementById('all').checked){
-      				$(document).ready(function() {
-        				$.ajax({
-							type: "GET",
-							url: 'subGraph.json',
-							dataType: "text",
-							success: function(data) {processData(data)}
-						});
-        				function processData(data){
-							const obj = JSON.parse(data);
-							linksArr = obj.links
-							data = []
-							linksArr.forEach(function(point){  //BUILDING ARRAY WITH DATA FOR GRAPH
-								data.push([point.source,point.target])
-							});
-            				
-							Highcharts.chart({ //CHART WITH ALL KG FOUND BY THE INPUT
-								chart:{
-									type : 'networkgraph',
-									renderTo: 'interlinking',
-								},
-								title: {
-									style:{
-										fontSize:'30px',
-										fontWeight:'bold'
-									},
-									text: 'External links',
-								},
-								subtitle: {
-									text:a,
-									style:{
-										fontSize:'24px'
-									}
-								},
-								plotOptions: {
-									networkgraph: {
-										keys: ['from', 'to'],
-										layoutAlgorithm: {
-											//enableSimulation: true,
-											//friction: -0.9
-										}
-									}
-								},
-								series: [{
-									dataLabels: {
-										enabled: true,
-										linkFormat: ''
-									},
-									id: 'Graph',
-									marker: {
-										radius: 20
-									},
-									data: data,
-								}]
-							});
-						}
+				$(document).ready(function() {
+					$.ajax({
+						type: "GET",
+						url: './Subgraphs/'+a+'.txt',
+						dataType: "text",
+						success: function(data) {processData(data)}
 					});
-				} 
-				else {
-					$(document).ready(function() {
-      					$.ajax({
-							type: "GET",
-							url: './Subgraphs/'+a+'.txt',
-							dataType: "text",
-							success: function(data) {processData(data)}
-      					});
-      					function processData(data){  //CHART FOR EXTERNAL LINKS 
-        					var json = JSON.parse("[" + data + "]" )
-							Highcharts.chart({
-								chart:{
-									type : 'networkgraph',	
-									renderTo: 'interlinking',
+					function processData(data){  //CHART FOR EXTERNAL LINKS 
+						var json = JSON.parse("[" + data + "]" )
+						Highcharts.chart({
+							chart:{
+								type : 'networkgraph',	
+								renderTo: 'interlinking',
+							},
+							title: {
+								style:{
+									fontSize:'30px',
+									fontWeight:'bold'
 								},
-								title: {
-									style:{
-										fontSize:'30px',
-										fontWeight:'bold'
-									},
-									text: 'External links',
-								},
-								subtitle: {
-									text:a,
-									style:{
-										fontSize:'24px'
+								text: 'External links',
+							},
+							subtitle: {
+								text:a,
+								style:{
+									fontSize:'24px'
+								}
+							},
+							plotOptions: {
+								networkgraph: {
+									keys: ['from', 'to'],
+									layoutAlgorithm: {
+										enableSimulation: true,
+										friction: -0.9
 									}
+								}
+							},
+							series: [{
+								dataLabels: {
+									enabled: true,
+									linkFormat: ''
 								},
-								plotOptions: {
-									networkgraph: {
-										keys: ['from', 'to'],
-										layoutAlgorithm: {
-											enableSimulation: true,
-											friction: -0.9
-										}
-									}
+								id: 'Graph',
+								marker: {
+									radius: 20
 								},
-								series: [{
-									dataLabels: {
-										enabled: true,
-										linkFormat: ''
-									},
-									id: 'Graph',
-									marker: {
-										radius: 20
-									},
-									data: json[0],
-								}]
-							});
-  						}
-  					});
-  				}
+								data: json[0],
+							}]
+						});
+					}
+				});
  
 				$(document).ready(function() {
 					$.ajax({
