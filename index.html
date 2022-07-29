@@ -30,16 +30,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     
-    
-    
-    <div class = 'wrapper' style="text-align: center; " >
-        <a href='compare.html' id="linkS"><button type="button" id='compare'>Compare analyzed KG </button></a><br>
-        <div class="custom-select">
-            <select id="selectKG" style="align-items: center;">
-                <option>Choose a KG</option>
-            </select>
+    <div class="row">
+        <div class="left">
+          <h2 id="titleMen">KGs analyzed</h2>
+          <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+          <ul id="specialBtn">
+            <li style="float:left ;"><a href='compare.html' id="linkS"><button type="button" id='compare'>Compare KGs </button></a></li>
+            <li><a href='#' id="linkD"><button id="downloadBtn" onclick="downloadFullCSV(idKG);">Download csv</button></a></li>
+          </ul>
+            <div id="wrapMenu">
+                <ul id="myMenu">
+                </ul>
+            </div>
         </div>
-        <button id="downloadBtn" onclick="downloadFullCSV(idKG);">Download csv</button>
+
+    <div class="right" style="width: 30%;">
+    <div class = 'wrapper' style="text-align: center; " >
         <div id = 'metrics' style="align-items: center;">
             <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="score" name="metric" value="Score" checked><label for="score">Score</label></div>
             <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="believ" name="metric" value="Believability" checked><label for="believ">Believability</label></div>
@@ -65,6 +71,7 @@
     </div>
     
     <script>
+    var metric = document.querySelector('input[name="metric"]:checked');
     //AUTOMATIC OPTIONS LIST POPULATION WITH KG ANALYZED
     var ids = [];
     var xmlhttp;
@@ -77,33 +84,30 @@
     if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
         var text = xmlhttp.responseText;
         // Now convert it into array using regex
-        ids = text.split("\n");
-        var select = document.getElementById("selectKG");
+        fullName = text.trim().split("\n");
+        ids = []
+        names = []
+        for(var i = 0; i<fullName.length;i++){
+            id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+            ids.push(id)
+            name = fullName[i].trim().slice(fullName[i].indexOf(' ') + 1);
+            names.push(name)
+        }
+        var select = document.getElementById("myMenu");
         for(var i = 0; i < ids.length; i++) {
-            $.get('./CSVforJS/'+ids[i]+'.csv', function(data) {
-            var lines = data.trim().split('\n');
-            var lastLine = lines[lines.length - 1].split(',');
-            name = lastLine[5]
-            id = lastLine[15]
-            var el = document.createElement("option");
-            el.textContent = name;
-            el.value = id;
-            select.appendChild(el);
-            var checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.value = id
-            checkbox.name = id
-            checkbox.id = id
-            var label = document.createElement('Label')
-            label.htmlFor = id
-            label.appendChild(document.createTextNode(id))
-            var br = document.createElement('br')
-            checkbox.appendChild(label)
-            
-            document.getElementById('checkboxKG').appendChild(checkbox)
-            document.getElementById('checkboxKG').appendChild(label)
-            document.getElementById('checkboxKG').appendChild(br)
-            })
+            name = names[i]
+            id = ids[i]
+            var el = document.createElement("li");
+            var button = document.createElement('button')
+            button.textContent = name;
+            button.value = id;
+            button.innerHTML = name
+            button.className = 'KGbutton'
+            button.onclick = function(){
+              passValue(this.value,metric)
+            }
+            el.appendChild(button)
+            select.appendChild(el)
         }
         //By default at firt visit on the page is shown the first kg in the list and the believability dimension
         d = document.createElement('button')
@@ -114,7 +118,7 @@
 }
     xmlhttp.open("GET", "KGid.txt", true);
     xmlhttp.send();
-    console.log(document.getElementById('selectKG'))
+    console.log(document.getElementById('myMenu'))
     function KGname(id){
         $.get('./CSVforJS/'+id+'.csv', function(data) {
             var lines = data.trim().split('\n');
@@ -123,18 +127,6 @@
          
     });
     }
-    var select = document.getElementById('selectKG');
-    select.addEventListener("change",function() {
-    var metric = document.querySelector('input[name="metric"]:checked');
-    idKG = this.value
-    passValue(this.value,metric);
-    });
-    const radioButtons = document.getElementById('metrics').querySelectorAll('input[type="radio"][name="metric"]');
-    var select = document.getElementById('selectKG');
-    select.addEventListener("onclick",function() {
-    idKG = this.value;
-    });
-    
     </script>
     <div id="container" style="width:100%; margin-top: 10px;"></div>
     <div id="container2" style="width:100%;  margin-top: 60px;"></div>
@@ -302,7 +294,7 @@
             </div>
         </div>
     
-    <div id="verifiability" style="display: none; margin-top: 50px; margin-left: 10px; overflow-x:auto; text-align: center;">
+    <div id="verifiability" style="margin-top: 35px; display: none">
         <table id="tableVer" class="center" height="500px">
             <tr>
                 <th>KG name</th>
@@ -625,12 +617,12 @@
     <div id="scoreCont" >
         <div id="scoreChart" ></div>
     </div>
-
+    </div>
     <footer>
         <img src="img/logo.png" width="110" height="70" style="margin-bottom: 15px;"/>
         <p id="txtFooter">Gabriele Tuozzo, Maria Angela Pellegrino <br> gabrieletuozzo@gmail.com</p>
     </footer>
 
-
+  
 </body>
 </html>

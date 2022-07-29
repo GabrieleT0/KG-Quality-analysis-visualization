@@ -49,14 +49,18 @@
                 if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                     var text = xmlhttp.responseText;
                     // Now convert it into array using regex
-                    ids = text.split("\n");
-                    console.log(ids)
+                    fullName = text.trim().split("\n");
+                    ids = []
+                    names = []
+                    for(var i = 0; i<fullName.length;i++){
+                        id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                        ids.push(id)
+                        name = fullName[i].trim().slice(fullName[i].indexOf(' ') + 1);
+                        names.push(name)
+                    }
                     for(var i = 0; i < ids.length; i++) {
-                        $.get('./CSVforJS/'+ids[i]+'.csv', function(data) {
-                            var lines = data.trim().split('\n');
-                            var lastLine = lines[lines.length - 1].split(',');
-                            name = lastLine[5]
-                            id = lastLine[15]
+                            name = names[i]
+                            id = ids[i]
                             var checkbox = document.createElement('input');
                             checkbox.type = 'checkbox';
                             checkbox.className = 'form-check-input'
@@ -77,7 +81,6 @@
                             li.appendChild(label)
                             listC = document.getElementById('listKG')
                             listC.appendChild(li)
-                        })
                     }
                 }
             }

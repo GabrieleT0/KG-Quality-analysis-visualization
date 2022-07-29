@@ -1,1882 +1,1870 @@
- dataodwtw
-00803626
-2000uscensusrdf
-2001spanishcensustordf
-ABC
-AISHE
-ASCDC  CCP Archive
-ASCDC  DNB
-ASCDC NTMFormosanAborigines
-ASCDCASNTUESchoolArtTextbooks
-ASCDCASTFDFishSpecies
-ASCDCCRB
-ASCDCCTSTVPrograms
-ASCDCDQOT
-ASCDCIHPWCD
-ASCDCLinkedTaiwanArtists
-ASCDCNMMBAAquaticAnimalsinTaiwan
-ASCDCNMMBAFishOtoliths
-ASCDCTibetanAudioArchive
-Altawil
-Amer Nejma
-BVMC
-Baceviciuslt
-BibSonomy
-CPC
-CaLiGraph
-Catch Record 2014 2019
-Chinese Red Classic Song Linked Data Dataset
-CoDa
-Corine linked dataset
-CovidontheWeb
-E1
-EGovOntology
-EO metadata
-Earthquake
-European Patent Information
-FADN 2019
-FAO species
-FHIR STU3
-Face Link
-Fishery Stock Dataset
-GACS
-GTS
-GTSont
-Generalized Super Ontology
-Guillaume Forget
-HealthCare Ontology
-ISSN 00803626
-ISSN 00803626
-ISSN00803626
-Inztrow
-KnowledgeFusion
-Kronika naukowa Biblioteki Jagiellońskiej
-LARK
-LEGIJA STRANACA
-LPIS Czech Republic
-LPIS Poland
-Location Ontology
-Luminairessenlis
-Names 
-Naturopathy
-NoiPA
-Norway Fishery 
-OLU 
-OTM
-Open Land Use
-PGxLOD
-PersonOnto
-Prior Panel
-PubChem RDF
-Qualité de lair 
-Qualité de lair dans le monde
-ROSHANI
-ROSHANI SAHU
-RbPLLGU
-Rozprawa artykuł
-SATAR test
-SDG
-Shripriya Dubey
-Smart POI dataset
-SocialLink
-SocialRoles
-Soil maps
-SudershanTech
-Suface Forestière Mondiale 19902016
-Swift
-Terrorist Attack 1
-Terrorist attack
-Test
-Test 
-The Central Bank of the Republic of Uzbekistan
-The Respublic of Uzbekistan
-Thinkphile
-UgandaDisastersrdfdata 
-UniProt
-Upper Ontology
-Urban Atlas 
-Urban Atlas Dataset
-Uros Legija Susa
-Uros Susa
-Vehicule Autonome
-Vyvasta
-WHOnto
-Water Areas Classification
-Water Buffer
-abhay intro
-abslinkeddata
-academicofferofunl
-acadonto
-acollectionofpapersforlrec2014andrelatedworkshops
-acornsat
-addgene
-aegpspanishtextileandclothingassociation
-aemet
-agendadezaragoza
-agrinepaldata
-agris
-agrovoc
-agrovocskos
-akash
-aksworg
-alchemyapi
-alexandriadigitallibraryadlgazetteer
-aliadascanbitnet
-allenbrainatlas
-allieabbreviationandlongformdatabaseinlifescience
-alojamientoszaragoza
-alpinordf
-amcollectionsonline
-amon
-amsterdammuseumasedmlod
-analisidelbloghttpwwwbeppegrilloit
-animaldiversityweb
-apache
-apertiumrdf
-apertiumrdfcait
-apertiumrdfenca
-apertiumrdfenes
-apertiumrdfengl
-apertiumrdfeoca
-apertiumrdfeoen
-apertiumrdfeoes
-apertiumrdfeofr
-apertiumrdfesan
-apertiumrdfesast
-apertiumrdfesca
-apertiumrdfesgl
-apertiumrdfespt
-apertiumrdfesro
-apertiumrdfeuen
-apertiumrdfeues
-apertiumrdffrca
-apertiumrdffres
-apertiumrdfocca
-apertiumrdfoces
-apertiumrdfptca
-apertiumrdfptgl
-aragodbpedia
-archiveshublinkeddata
-archivioisma
-ariadne
-aristotleuniversity
-arrayexpresseafmx1
-arrayexpresseafmx4
-arrayexpressemtab104
-artenuevosmediosgnoss
-arthroscopy
-asit
-asjp
-asnus
-aspiremmu
-associations
-atcpublikovanskl
-atheliarfid
-aueblinkedopendata
-austrianskiracers
-b3kat
-babelnet
-bag
-baixue
-baixue composer
-baixue imagery
-baixue imagery1
-bams
-basqueeurowordnetlemonlexicon30
-bbcmusic
-bbcprogrammes
-bbcwildlifefinder
-bbop
-bbopselected
-bdgp
-beneficiariesoftheeuropeancommission
-berlinoffenerhaushalt
-berlios
-betweenourworlds
-bfslinkeddata
-bibbase
-bibliotecaescolardigitalcita
-bibliotecanacionalescolarbnescolar
-bibliotecavirtualmigueldecervantesbvmclinkedopendata
-billiontripleschallengedataset2008
-billiontripleschallengedataset2010
-bio2rdfacfsid
-bio2rdfaffymetrix
-bio2rdfbiomodels
-bio2rdfbiomodelsbiopax
-bio2rdfbioportal
-bio2rdfchembl
-bio2rdfclinicaltrials
-bio2rdfctd
-bio2rdfdataset
-bio2rdfdbsnp
-bio2rdfdrugbank
-bio2rdfgenage
-bio2rdfgenbank
-bio2rdfgendr
-bio2rdfgoa
-bio2rdfhgnc
-bio2rdfhomologene
-bio2rdfinoh
-bio2rdfinterpro
-bio2rdfiproclass
-bio2rdfirefindex
-bio2rdfkegg
-bio2rdfkeggbiopax
-bio2rdflinkedspl
-bio2rdflsr
-bio2rdfmesh
-bio2rdfmgi
-bio2rdfncbigene
-bio2rdfndc
-bio2rdfnetpath
-bio2rdfnextprot
-bio2rdfomim
-bio2rdfomimresources
-bio2rdforphanet
-bio2rdfpathwaycommons
-bio2rdfpharmgkb
-bio2rdfpharmgkbbiopax
-bio2rdfpid
-bio2rdfpubchem2
-bio2rdfpubmed
-bio2rdfreactome
-bio2rdfrhea
-bio2rdfsabiork
-bio2rdfsgd
-bio2rdfsgdresources
-bio2rdfsider
-bio2rdfspike
-bio2rdftaxon
-bio2rdftaxonomy
-bio2rdfwikipathways
-bio2rdfwormbase
-biographicaldirectoryoftheunitedstatescongress
-biolit
-biolodpdb
-biomodelsrdf
-bioportalaao
-bioportalaba
-bioportalacgt
-bioportaladw
-bioportalaeo
-bioportalaero
-bioportalair
-bioportalaminoacid
-bioportalapo
-bioportalatmo
-bioportalato
-bioportalbao
-bioportalbasicvertebrategrossanatomy
-bioportalbcgo
-bioportalbdo
-bioportalbfo
-bioportalbho
-bioportalbila
-bioportalbirnlex
-bioportalbootstrep
-bioportalbp
-bioportalbrox1
-bioportalbspo
-bioportalbt
-bioportalbto
-bioportalcanco
-bioportalcao
-bioportalcarelex
-bioportalcco
-bioportalcdao
-bioportalchebi
-bioportalchem2bio2owl
-bioportalcheminf
-bioportalcl
-bioportalclo
-bioportalcmo
-bioportalcno
-bioportalcogat
-bioportalcogpo
-bioportalcowheat
-bioportalcpt
-bioportalcsp
-bioportalcst
-bioportalctcae
-bioportalctx
-bioportaldccl
-bioportalddanat
-bioportalddi
-bioportaldiagnosticont
-bioportaldikbevidence
-bioportaldoid
-bioportalecg
-bioportaleco
-bioportalefo
-bioportalehda
-bioportalehdaa
-bioportalehdaa2
-bioportalemap
-bioportalenvo
-bioportaleo
-bioportalep
-bioportalepileponto
-bioportalero
-bioportalev
-bioportalexo
-bioportalfao
-bioportalfbbi
-bioportalfbbt
-bioportalfbcv
-bioportalfbdv
-bioportalfbsp
-bioportalfdameddevice
-bioportalfhho
-bioportalflu
-bioportalfma
-bioportalfypo
-bioportalgeospecies
-bioportalgfo
-bioportalgfobio
-bioportalgox1
-bioportalgox2
-bioportalgro
-bioportalgrox1
-bioportalgrox2
-bioportalhao
-bioportalhcpcs
-bioportalhl7
-bioportalhlthindics
-bioportalhom
-bioportalhomharvard
-bioportalhpio
-bioportalhpx1
-bioportalhugo
-bioportaliao
-bioportalicd10
-bioportalicd10cm
-bioportalicd10pcs
-bioportalicd9cm
-bioportalicfx1
-bioportalicnp
-bioportalicpc
-bioportalicpc2p
-bioportalicps
-bioportalido
-bioportalidobru
-bioportalidomal
-bioportaliev
-bioportalimgt
-bioportalimr
-bioportalino
-bioportalinvertebrata
-bioportalixno
-bioportaljerm
-bioportalkisao
-bioportallhn
-bioportallipro
-bioportallnc
-bioportalma
-bioportalmao
-bioportalmat
-bioportalmcbcc
-bioportalmccl
-bioportalmcclx1
-bioportalmcv
-bioportalmddb
-bioportalmdr
-bioportalmedlineplus
-bioportalmego
-bioportalmeshowl
-bioportalmf
-bioportalmfo
-bioportalmfoem
-bioportalmhc
-bioportalmi
-bioportalmiro
-bioportalmmo
-bioportalmo
-bioportalmod
-bioportalmp
-bioportalmpath
-bioportalms
-bioportalmsh
-bioportalmthch
-bioportalnatpro
-bioportalncbitaxon
-bioportalncit
-bioportalnddf
-bioportalndfrt
-bioportalnemox1
-bioportalneomark
-bioportalneomarkontology
-bioportalnif
-bioportalnifcell
-bioportalnifdysfunction
-bioportalnigo
-bioportalnmr
-bioportalnonrctontology
-bioportalnpo
-bioportaloae
-bioportalobi
-bioportaloboe
-bioportaloboesbc
-bioportalocre
-bioportalodgi
-bioportalogi
-bioportalogmd
-bioportalogms
-bioportalomim
-bioportalomit
-bioportalomrse
-bioportalontodm
-bioportalontodt
-bioportalontoorpha
-bioportalopl
-bioportalpato
-bioportalpdq
-bioportalpedterm
-bioportalpeo
-bioportalphare
-bioportalpko
-bioportalpma
-bioportalpmr
-bioportalpo
-bioportalpox1
-bioportalpox2
-bioportalpr
-bioportalpropreo
-bioportalpw
-bioportalqibo
-bioportalrcd
-bioportalrctontology
-bioportalrepo
-bioportalrex
-bioportalrid
-bioportalrnao
-bioportalroleo
-bioportalrs
-bioportalrxnorm
-bioportalsao
-bioportalsbo
-bioportalsbro
-bioportalsdo
-bioportalsep
-bioportalshr
-bioportalsio
-bioportalsitbac
-bioportalsnomedct
-bioportalsnpo
-bioportalsopharm
-bioportalsox1
-bioportalsoy
-bioportalspd
-bioportalspto
-bioportalsso
-bioportalswo
-bioportaltads
-bioportaltao
-bioportaltaxrank
-bioportalteddy
-bioportalteo
-bioportaltgma
-bioportalthesaurus
-bioportaltmo
-bioportaltmsignsandsympts
-bioportalto
-bioportaltok
-bioportaltto
-bioportaluberon
-bioportalunitsontology
-bioportaluo
-bioportalvandf
-bioportalvao
-bioportalvhog
-bioportalvivo
-bioportalvo
-bioportalvt
-bioportalwbbt
-bioportalwbls
-bioportalwbphenotype
-bioportalwho
-bioportalxao
-bioportalxco
-bioportalypo
-bioportalzfa
-biosamplesrdf
-bislinkeddata
-bitzi
-bizkaisense
-blablaitemlist
-blablaitemlist
-bllthesaurus
-blukbnb
-bncfns
-bpr
-braziliancities
-brazilianpoliticians
-bricklink
-britishmuseumcollection
-browncorpusinrdfnif
-bsv
-bundestagnebeneinkuenfte
-bundoffenerhaushalt
-businessdatagovuk
-cabbage
-cablegate
-calames
-canlink
-capitalyrdf
-catalaneurowordnetlemonlexicon30
-catalogusprofessorumlipsiensis
-ce4r
-ceo
-chargingstations
-chatgamecorpus
-chebi
-chem2bio2rdf
-chemblrdf
-chempediardf
-chroniclingamerica
-cht
-ciardring
-cinemathequequebecoiselinkedopendata
-cipfa
-ckan
-cleanenergydatareegle
-clldafbo
-clldapics
-clldewave
-clldglottolog
-clldphoible
-clldsails
-clldwals
-clldwold
-codeendpoint
-codinventory
-coinsopenuplabs
-colinda
-combinednomenclature2012
-commentsonliteratureinliterature
-comparativeanalysisofproductionvolumebyareaofstrawberrybyperiod
-comparativeanalysisofproductionvolumebyareaofwatermelonbyperiod
-comparativeanalysisofproductionvolumebyareaofwatermelonbyperiod2
-comparisonofpricecompetitivenessofgrapebyregion
-comsoded32
-conceptnet
-congresspeople
-connectivityofloddatasets
-copaclibrarycatalogue
-copyrighttermbank
-core
-corn
-cornetto
-cornsfamousmountainousdistrictgoesanenvironmentalstatus
-cornsfamousmountainousdistrictjeongseonenvironmentalstatus
-corporatebody
-corscheck
-countryauthoritylist
-courtsthesaurus
-cpa2008
-cpc2008
-cpv2003
-cpv2008
-crowdsourcingfb
-crtm
-crystaleye
-cticpublicdataset
-cultivationstatusofgmocrops
-culturalinkeddata
-czaresor
-czaresrzp
-czceniairzchemicals
-czceniapollution
-czcontracts
-czcourts
-czctiabans
-czctiaconfiscations
-czctiafocus
-czctiainspections
-czctiasanctions
-czcuzkcadastreoffices
-czcuzklegalrelationshipsdocuments
-czczsoaveragesalaries
-czczsodeathsbyselectedcausesofdeath
-czczsodemographyinregionsczechrepublicagecategories
-czczsojobapplicants
-czczsojobapplicantsandunemploymentrate
-czczsoregions
-czczsoselectedindicatorsofpublichealth
-czczsosocialservicefacilities
-czczsounemploymentrate
-czechaddresses
-czeh1atc
-czfulfillments
-czic
-czlistofdataboxes
-cznace
-cznkod
-czorders
-czovm
-czovmagendas
-czruian
-czsaoauditedsubjects
-czsaocheckactions
-czsaocheckactionslaw
-czsidcdrugingredients
-czsidcdrugprices
-czsidcdrugs
-czsouhrnnetypyovm
-czvavaievaluation2013
-czvavaifundingproviders
-czvavaiorganizations
-czvavaiprogrammes
-czvavaiprojects
-czvavairesearchplans
-czvavairesults
-czvavaitenders
-databnffr
-datacnrit
-datafaqs
-datagov
-datagovie
-datagovuktimeintervals
-datahnmhu
-datahub
-dataincubatorclimb
-dataincubatordiscogs
-dataincubatormetoffice
-dataincubatormoseley
-dataincubatormusicbrainz
-dataincubatornasa
-dataincubatorourairports
-dataincubatorpokedex
-dataincubatorsmcjournals
-dataodwtw
-dataopenacuk
-dataperseefr
-datasouthamptonacuk
-dataszepmuveszetihu
-dataturcyllodfortouristsincastillayleonspain
-datosartiumorg
-datosbcncl
-datosbnees
-dbacademic
-dbkwik
-dblpdeustognoss
-dbnary
-dbpedia
-dbpedia
-dbpediaabstractcorpus
-dbpediacommons
-dbpediade
-dbpediael
-dbpediaes
-dbpediaeu
-dbpediafr
-dbpediaja
-dbpedialite
-dbpedialive
-dbpedianl
-dbpediapt
-dbpediaspotlight
-dbpediaspotlightnifnercorpus
-dbpediawikidata
-dbtropes
-dbtune
-dbtuneartistslastfm
-dbtuneaudioscrobbler
-dbtuneclassical
-dbtunejohnpeelsessions
-dbtunemagnatune
-dbtunemusicbrainz
-dbtunemyspace
-dclgopenuplabs
-dcssheffield
-debianpackagetrackingsystem
-debudget
-degaapontologylexicon
-delimitacionterritorialjuntasadministrativaszaragoza
-demografie
-desaparecidos
-deustoentrepreneurship
-deustotech
-deutschebiographie
-deutschenationalbibliografiednb
-dev8d
-deweydecimalclassification
-diachronicontologiespeoplesdaily
-diavgeia
-didactalia
-diigofeed
-disgenet
-disk
-distritoszaragoza
-dkhdeustoknowledgehub
-dm2e
-dmozrdfdump
-dnbgemeinsamenormdatei
-doapstore
-doi
-drugdatahifm
-dspace
-duraarklinkedbuildingdata
-dutchnationalregulationsmetalex
-dutchshipsandsailors
-dwsgroup
-eagleialaska
-eagleicau
-eagleiccnycuny
-eagleicdrewu
-eagleidartmouth
-eagleifamu
-eagleiharvard
-eagleihawaii
-eagleihoward
-eagleihuntercuny
-eagleijsu
-eagleimeharry
-eagleimontana
-eagleimsm
-eagleiohsu
-eagleipsm
-eagleitsu
-eagleituskegee
-eagleiuccaribe
-eagleiupr
-eagleiutep
-eagleiutsa
-eagleivanderbilt
-eagleixula
-ecblinkeddata
-ecbstatisticslinkeddata
-eccotcplinkeddata
-eclap
-ecs
-edificioshistoricoszaragoza
-edublogs
-educationalprogramssisvu
-educationdatagovuk
-educationopenuplabs
-eea
-eearod
-eeavocabularies
-egeuniversitylinkedopendata
-ei2a
-eionetrdf
-eltedigitalinstitutionalrepositoryedit
-elviajero
-emn
-enaktingco2emission
-enaktingcrime
-enaktingenergy
-enaktingmortality
-enaktingnhs
-enaktingpopulation
-enelshops
-energyefficiency
-englishheritagearchaeologicalsciencesthesaurus
-englishheritagebuildingmaterialsthesaurus
-englishheritagecomponentsthesaurus
-englishheritageeventtypesthesaurus
-englishheritageevidencethesaurus
-englishheritagemaritimecraftthesaurus
-englishheritagemonumenttypesthesaurus
-englishheritageperiodslist
-englishheritageplaces
-englishindexofmultipledeprivationranking2010
-englishindexofmultipledeprivationscore2010
-englishindicesofmultipledeprivation
-englishwordnet
-enipedia
-entrezgene
-entrezgeneextract
-environmentagencybathingwaterquality
-environmentalapplicationsreferencethesaurus
-environmentdatagovuk
-epacdr
-epafrs
-eparcra
-epasrs
-epatri
-epo
-eprintsharvestrkbexplorer
-eprtr
-esdstandards
-esdtoolkit
-esislearning
-esmsssidrugprices
-euagenciesbodies
-eudgttm
-euinstitutions
-eumidalinkeddata
-eunis
-euparliamentmedia
-eurlexrdf
-eurobarometerstandard
-europeanalod
-europeanalodv1
-europeanasparql
-europeanelectionresults
-eurosentiment
-eurostatrdf
-eurovoc
-eurovocinskos
-euscreen
-euskadifarmacias
-eutcproductions
-euwhoiswho
-eventkg
-eventmedia
-eventseer
-facebooklids
-factforge
-faogeopoliticalontology
-faolinkeddata
-farmbiochembl
-farmersmarketsgeographicdataunitedstates
-farolappdataset
-fataltrafficaccidentsingreekroads
-federaleconomicrdf
-feedwrapperlids
-fiesta
-fileCUsersaDesktopurnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976owl
-finnishmunicipalities
-firmao
-fisharchaeologicalobjectsthesaurus
-fishesoftexas
-flickrperson
-flickrvideoobject
-flickrwrappr
-flyatlas
-flybase
-flyted
-flyted
-foodista
-foodpedia
-forgecourseinformation
-framebaseschema
-framenet
-framester
-frblinkeddata
-freebase
-freeyorkorg
-frenchschoolprogram
-frenchschoolsystem
-frenchtimebank
-fuberlincordis
-fuberlindailymed
-fuberlindblp
-fuberlindiseasome
-fuberlindrugbank
-fuberlineccompetition
-fuberlineuraxess
-fuberlineures
-fuberlineurostat
-fuberlinmedicare
-fuberlinprojectgutenberg
-fuberlinsider
-fuberlinstitch
-fv
-galenfromcoodeorg
-galicianeurowordnetlemonlexicon30
-garnicaplywood
-gemeenschappelijkethesaurusaudiovisuelearchieven
-gemet
-gemetannotated
-geneexpressionatlasrdf
-geodomainwn
-geoecuador
-geographicnamesinformationsystemgnis
-geographicopenuplabs
-geolinkeddata
-geologicalsurveyofaustriathesaurus
-geonamessemanticweb
-geoplace
-geospatialworldnet
-geospecies
-geowordnet
-germanlaborlawthesaurus
-germlex
-gesisthesoz
-gettyaat
-gettytgn
-gipuzkoademografia
-glastonbury2011
-globalchangeinformationsystem
-globalhungerindex2011
-glottolog
-gnosscomasocialandsemanticplatform
-gnusocialsocialumeahackerspacese
-goannotationsfromncbiandebi
-gold
-googleartwrapper
-govagribusdenmark
-governmentwebintegrationforlinkeddata
-govtrack
-greekadministrativegeography
-greekchildrensartmuseum
-greekwordnet
-greencompetitivenessgnoss
-grrp
-grrt
-gutenberg
-gwaili
-hclsknowledgebase
-heartfailure
-hebisbibliographicresources
-hedatuz
-hellenicfirebrigade
-hellenicpolice
-homologene
-hongse
-httpdatalinkedeodataeuroadidStateRoadD010Turkey1
-httpdatanoticiasuniversianet
-httpguavaiissinicaedutwr4r
-httprdfnaturallexiconorgzhontCedict
-httpsensormeasurementappspotcomdatasetnaturopathydataset
-httpswwwchildrensartmuseumgrLDproject
-httpswwwluigiusaiitlinkeddataluigiusai
-httpwwwiwmicgiarorgpublicationsiwmiworkingpapers
-httpwwwsemanticweborgambrishontologies202010untitledontology24
-huahinhealthtourismdataset
-hudlibraryusagedata
-hungariannationallibrarycatalog
-iaterdf
-iatiaslinkeddata
-icane
-ichoose
-identifiersorg
-idreffr
-ids
-ietflang
-iislodtest
-imagery bailingniao
-imagesnippets
-imflinkeddata
-imgpedia
-importstatusofgmocrops
-imsparql
-incomeandproductioncostofgrapebyyear
-incomeandproductioncostofpearbyyear
-inertiaenergyconsumptionexamplelinkeddata
-ineverycrea
-ineverycreaargentina
-influencetrackerdataset
-insemtives
-instagramperson
-instagramvideoobject
-instancehubcountries
-instancehubfiscalyears
-instancehuborganizations
-instancehubpeople
-instancehubuscivilservants
-instancehubuscongressionalcommittees
-instancehubuscongressionaldistricts
-instancehubuscrops
-instancehubusfederalagencies
-instancehubusstatesandterritories
-instancehubustoxicchemicals
-integratedhumangeographyserviceforlod
-interactivemapsgnoss
-interakcemeziinnmiltkami
-intervalue
-iptcnewscodes
-irsteaweatherdatasetofthemontoldreexperimentalfarm
-iserve
-isicv4
-isidore
-isildbpedia
-iso31662data
-iso639oasis
-isocat
-isocatmetadata
-ispralodihi
-ispralodplace
-ispralodrmn
-ispralodron
-ispralodsc
-istatimmigration
-istatimmigrazione
-itaifadrugprices
-italianpublicschoolslinkedopendatait
-iucractacryste
-iwmiresearchreports
-iwn
-jamendodbtune
-japanradioactivitystat
-jelclassification
-jglobalknowledge
-jiscopenbibblbnb1
-jita
-jmdict
-johngoodwinsfamilytree
-jptextbook
-jrcnamesec
-jrcnamesmlode
-jucsjournalofuniversalcomputerscience
-judaicalink
-kaistsilverstandardcorpus
-kaken
-kallikratismunicipalities
-kasabiopenflightsroutes
-klappstuhlclub
-knoesislinkedsensordata
-knowledgemap
-kore50nifnercorpus
-koreaintellectualpropertofficekipo
-ktr
-kupkb
-l3sdblp
-lakdataset
-languageauthoritylist
-latclinksets
-lcc
-lcsh
-lcsubjects
-ldqmdbpedia2016
-learnedgenreontologyeng
-learnedgenreontologyintl
-legislationopenuplabs
-lemonuby
-lemonwiktionary
-lexinfo
-lexinrdf
-lexvo
-lexvoorg
-libris
-libver
-lichfieldspending
-lime
-lingvoj
-linkedarc
-linkedcrowdsourceddata
-linkedcrunchbase
-linkedct
-linkeddrugs
-linkededgar
-linkedeurostat
-linkedgeodata
-linkedgeodataaerodromes
-linkedhypernyms
-linkedlccn
-linkedlifedata
-linkedlogainm
-linkedmarkmail
-linkedmdb
-linkednuts
-linkedopenaaltodataservice
-linkedopencamera
-linkedopencommerce
-linkedopendataofecology
-linkedopennumbers
-linkedopenpiracy
-linkedopensenate
-linkedopenvocabularieslov
-linkedperiodicals
-linkedspending
-linkedstats
-linkedstockindex
-linkedstructuredproductlabels
-linkedtaiwangeonames
-linkedtcga
-linkedupcatalogueofeducationaldatasets
-linkeduserfeedback
-linkedusptopatentdata
-linkedwebapis
-linkingopendrugdata
-linklion
-lionsden
-listaencabezamientosmateria
-livppravkyzeskl
-livtdm
-livtdm2017
-lobi
-lobidorganisations
-lobidresources
-loc
-locv
-lod2projectwiki
-lodacbdls
-lodalot
-loditscuoleitaliane
-lodrussiamath
-lodrussianano
-lodstats
-lodtaiwan
-lodum
-lofd
-loius
-loiuslinkingitalianuniversitystatistics
-londongazette
-losmetar
-lotico
-lowerlayersuperoutputareas
-lremapauth
-lremapconf
-lremapri
-lremapsub
-lsq
-makg
-manchesteruniversityreadinglists
-manish
-mapareferenciabogota
-mapareferenciabogotadc
-marccodes
-masc
-mascbnnif
-massobservationarchivecatalogue
-medline
-meducator
-meshfinnish
-meshheadings
-meshipsvskosrdf
-meshpairs
-meshtitles
-metadatakzkonmzezakonyprolidiczdvukzkovznn
-metadatakzkonmzpspcz
-metashare
-mexico
-miguiadeviajesgnoss
-mismuseosgnoss
-mlsa
-mnovkurzyvzhledemkeur
-mond
-mondis
-monumentoszaragoza
-morelab
-msc
-multexteast
-multilingualeulaw
-multimedialab
-munichoffenerhaushalt
-muninnworldwari
-museiitaliani
-museosespaniagnoss
-museumsinitaly
-musicbrainz
-musicnetcodex
-muziekweb
-myexperiment
-myfamilylineage
-myontologytest
-myopenlinkdataspaces
-naics2007
-naics2012
-nalt
-nationaldietlibraryauthorities
-nationaldietlibrarysubjectheadings
-nationallibraryofgreeceauthorityrecords
-naturopathy2
-ncithesaurus
-ndfrt
-near
-neel
-neurocommonstextminingpilot
-neurolexwiki
-newbornphotographymaternityphotoshootshivanigoyal
-news100nifnercorpus
-newsweek
-nextprot
-nextwebgnoss
-nhsjargon
-nlexaslinkeddata
-nlm2007mesh
-nlrdatasetmod
-nobelprizes
-nomenclatorasturias
-nomisma
-nomismaorg
-norwegiangeodivisions
-norwegiansoe
-nottinghamtrentuniversityresourcelists
-npg
-npm
-ntnusc
-nutsgeovocab
-nvd
-nvs
-nytimeslinkedopendata
-oanc
-oanetzwerk
-obceokresyakrajeeskrepubliky
-ocd
-oceandrillingborehole
-oceandrillingcodices
-oceandrillingdbseabed
-oceandrillingforams
-oceandrillingjanus
-oceandrillingjanusamp
-oceandrillingldeo
-oclcfast
-odc
-odcimdenvironmentscore
-odcimdrank2007
-odclsoa
-odcpopulation2005
-ods
-oecdlinkeddata
-offenerhaushalt
-ogolod
-olac
-olia
-oliadiscourse
-omegawiki
-omwnals
-omwnarb
-omwnbul
-omwncow
-omwncwn
-omwndan
-omwnell
-omwneng
-omwnfas
-omwnfin
-omwnfra
-omwnheb
-omwnhrv
-omwnisl
-omwnita
-omwniwn
-omwnjpn
-omwnmcr
-omwnmsa
-omwnnld
-omwnnor
-omwnpol
-omwnpor
-omwnron
-omwnslk
-omwnslv
-omwnswe
-omwntha
-ontobeefdomain
-ontosnewsportal
-ookaboordfdump
-openbantuisixhosalexicon
-openbiomedflyatlas
-opencalais
-opencorporates
-opencoursewareconsortiummetadatainrdf
-opencyc
-opendatacommunitiesdevlocalauthorityservices
-opendatacommunitieshomelessnessacceptancesper1000
-opendatacommunitieshomelessnesshouseholdsaccommodatedtemporaryhousingtypes
-opendatacommunitieshouseholds2008
-opendatacommunitieshouseholdsaccommodatedper1000
-opendatacommunitieshouseholdsprojectionspopulation
-opendatacommunitieshouseholdsprojectionstotalhouseolds
-opendatacommunitieshouseholdssociallettingsgeneralneedslettingsprphouseholdcomposition
-opendatacommunitieshouseholdssociallettingsgeneralneedslettingsprpnumberbedrooms
-opendatacommunitieshousingmarket
-opendatacommunitiesimdcrimerank2010
-opendatacommunitiesimdenvironmentrank2010
-opendatacommunitiesimdincomerankla2010
-opendatacommunitiesimdrank2010
-opendatacommunitiesimdscore2010
-opendatacommunitiesimpactindicatorsaffordablehousingstarts
-opendatacommunitiesimpactindicatorsenergyefficiencynewbuilds
-opendatacommunitiesimpactindicatorshousingstarts
-opendatacommunitiesimpactindicatorsplanningapplicationsgranted
-opendatacommunitiesinputindicatorslocalauthorityfundingfromgovernmentgrant
-opendatacommunitiesnetadditionaldwellings
-opendatacommunitiesserviceexpenditure
-opendatacommunitiessocietalwellbeingdeprivationimdeducationrankla2010
-opendatacommunitiessocietalwellbeingdeprivationimdemploymentrankla2010
-opendatacommunitiessocietalwellbeingdeprivationimdemploymentscore2010
-opendatacommunitiessocietalwellbeingdeprivationimdhealthrankla2010
-opendatacommunitiessocietalwellbeingdeprivationimdhealthscore2010
-opendatacommunitiessocietalwellbeingdeprivationimdhousingrankla2010
-opendatacommunitiessocietalwellbeingdeprivationimdincomerankla2010
-opendatacommunitiessocietalwellbeingdeprivationimdrank2007
-opendatacommunitiessocietalwellbeingdeprivationimdrank2010
-opendatacommunitiessocietalwellbeingdeprivationimdrankla2010
-opendatacommunitiessocietalwellbeingdeprivationimdscore2010
-opendatacommunitiestransparencyimpactindicatorsaffordablehousingstarts
-opendatacommunitiestransparencyimpactindicatorshouseholdsintemporaryaccommodation
-opendatacommunitiestransparencyimpactindicatorshousingstarts
-opendatacommunitiestransparencyimpactindicatorsneighbourhoodplans
-opendatacommunitiestransparencyimpactindicatorstroubledfamilies
-opendatacommunitiestransparencyinputindicatorslocalauthoritiesworkingwithtroubledfamilies
-opendatacommunitiestransparencyinputindicatorslocalauthorityfundingfromgovernmentgrant
-opendatacommunitieswellbeinghappyyesterdaystandarddeviation
-opendatacommunitieswellbeinglsoahappyyesterdaymean
-opendatacommunitieswellbeingworthwhilemean
-opendataec
-opendataeuskadi
-opendatarisp
-opendatascotlandgrapheducationpupilsbyschoolanddatazone
-opendatascotlandgraphsimdrank
-opendatascotlandsimdcrimerank
-opendatascotlandsimdeducationrank
-opendatascotlandsimdemploymentrank
-opendatascotlandsimdgeographicaccessrank
-opendatascotlandsimdhealthrank
-opendatascotlandsimdhousingrank
-opendatascotlandsimdincomerank
-opendatathesaurus
-opendatatorvergata
-opendirectory
-openelectiondataproject
-openenergyinfowiki
-openlibrary
-openlinklodcache
-openlinkswdataspaces
-openlylocal
-openmobilenetwork
-opentox
-openuplabs
-opus
-orcid
-ordnancesurveylinkeddata
-oreilly
-organicedunet
-orlandowomenswritinglinkedopendataset
-osmsemanticnetwork
-ounldspaceinrdf
-oxacukcatalogue
-oxacukcataloguemetadata
-oxacukopenmeters
-oxacuktimeseries
-oxacukvacancies
-oxacukwwwoxacukevents
-oxpoints
-palienglishlexicon
-panlex
-parolesimplelexinfoontologylexicons
-patentsdatagovuk
-pdevlemon
-pdevlemon
-periodo
-personalhomepages
-phoible
-planetdataprojectwiki
-pleiades
-pokepediafr
-polymathvirtuallibrary
-predictingbarleyvolumeandwholesaleprices
-predictingcorntradingvolumeandwholesaleprices
-predictingonionvolumeandwholesaleprices
-predictingpotatotradingvolumeandwholesaleprices
-predictingwholesaleimportsbyregionofapples
-predictingwholesaleimportsbyregionofbarley
-predictingwholesaleimportsbyregionofbean
-predictingwholesaleimportsbyregionofcabbage
-predictingwholesaleimportsbyregionofcorn
-predictingwholesaleimportsbyregionofcrab
-predictingwholesaleimportsbyregionofcucumber
-predictingwholesaleimportsbyregionoflettuce2
-predictingwholesaleimportsbyregionofonion
-predictingwholesaleimportsbyregionofoystermushroom
-predictingwholesaleimportsbyregionofpotato
-predictingwholesaleimportsbyregionofradish2
-predictingwholesaleimportsbyregionofriceplant
-predictingwholesaleimportsbyregionofwatermelon
-prefixcc
-prelex
-prelingerarchives
-premon
-princetonlibraryfindingaids
-printedbookauctioncatalogues
-procedimientostramitesservicioszaragoza
-procomunsparql
-prodjiscprojectdirectoryinrdf
-productdb
-productontology
-prospectsandtrendsgnoss
-provenanceweb
-proyectoapadrina
-pscscatalogue
-pshsubjectheadings
-publicationsofcharlesuniversityinprague
-publicrecordofficevictoriasemanticwiki
-publicspendingingreece
-publikaceuniverzitykarlovyvpraze
-qboairbase
-qualitywebdataorg
-quotationsbook
-r4r
-racaillodcorolawe
-racaillodromaniantreebank
-radatana
-rainisandaspazijalinkeddigitalcollection
-raphaelresearchresource
-ravensburglocalshoppinggraph
-rcahmsarchaeologicalobjectsthesaurus
-rcahmsmaritimecraftthesaurus
-rcahmsmonumenttypesthesaurus
-rcahmwmonumenttypesthesaurus
-rcahmwperiodslist
-rdfbookmashup
-rdfizelastfm
-rdflicense
-rdfohloh
-reactomerdf
-rechtspraak
-redunointernacionalsantillana
-referencedatagovuk
-regiony
-reload
-remote Sensing 
-renewableenergygenerators
-researchdatagovuk
-researchobjectinagricoltureandfoodoftheuniversityofnaples
-restauranteszaragoza
-reuters128nifnercorpus
-revyu
-rgsdfg
-riese
-rijksmuseum
-rism
-rismauthorities
-rk
-rkbexploreracm
-rkbexplorerbudapest
-rkbexplorerciteseer
-rkbexplorercordis
-rkbexplorercourseware
-rkbexplorercrime
-rkbexplorercrm
-rkbexplorercurriculum
-rkbexplorerdarmstadt
-rkbexplorerdata
-rkbexplorerdblp
-rkbexplorerdeepblue
-rkbexplorerdeploy
-rkbexplorerdigitaleconomy
-rkbexplorerdotac
-rkbexplorerecs
-rkbexplorerenaktingpsi
-rkbexplorereprints
-rkbexplorerepsrc
-rkbexplorerera
-rkbexplorereurecom
-rkbexplorerforeign
-rkbexplorerft
-rkbexplorerfun
-rkbexplorergdlc
-rkbexploreribm
-rkbexplorerieee
-rkbexploreririt
-rkbexploreritaly
-rkbexplorerjisc
-rkbexplorerkaunas
-rkbexplorerkisti
-rkbexplorerlaas
-rkbexplorerlisbon
-rkbexplorernewcastle
-rkbexplorernotube
-rkbexplorernsf
-rkbexploreroai
-rkbexploreropencyc
-rkbexploreros
-rkbexplorerphotos
-rkbexplorerpisa
-rkbexplorerrae2001
-rkbexplorerresex
-rkbexplorerrisks
-rkbexplorerroma
-rkbexplorerroni
-rkbexplorersouthampton
-rkbexplorerulm
-rkbexplorerunlocode
-rkbexplorerwebconf
-rkbexplorerwebscience
-rkbexplorerwiki
-rkbexplorerwordnet
-rosettaproject
-rpmfind
-rss500nifnercorpus
-rubentaelman
-rubenverborgh
-russianuniversitiesspecialities
-ruthes
-rxnorm
-sadisemanticwebservicesframeworkregistry
-saldo
-saldomrdf
-saldordf
-salzburgerlandcomde
-salzburgerlandcomen
-salzburgerlandcomit
-sameasorg
-sandrartnet
-sandre
-sanskritenglishlexicon
-santillanaguidedataset
-schemaorg
-schemapedia
-scholarlydata
-scholarometer
-sciencecommons
-sciencewise
-scoreboard
-sears
-secold
-secrdfabout
-seekatwdicttoolsforeducationwebshare
-semanlink
-semanticbible
-semanticlibrary
-semanticprofilingnetwork
-semanticquran
-semantictweet
-semanticuniverse
-semanticwebdogfood
-semanticwebgrundlagen
-semanticwebjournal
-semanticweborg
-semanticxbrl
-semsolcrunchbase
-sensoresdeintellidomo
-sentiws
-seoulbikedata
-serendipity
-shoahvictimsnames
-similedatacollection
-simple
-sitcv4
-slideshare2rdf
-slidewikirdfsparql
-sligalnetrdf
-slod
-slovnkcpv2008commonprocurementvocabulary2008
-smartlink
-snik
-sociallink
-socialnetworksandarchivalcontextfall2011
-socialsemwebthesaurus
-somya omer
-sors
-soudyeskrepubliky
-southamptonacuk
-southamptonacukapps
-southamptonecseprints
-spanishlinguisticdatasets
-sparqlendpointstatus
-spcpublikovanskl
-spqr
-springernaturescigraph
-srcmf
-ssf
-ssflexicon
-stac
-stafforganogramsandpayscottishgovernment
-stafforganogramsandpaythurrockthamesgatewaydevelopmentcorporation
-standrewsresourcelists
-statisticsdatagovuk
-statisticsonfataltrafficaccidentsingreekroads
-statusnet1w6org
-statusnet20100org
-statusnetalexandrefrankecom
-statusnetatarifroschde
-statusnetbelfalasorg
-statusnetbkali
-statusnetbonifazec
-statusnetced117net
-statusnetchickenkillercom
-statusnetchromicorg
-statusnetcooleysekulanet
-statusnetcoreyaviscom
-statusnetdatenfahrtorg
-statusnetdavidhaberthuerch
-statusnetdeuxpica
-statusnetdoomicilede
-statusnetdtdnsnet
-statusnetequestriarpnet
-statusnetexdcnet
-statusnetfcaccom
-statusnetfcestradacom
-statusnetfragdevcom
-statusnetfreelishus
-statusnetgegeweborg
-statusnetglouorg
-statusnetgomertroniccom
-statusnethackerpossecom
-statusnethiicoil
-statusnetilikefreedomro
-statusnetimirhilfr
-statusnetintegralbluecom
-statusnetjohndrinkwatername
-statusnetjonkmanca
-statusnetkaimicc
-statusnetkathrylfr
-statusnetkenzoidcom
-statusnetkeuserfr
-statusnetldnfainet
-statusnetlebsanftorg
-statusnetlegadolibrecomar
-statusnetlinuxwranglingcom
-statusnetludostnet
-statusnetlydiastenchcom
-statusnetmacnoorg
-statusnetmamalibrecomar
-statusnetmaymaynet
-statusnetmkuttnercom
-statusnetmorphtownde
-statusnetmrblognl
-statusnetmulestablenet
-statusnetmystatustk
-statusnetopensimchateu
-statusnetorangeseedsorg
-statusnetotbmfr
-statusnetourcoffsorgau
-statusnetpandaidau
-statusnetpianaeu
-statusnetplanetlibreorg
-statusnetpostblueinfo
-statusnetprogvalnet
-statusnetqdnxorg
-statusnetqthfr
-statusnetquitterse
-statusnetrainbowdashnet
-statusnetrecitorg
-statusnetrusswurmorg
-statusnetsamnobleorg
-statusnetschiessleorg
-statusnetscoffoninet
-statusnetsebseb01net
-statusnetshnoullenet
-statusnetskilledtestscom
-statusnetsomsantsnet
-statusnetsoucycc
-statusnetspiporg
-statusnetspraciorg
-statusnetssweenynet
-statusnetstatusnet
-statusnetsweetiebellenet
-statusnettekkcomar
-statusnetthelovebugorg
-statusnetthornton2com
-statusnettimttmycouk
-statusnettl1ncom
-statusnettschlotfeldtde
-statusnetunisiegende
-steak
-stitchrameau
-strukturovanpopisyzfda
-stwthesaurusforeconomics
-sudocfr
-surgeradio
-swedishopenculturalheritage
-swefnrdf
-swetodblp
-symbolicdata
-symptomsinchinese
-sztakilod
-t4gminfo
-tags2condelicious
-taiwangeographicnames
-talisopenlibrary
-talkbank
-taxonconcept
-taxonconceptassets
-taxonconceptoccurences
-taxrefld
-tcga
-tcgaroadmap
-tcmgeneditdataset
-tds
-tedtalks
-tekord
-telegraphis
-templeovtheelemurdatasets
-terencereadingcomprehensiondataset
-terminesp
-tesauromateriasbupm
-teseo
-test
-testee
-texailexicon
-tharawatmagazinecom
-theciardring
-thecontentwranglercom
-thedruginteractionknowledgebase
-theeuropeanlibraryopendataset
-theeurostatlinkeddata
-thekazanuniversitymuseumaslinkedopendataintheeuropeanadatamodel
-thelivinglodcloud
-themidilinkeddatacloud
-thesaurusbncf
-thesaurusdatenwissen
-thesaurusw
-thesesfr
-theviewfrom
-thist
-tip
-tourpedia
-traditionalkoreanmedicine
-trafficscotland
-transparencylinkeddata
-transportdatagovuk
-transportopenuplabs
-twarql
-twcdatagov
-twcdemos
-twchealthdata
-twchub
-twcieeevis
-twclogd
-twcopendap
-tweetskb
-twitterlids
-typepad
-uberblic
-ubmannheimlinkeddata
-ufo
-uislinkeddata
-uklegislationapi
-ukpostcodes
-umbel
-umthes
-unescothes
-unescothesaurus
-unhazardousnumbers
-uniprot
-uniprotcitations
-uniprotdatabases
-uniprotkb
-uniprotmetadata
-uniprottaxonomy
-uniprotuniparc
-uniprotunipathway
-uniref
-unistatkis20112012inrdfkeyinformationsetukuniversities
-unistatkisinrdfkeyinformationsetukuniversities
-universaldependenciestreebankancientgreek
-universaldependenciestreebankancientgreekproiel
-universaldependenciestreebankarabic
-universaldependenciestreebankbasque
-universaldependenciestreebankbulgarian
-universaldependenciestreebankcatalan
-universaldependenciestreebankchinese
-universaldependenciestreebankcoptic
-universaldependenciestreebankcroatian
-universaldependenciestreebankczech
-universaldependenciestreebankczechcac
-universaldependenciestreebankczechcltt
-universaldependenciestreebankdanish
-universaldependenciestreebankdutch
-universaldependenciestreebankdutchlassysmall
-universaldependenciestreebankenglish
-universaldependenciestreebankenglishesl
-universaldependenciestreebankenglishlines
-universaldependenciestreebankestonian
-universaldependenciestreebankfinnish
-universaldependenciestreebankfinnishftb
-universaldependenciestreebankfrench
-universaldependenciestreebankgalician
-universaldependenciestreebankgaliciantreegal
-universaldependenciestreebankgerman
-universaldependenciestreebankgothic
-universaldependenciestreebankgreek
-universaldependenciestreebankhebrew
-universaldependenciestreebankhindi
-universaldependenciestreebankhungarian
-universaldependenciestreebankindonesian
-universaldependenciestreebankirish
-universaldependenciestreebankitalian
-universaldependenciestreebankjapanese
-universaldependenciestreebankjapanesektc
-universaldependenciestreebankkazakh
-universaldependenciestreebanklatin
-universaldependenciestreebanklatinittb
-universaldependenciestreebanklatinproiel
-universaldependenciestreebanklatvian
-universaldependenciestreebanknorwegian
-universaldependenciestreebankoldchurchslavonic
-universaldependenciestreebankpersian
-universaldependenciestreebankpolish
-universaldependenciestreebankportuguese
-universaldependenciestreebankportuguesebosque
-universaldependenciestreebankportuguesebr
-universaldependenciestreebankromanian
-universaldependenciestreebankrussian
-universaldependenciestreebankrussiansyntagrus
-universaldependenciestreebanksanskrit
-universaldependenciestreebankslovak
-universaldependenciestreebankslovenian
-universaldependenciestreebanksloveniansst
-universaldependenciestreebankspanish
-universaldependenciestreebankspanishancora
-universaldependenciestreebankswedish
-universaldependenciestreebankswedishlines
-universaldependenciestreebankswedishsignlanguage
-universaldependenciestreebanktamil
-universaldependenciestreebankturkish
-universaldependenciestreebankukrainian
-universaldependenciestreebankuyghur
-universaldependenciestreebankvietnamese
-universidaddecuencalinkeddata
-universitatpompeufabralinkeddata
-universityofbristol
-universityplymouthreadinglists
-universitysussexreadinglists
-unodc
-uriburner
-urnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976
-usagereviewcorpus
-uspoliticalviolence
-utpllod
-varsha
-verrijktkoninkrijk
-viaf
-viaspublicaszaragoza
-vimeovideoobject
-vivo
-vivo2doi
-vivocornelluniversity
-vivocuboulder
-vivoindianauniversity
-vivoponce
-vivoscrippsresearchinstitute
-vivouniversityofflorida
-vivoweillcornellmedicalcollege
-vivowustl
-vkazyziskuaztrtobcr
-vulnerapedia
-vuwordnet
-w3c
-w3cprovenanceincubatorgroupvocabularymappings
-w3cwordnet
-warsampo
-wasabi
-webisalod
-webnmasunotraveler
-whiskycircleinfo
-wikidata
-wikilinksrdfnif
-wikipathways
-wikiwordthesaurus
-wiktionarydbpediaorg
-wingsworkflowprovenancedataset
-wnwikiinstances
-wold
-wordliftioblogen
-wordliftioblogit
-wordnet
-wordnetrdf
-wordpress
-wordpresspost
-worldbanklinkeddata
-worldfactbookfuberlin
-worldwidewebfoundation
-wp
-wundergroundweatherreport
-ww1lod
-xlendiamphorae
-xlidlexica
-xwn
-xx
-yago
-yahoogeoplanet
-yalesenselab
-yovisto
-ysa
-yso
-ysofiallars
-ysofiysa
-zaragozadatosabiertos
-zaragozaturruta
-zbwlabs
-zbwpressemappe20
-zhishilemon
-zhishime
-zitgistmusicbrainz
-红色经典歌曲关联数据集
+ dataodwtw Open Data Web
+00803626 Korespondencja Emila Szramka z Janem Kuderą
+2000uscensusrdf 2000 U.S. Census in RDF (rdfabout.com)
+2001spanishcensustordf 2001 Spanish Census to RDF
+acollectionofpapersforlrec2014andrelatedworkshops A collection of Papers for LREC2014 and related Workshops
+ABC Test
+abhay intro my intro
+abslinkeddata Australian Bureau of Statistics (ABS) Linked Data
+academicofferofunl Academic Offer of UNL
+acadonto AcadOnto
+acornsat Australian Climate Observations Reference Network - Surface Air Temperature Dataset
+addgene Addgene
+aegpspanishtextileandclothingassociation AEGP- Spanish Textile and Clothing Association
+aemet AEMET metereological dataset
+agendadezaragoza Agenda de Zaragoza
+agrinepaldata AgriNepalData
+agris AGRIS
+agrovoc AGROVOC
+agrovocskos AGROVOC
+AISHE All India Survey of Higher Education
+akash  equipment ontology
+aksworg aksw.org Research Group dataset
+alchemyapi AlchemyAPI
+alexandriadigitallibraryadlgazetteer Alexandria Digital Library (ADL) Gazetteer
+aliadascanbitnet aliada-scanbit-net
+allenbrainatlas Allen Brain Atlas
+allieabbreviationandlongformdatabaseinlifescience Allie Abbreviation And Long Form Database in Life Science
+alojamientoszaragoza Alojamientos
+alpinordf ALPINO RDF Treebank
+Altawil AAT-atawil
+amcollectionsonline Auckland Museum Collections Online
+Amer Nejma Amer Nejma
+amon AMOn+: Cultural Variations in Interpersonal Communication Ontology
+amsterdammuseumasedmlod Amsterdam Museum as Linked Open Data in the Europeana Data Model
+analisidelbloghttpwwwbeppegrilloit Analisi del blog http://www.beppegrillo.it/
+animaldiversityweb Animal Diversity Web
+apache apache
+apertiumrdf Apertium RDF
+apertiumrdfcait Apertium RDF CA-IT
+apertiumrdfenca Apertium RDF EN-CA
+apertiumrdfenes Apertium RDF EN-ES
+apertiumrdfengl Apertium RDF EN-GL
+apertiumrdfeoca Apertium RDF EO-CA
+apertiumrdfeoen Apertium RDF EO-EN
+apertiumrdfeoes Apertium RDF EO-ES
+apertiumrdfeofr Apertium RDF EO-FR
+apertiumrdfesan Apertium RDF ES-AN
+apertiumrdfesast Apertium RDF ES-AST
+apertiumrdfesca Apertium RDF ES-CA
+apertiumrdfesgl Apertium RDF ES-GL
+apertiumrdfespt Apertium RDF ES-PT
+apertiumrdfesro Apertium RDF ES-RO
+apertiumrdfeuen Apertium RDF EU-EN
+apertiumrdfeues Apertium RDF EU-ES
+apertiumrdffrca Apertium RDF FR-CA
+apertiumrdffres Apertium RDF FR-ES
+apertiumrdfocca Apertium RDF OC-CA
+apertiumrdfoces Apertium RDF OC-ES
+apertiumrdfptca Apertium RDF PT-CA
+apertiumrdfptgl Apertium RDF PT-GL
+aragodbpedia AragoDBPedia
+archiveshublinkeddata Archives Hub Linked Data
+archivioisma Archivi ISMA
+ariadne ARIADNE
+aristotleuniversity Aristotle University
+arrayexpresseafmx1 Transcription profiling of human- chimp and mouse brain
+arrayexpresseafmx4 Transcription profiling of mouse cell types and tissues (GNF/Novartis)
+arrayexpressemtab104 Transcription profiling of rat bladder after inoculation with bladder cancer cells
+artenuevosmediosgnoss Entornos interactivos. Arte en los nuevos medios (GNOSS)
+arthroscopy Arthroscopy community
+ASCDC  CCP Archive Dataset of the Chen Cheng-po’s Paintings and Documents (CCP) in the Taiwan Archive Information System (TAIS- ITH/ASCDC) at the Institute of Taiwan History- Academia Sinica
+ASCDC  DNB Database of Names and Biographies (DNB)
+ASCDC NTMFormosanAborigines The National Taiwan Museum's Formosan Aborigines Collections Digitizing Project (NTM-Formosan-Aborigines)
+ASCDCASNTUESchoolArtTextbooks Archive of the Art Textbooks of Elementary and Public Schools in the Japanese Colonial Period (AS-NTUE-School-Art-Textbooks)
+ASCDCASTFDFishSpecies Taiwan Fauna Database Research: Taiwan Digital Fish Species Database (AS-TFD-Fish-Species)
+ASCDCCRB Database of Chinese Rare Books (CRB)
+ASCDCCTSTVPrograms The Chinese Television System Educational and Cultural Programs Digital Archive (CTS-TV-Programs)
+ASCDCDQOT Database of Qing Official Titles (DQOT)
+ASCDCIHPWCD Database of the Han Wooden Slips Character Dictionary (WCD)
+ASCDCLinkedTaiwanArtists Linked Taiwan Artists (LTA)
+ASCDCNMMBAAquaticAnimalsinTaiwan Research on the Aquatic Animals in Taiwan and its Neighborhood Area (NMMBA-Aquatic-Animals-in-Taiwan)
+ASCDCNMMBAFishOtoliths The Digital Collection of Taiwan's Fish Otoliths (NMMBA-Fish-Otoliths)
+ASCDCTibetanAudioArchive The Tibetan Collection Audio Archive Research Project (Tibetan Audio Archive)
+asit Atlante Sintattico d'Italia (ASIt)
+asjp Automated Similarity Judgment Program lexical data
+asnus ASN:US
+aspiremmu Talis Aspire - Manchester Metropolitan University
+associations associations
+atcpublikovanskl ATC publikovaná SÚKL
+atheliarfid Athelia RFID- a global knowledge network of RFID technology
+aueblinkedopendata AUEB Linked Open Data
+austrianskiracers Alpine Ski Racers of Austria
+babelnet BabelNet
+Baceviciuslt Bacevicius.lt
+bag Basisregistratie Adressen en Gebouwen
+baixue 红色经典歌曲
+baixue composer baixue composer
+baixue imagery 红色经典歌曲
+baixue imagery1 红色经典歌曲
+bams BAMS
+basqueeurowordnetlemonlexicon30 Basque EuroWordNet-lemon lexicon (3.0)
+bbcmusic BBC Music
+bbcprogrammes BBC Programmes
+bbcwildlifefinder BBC Wildlife Finder
+bbop BBOP
+bbopselected BBOP
+bdgp Bdgp
+beneficiariesoftheeuropeancommission EU: fintrans.publicdata.eu
+berlinoffenerhaushalt Berlin Offener Haushalt
+berlios berlios
+betweenourworlds Between Our Worlds
+bfslinkeddata Bundesamt für Statistik (BFS) - Swiss Federal Statistical Office (FSO) Linked Data
+bibbase BibBase
+bibliotecaescolardigitalcita Biblioteca Escolar Digital CITA
+bibliotecanacionalescolarbnescolar Biblioteca Nacional Escolar (BNEscolar)
+bibliotecavirtualmigueldecervantesbvmclinkedopendata Biblioteca Virtual Miguel de Cervantes (BVMC) - Linked Open Data
+BibSonomy BibSonomy - The blue social bookmark and publication sharing system.
+billiontripleschallengedataset2008 Billion Triples Challenge Dataset 2008
+billiontripleschallengedataset2010 Billion Triples Challenge Dataset 2010
+bio2rdfacfsid Bio2RDF::ACFSID
+bio2rdfaffymetrix Bio2RDF::Affymetrix
+bio2rdfbiomodels Bio2RDF::Biomodels
+bio2rdfbiomodelsbiopax Bio2RDF::BioModels::BioPAX
+bio2rdfbioportal Bio2RDF::Bioportal
+bio2rdfchembl Bio2RDF::Chembl
+bio2rdfclinicaltrials Bio2RDF::Clinicaltrials
+bio2rdfctd Bio2RDF::Ctd
+bio2rdfdataset bio2rdf-dataset
+bio2rdfdbsnp Bio2RDF::Dbsnp
+bio2rdfdrugbank Bio2RDF::Drugbank
+bio2rdfgenage Bio2RDF::Genage
+bio2rdfgenbank Bio2RDF::GenBank
+bio2rdfgendr Bio2RDF::Gendr
+bio2rdfgoa Bio2RDF::Goa
+bio2rdfhgnc Bio2RDF::Hgnc
+bio2rdfhomologene Bio2RDF::Homologene
+bio2rdfinoh Bio2RDF::INOH
+bio2rdfinterpro Bio2RDF::Interpro
+bio2rdfiproclass Bio2RDF::Iproclass
+bio2rdfirefindex Bio2RDF::Irefindex
+bio2rdfkegg Bio2RDF::KEGG
+bio2rdfkeggbiopax Bio2RDF::KEGG::BioPAX
+bio2rdflinkedspl Bio2RDF::Linkedspl
+bio2rdflsr Bio2RDF::Lsr
+bio2rdfmesh Bio2RDF::Mesh
+bio2rdfmgi Bio2RDF::Mgi
+bio2rdfncbigene Bio2RDF::Ncbigene
+bio2rdfndc Bio2RDF::Ndc
+bio2rdfnetpath Bio2RDF::NetPath
+bio2rdfnextprot Bio2RDF::neXtProt
+bio2rdfomim Bio2RDF::Omim
+bio2rdfomimresources bio2rdf-omim-resources
+bio2rdforphanet Bio2RDF::Orphanet
+bio2rdfpathwaycommons Bio2RDF::Pathwaycommons
+bio2rdfpharmgkb Bio2RDF::Pharmgkb
+bio2rdfpharmgkbbiopax Bio2RDF::PharmGKB::BioPAX
+bio2rdfpid Bio2RDF::PID
+bio2rdfpubchem2 Bio2RDF::PubChem
+bio2rdfpubmed Bio2RDF::Pubmed
+bio2rdfreactome Bio2RDF::Reactome
+bio2rdfrhea Bio2RDF::Rhea
+bio2rdfsabiork Bio2RDF::Sabiork
+bio2rdfsgd Bio2RDF::Sgd
+bio2rdfsgdresources bio2rdf-sgd-resources
+bio2rdfsider Bio2RDF::Sider
+bio2rdfspike Bio2RDF::SPIKE
+bio2rdftaxon bio2rdf-taxon
+bio2rdftaxonomy Bio2RDF::Taxonomy
+bio2rdfwikipathways Bio2RDF::Wikipathways
+bio2rdfwormbase Bio2RDF::Wormbase
+biographicaldirectoryoftheunitedstatescongress Biographical Directory of the United States Congress
+biolit A Short Biographical Dictionary of English Literature (RKBExplorer)
+biolodpdb BioLOD for Protein Data Bank Japan
+biomodelsrdf BioModels RDF
+bioportalaao Amphibian gross anatomy
+bioportalaba ABA Adult Mouse Brain
+bioportalacgt Cancer Research and Management ACGT Master Ontology
+bioportaladw Animal natural history and life history
+bioportalaeo Anatomical Entity Ontology
+bioportalaero Adverse Event Reporting ontology
+bioportalair AI/RHEUM
+bioportalaminoacid Amino Acid
+bioportalapo Ascomycete phenotype ontology
+bioportalatmo African Traditional Medicine
+bioportalato Amphibian taxonomy
+bioportalbao BioAssay Ontology
+bioportalbasicvertebrategrossanatomy Basic Vertebrate Anatomy
+bioportalbcgo Breast Cancer Grading Ontology
+bioportalbdo Bone Dysplasia Ontology
+bioportalbfo Basic Formal Ontology
+bioportalbho Bleeding History Phenotype
+bioportalbila Bilateria anatomy
+bioportalbirnlex BIRNLex
+bioportalbootstrep Gene Regulation Ontology
+bioportalbp BioPAX
+bioportalbrox1 Biomedical Resource Ontology
+bioportalbspo Spatial Ontology
+bioportalbt BioTop
+bioportalbto BRENDA tissue / enzyme source
+bioportalcanco Cancer Chemoprevention Ontology
+bioportalcao CAO
+bioportalcarelex CareLex
+bioportalcco Cell Cycle Ontology
+bioportalcdao Comparative Data Analysis Ontology
+bioportalchebi Chemical entities of biological interest
+bioportalchem2bio2owl Systems Chemical Biology/Chemogenomics
+bioportalcheminf Chemical Information Ontology
+bioportalcl Cell type
+bioportalclo Cell Line Ontology
+bioportalcmo Clinical Measurement Ontology
+bioportalcno Computational Neuroscience Ontology
+bioportalcowheat Wheat trait
+bioportalcogat Cognitive Atlas
+bioportalcogpo Cognitive Paradigm Ontology
+bioportalcpt Current Procedural Terminology
+bioportalcsp CRISP Thesaurus- 2006
+bioportalcst COSTART
+bioportalctcae Common Terminology Criteria for Adverse Events
+bioportalctx Cerebrotendinous xanthomatosis
+bioportaldccl Dendritic cell
+bioportalddanat Dictyostelium discoideum anatomy
+bioportalddi Ontology for Drug Discovery Investigations
+bioportaldiagnosticont Diagnostic Ontology
+bioportaldikbevidence DIKB-Evidence-Ontology
+bioportaldoid Human disease ontology
+bioportalecg Electrocardiography Ontology
+bioportaleco Evidence codes
+bioportalefo Experimental Factor Ontology
+bioportalehda Human developmental anatomy- timed version
+bioportalehdaa Human developmental anatomy- abstract version
+bioportalehdaa2 Human developmental anatomy- abstract version- v2
+bioportalemap Mouse gross anatomy and development
+bioportalenvo Environment Ontology
+bioportaleo Plant environmental conditions
+bioportalep Cardiac Electrophysiology Ontology
+bioportalepileponto Epilepsy
+bioportalero eagle-i research resource ontology
+bioportalev eVOC (Expressed Sequence Annotation for Humans)
+bioportalexo ExO
+bioportalfao Fungal gross anatomy
+bioportalfbbi Biological imaging methods
+bioportalfbbt Drosophila gross anatomy
+bioportalfbcv FlyBase Controlled Vocabulary
+bioportalfbdv Drosophila development
+bioportalfbsp Fly taxonomy
+bioportalfdameddevice FDA Medical Devices (2010)
+bioportalfhho Family Health History Ontology
+bioportalflu Influenza Ontology
+bioportalfma Foundational Model of Anatomy
+bioportalfypo Fission Yeast Phenotype Ontology
+bioportalgeospecies GeoSpecies Ontology
+bioportalgfo General Formal Ontology
+bioportalgfobio General Formal Ontology: Biology
+bioportalgox1 Gene Ontology Extension
+bioportalgox2 Gene Ontology
+bioportalgro Cereal Plant Development
+bioportalgrox1 Cereal plant gross anatomy
+bioportalgrox2 Gene Regulation Ontology
+bioportalhao Hymenoptera Anatomy Ontology
+bioportalhcpcs HCPCS
+bioportalhl7 Health Level Seven
+bioportalhlthindics HEALTH_INDICATORS
+bioportalhom Ontology of homology and related concepts in biology
+bioportalhomharvard HOM-HARVARD
+bioportalhpx1 Human Phenotype Ontology
+bioportalhpio Host Pathogen Interactions Ontology
+bioportalhugo HUGO
+bioportaliao Information Artifact Ontology
+bioportalicd10 ICD10
+bioportalicd10cm ICD10CM
+bioportalicd10pcs ICD-10-PCS
+bioportalicd9cm International Classification of Diseases
+bioportalicfx1 International Classification of Functioning- Disability and Health (ICF)
+bioportalicnp International Classification for Nursing Practice
+bioportalicpc International Classification of Primary Care
+bioportalicpc2p ICPC-2 PLUS
+bioportalicps ICPS Network
+bioportalido Infectious Disease Ontology
+bioportalidobru Brucellosis Ontology
+bioportalidomal Malaria Ontology
+bioportaliev Event (INOH pathway ontology)
+bioportalimgt IMGT-ONTOLOGY
+bioportalimr Molecule role (INOH Protein name/family name ontology)
+bioportalino Interaction Network Ontology
+bioportalinvertebrata Hewan Invertebrata
+bioportalixno IxnO
+bioportaljerm SysMO-JERM
+bioportalkisao Kinetic Simulation Algorithm Ontology
+bioportallhn Loggerhead nesting
+bioportallipro Lipid Ontology
+bioportallnc Logical Observation Identifier Names and Codes
+bioportalma Mouse adult gross anatomy
+bioportalmao Multiple alignment
+bioportalmat Minimal anatomical terminology
+bioportalmcbcc Breast tissue cell lines
+bioportalmccl Cell line ontology
+bioportalmcclx1 Cell line ontology
+bioportalmcv MIxS Controlled Vocabularies
+bioportalmddb Master Drug Data Base
+bioportalmdr MedDRA
+bioportalmedlineplus MedlinePlus Health Topics
+bioportalmego MeGO
+bioportalmeshowl MESH Thesaurus (OWL version)
+bioportalmf Mental Functioning Ontology
+bioportalmfo Medaka fish anatomy and development
+bioportalmfoem Emotion Ontology
+bioportalmhc MaHCO - An MHC Ontology
+bioportalmi Protein-protein interaction
+bioportalmiro Mosquito insecticide resistance
+bioportalmmo Measurement Method Ontology
+bioportalmo MGED Ontology
+bioportalmod Protein modification
+bioportalmp Mammalian phenotype
+bioportalmpath Mouse pathology
+bioportalms Mass spectrometry
+bioportalmsh Medical Subject Headings
+bioportalmthch Metathesaurus CPT Hierarchical Terms
+bioportalnatpro Natural Products Ontology
+bioportalncbitaxon NCBI organismal classification
+bioportalncit NCI Thesaurus
+bioportalnddf National Drug Data File
+bioportalndfrt National Drug File
+bioportalnemox1 Neural ElectroMagnetic Ontologies
+bioportalneomark Neomark Oral Cancer Ontology
+bioportalneomarkontology Neomark Oral Cancer-Centred Ontology
+bioportalnif NIFSTD
+bioportalnifcell NIF Cell
+bioportalnifdysfunction NIF Dysfunction
+bioportalnigo Neural-Immune Gene Ontology
+bioportalnmr NMR-instrument specific component of metabolomics investigations
+bioportalnonrctontology Non Randomized Controlled Trials Ontology
+bioportalnpo NanoParticle Ontology
+bioportaloae Ontology of Adverse Events (OAE)
+bioportalobi Ontology for Biomedical Investigations
+bioportaloboe OBOE
+bioportaloboesbc OBOE SBC
+bioportalocre Ontology of Clinical Research (OCRe)
+bioportalodgi Ontology for disease genetic investigation
+bioportalogi Ontology for Genetic Interval
+bioportalogmd Ontology of Glucose Metabolism Disorder
+bioportalogms Ontology for General Medical Science
+bioportalomim Online Mendelian Inheritance in Man
+bioportalomit Ontology for MicroRNA Target Prediction
+bioportalomrse Ontology of Medically Related Social Entities
+bioportalontodm Ontology of Data Mining
+bioportalontodt Ontology of General Purpose Datatypes
+bioportalontoorpha Orphanet Ontology of Rare Diseases
+bioportalopl Ontology for Parasite LifeCycle
+bioportalpato Phenotypic quality
+bioportalpdq Physician Data Query
+bioportalpedterm Pediatric Terminology
+bioportalpeo Parasite Experiment Ontology
+bioportalphare PHARE
+bioportalpko PKO_Re
+bioportalpma PMA 2010
+bioportalpmr Physical Medicine and Rehabilitation
+bioportalpo Plant Anatomy
+bioportalpox1 Plant Growth and Development Stage
+bioportalpox2 Plant Ontology
+bioportalpr PRotein Ontology (PRO)
+bioportalpropreo Proteomics data and process provenance
+bioportalpw Pathway ontology
+bioportalqibo Quantitative Imaging Biomarker Ontology
+bioportalrcd Read Codes- Clinical Terms Version 3 (CTV3)
+bioportalrctontology Randomized Controlled Trials (RCT) Ontology
+bioportalrepo Reproductive trait and phenotype ontology
+bioportalrex Physico-chemical process
+bioportalrid RadLex
+bioportalrnao RNA ontology
+bioportalroleo Role Ontology
+bioportalrs Rat Strain Ontology
+bioportalrxnorm RxNORM
+bioportalsao Subcellular Anatomy Ontology (SAO)
+bioportalsbo Systems Biology
+bioportalsbro Smoking Behavior Risk Ontology
+bioportalsdo Sleep Domain Ontology
+bioportalsep Sample processing and separation techniques
+bioportalshr Student Health Record
+bioportalsio SemanticScience Integrated Ontology
+bioportalsitbac Situation-Based Access Control
+bioportalsnomedct SNOMED Clinical Terms
+bioportalsnpo SNP-Ontology
+bioportalsox1 Sequence types and features
+bioportalsopharm Suggested Ontology for Pharmacogenomics
+bioportalsoy SoyOntology
+bioportalspd Spider Ontology
+bioportalspto Solanaceae Phenotype Ontology
+bioportalsso Syndromic Surveillance Ontology
+bioportalswo Software Ontology
+bioportaltads Tick gross anatomy
+bioportaltao Teleost Anatomy Ontology
+bioportaltaxrank Taxonomic rank vocabulary
+bioportalteddy Terminology for the Description of Dynamics
+bioportalteo Time Event Ontology
+bioportaltgma Mosquito gross anatomy
+bioportalthesaurus thesaurus
+bioportaltmsignsandsympts Traditional Medicine Signs and Symptoms Value Set
+bioportaltmo Translational Medicine Ontology
+bioportalto Plant Trait Ontology
+bioportaltok TOK_Ontology
+bioportaltto Teleost taxonomy
+bioportaluberon Uber anatomy ontology
+bioportalunitsontology Units Ontology
+bioportaluo Units of measurement
+bioportalvandf VANDF
+bioportalvao Vertebrate Anatomy Ontology
+bioportalvhog vertebrate Homologous Organ Groups
+bioportalvivo VIVO
+bioportalvo Vaccine Ontology
+bioportalvt Vertebrate Trait Ontology
+bioportalwbbt C. elegans gross anatomy
+bioportalwbls C. elegans development
+bioportalwbphenotype C. elegans phenotype
+bioportalwho WHO Adverse Reaction Terminology
+bioportalxao Xenopus anatomy and development
+bioportalxco Experimental Conditions Ontology
+bioportalypo Yeast phenotypes
+bioportalzfa Zebrafish anatomy and development
+biosamplesrdf BioSamples RDF
+bislinkeddata Bank for International Settlements (BIS) Linked Data
+bitzi Bitzi
+bizkaisense BizkaiSense
+blablaitemlist blabla.itemlist
+blablaitemlist blabla.itemlist
+bllthesaurus Bibliography of Linguistic Literature (BLL) Thesaurus
+blukbnb British National Bibliography (BNB) - Linked Open Data
+bncfns Thesaurus BNCF
+bpr BPR ? Bibliography of the Italian Parliament and electoral studies
+brazilianpoliticians Brazilian Politicians
+braziliancities BrazilianCities
+bricklink Bricklink
+britishmuseumcollection British Museum Collection
+browncorpusinrdfnif Brown Corpus in RDF/NIF
+bsv French Plant Health Bulletins
+bundoffenerhaushalt Bund Offener Haushalt
+bundestagnebeneinkuenfte BundestagNebeneinkuenfte
+businessdatagovuk business.data.gov.uk
+BVMC Biblioteca Virtual Miguel de Cervantes
+cabbage Price changes due to cabbage imports
+cablegate cablegate
+calames Calames
+CaLiGraph CaLiGraph
+canlink can-link
+capitalyrdf Postal codes Italy (LinkedOpenData.it)
+catalaneurowordnetlemonlexicon30 Catalan EuroWordNet-lemon lexicon (3.0)
+catalogusprofessorumlipsiensis Catalogus Professorum Lipsiensis
+Catch Record 2014 2019 Norway catch records dataset @PSNC
+ce4r CE4R Knowledge Centre Corporate Excellence – Centre for Reputation Leadership
+ceo Linked Data Cultural Heritage Agency of the Netherlands
+chargingstations Charging Stations
+chatgamecorpus Chat Game corpus
+chebi Chemical Entities of Biological Interest (ChEBI)
+chem2bio2rdf Chem2Bio2RDF
+chemblrdf ChEMBL RDF
+chempediardf ChemPedia RDF
+Chinese Red Classic Song Linked Data Dataset Chinese Red Song Linked Data Dataset
+chroniclingamerica Chronicling America
+cht Cultural Heritage Thesaurus
+ciardring ciard-ring
+cinemathequequebecoiselinkedopendata Cinémathèque québécoise Linked Open Data
+cipfa CIPFA
+ckan Comprehensive Knowledge Archive Network
+cleanenergydatareegle Linked Clean Energy Data (reegle.info)
+clldafbo CLLD-afbo
+clldapics CLLD-APICS
+clldewave CLLD-EWAVE
+clldglottolog CLLD-GLOTTOLOG
+clldphoible CLLD-PHOIBLE
+clldsails CLLD-SAILS
+clldwals CLLD-WALS
+clldwold CLLD-WOLD
+codinventory COD inventory
+CoDa Cooperation Databank
+codeendpoint CODE Endpoint
+coinsopenuplabs OpenUpLabs COINS
+colinda COLINDA - Conference Linked Data
+combinednomenclature2012 CN  2012
+commentsonliteratureinliterature Comments on Literature in Literature (CoLiL)
+comparativeanalysisofproductionvolumebyareaofstrawberrybyperiod Comparative analysis of production volume by area of strawberry by period
+comparativeanalysisofproductionvolumebyareaofwatermelonbyperiod Price competitiveness of pear by region
+comparativeanalysisofproductionvolumebyareaofwatermelonbyperiod2 Comparative analysis of production volume by area of watermelon by period
+comparisonofpricecompetitivenessofgrapebyregion Price competitiveness of grape by region
+comsoded32 Requirements on the COMSODE project based on selected datasets
+conceptnet ConceptNet
+congresspeople 2011 US Congress People
+connectivityofloddatasets LODsyndesis Dataset
+copaclibrarycatalogue Copac: union catalogue of major University- Specialist- and National Libraries in the UK and Ireland
+copyrighttermbank CopyrightTermBank
+core CORE - Semantic Similarity of Open Access publications
+Corine linked dataset Corine linked dataset @PSNC
+corn Corn's Famous mountainous district (Hongcheon) Environmental Status
+cornsfamousmountainousdistrictgoesanenvironmentalstatus Corn's Famous mountainous district (Goesan) Environmental Status
+cornsfamousmountainousdistrictjeongseonenvironmentalstatus Corn's Famous mountainous district (Jeongseon) Environmental Status
+cornetto Cornetto1.2
+corporatebody Corporate Body Named Authority List 
+corscheck CORS Check - HTTP Header Logs for Linked Open Data
+countryauthoritylist Country Name Authority List
+courtsthesaurus Courts thesaurus
+CovidontheWeb Covid-on-the-Web Dataset
+cpa2008 CPA 2008
+CPC Cooperative Patent Classification
+cpc2008 CPC 2008
+cpv2003 CPV  2003
+cpv2008 CPV 2008
+crowdsourcingfb crowdsourcing-fb
+crtm CRTM
+crystaleye Crystal Eye: Aggregated Crystallographic Data
+cticpublicdataset CTIC Public Dataset Catalogs
+cultivationstatusofgmocrops Cultivation status of GMO crops
+culturalinkeddata CulturaLinkedData
+czaresor Data about business entities from the ARES system - business registry of the Czech Republic
+czaresrzp Data about Czech business entities from the ARES system - Trade Licensing Register
+czceniairzchemicals Chemicals reported to the Integrated register of pollution
+czceniapollution Integrated pollution registry
+czcontracts Registry of contracts of the Czech Republic - Contracts
+czcourts List of courts of the Czech Republic
+czctiabans Bans of the Czech Trade Inspection Authority
+czctiaconfiscations Confiscations of the Czech Trade Inspection Authority
+czctiafocus Focus of the Czech Trade Inspection Authority's inspections
+czctiainspections Inspections of the Czech Trade Inspection Authority
+czctiasanctions Sanctions of the Czech Trade Inspection Authority
+czcuzkcadastreoffices Cadastre offices from Czech land registry
+czcuzklegalrelationshipsdocuments Code lists of the legal relationships and documents
+czczsoaveragesalaries Average salaries in regions of Czech republic
+czczsodeathsbyselectedcausesofdeath Deaths by selected causes of death in regions of Czech Republic
+czczsodemographyinregionsczechrepublicagecategories Number of inhabitants in districts of Czech Republic in 5year age categories
+czczsojobapplicants Job applicants in regions of Czech Republic
+czczsojobapplicantsandunemploymentrate Job applicants and unemployment rate in regions of Czech Republic
+czczsoregions Structure of regions of Czech Republic according to Czech Statistical Office
+czczsoselectedindicatorsofpublichealth Selected public health indicators in regions of Czech republic
+czczsosocialservicefacilities Social service facilities and nursing in districts of Czech republic
+czczsounemploymentrate Unemployment rate in regions of Czech republic
+czeh1atc ATC groups
+czfulfillments Registry of contracts of the Czech Republic - Financial fulfillments
+czic Czech Business Entity identification numbers and names
+czlistofdataboxes List of Czech data boxes
+cznace Czech statistical classification of economic activities in the European Community (CZ-NACE)
+cznkod Czech National Open Data Catalog in DCAT-AP v1.2
+czorders Registry of contracts of the Czech Republic - Orders
+czovm Institutions of public power of the Czech Republic
+czovmagendas Agendas of institutions of public power of the Czech Republic
+czruian Registry of territorial identification- addresses and real estate of the Czech Republic
+czsaoauditedsubjects Audited subjects of Supreme Audit Office of the Czech Republic
+czsaocheckactions Inspections of the Supreme Audit Office of the Czech Republic
+czsaocheckactionslaw List of laws used in inspection reports of SAO
+czsidcdrugingredients Active ingredients of medicinal products available in Czech Republic
+czsidcdrugprices List of prices of reimbursed medicinal products marketed in Czech republic
+czsidcdrugs Medicinal products marketed in Czech Republic
+czsouhrnnetypyovm Summary types of Czech institutions of public power
+czvavaievaluation2013 Evaluation of VaVaI results for 2013
+czvavaifundingproviders State funding providers
+czvavaiorganizations Organizations active in R&D
+czvavaiprogrammes R&D Programmes
+czvavaiprojects R&D Projects
+czvavairesearchplans Institutional research plans
+czvavairesults Results of R&D
+czvavaitenders Tenders in R&D
+czechaddresses Czech addresses – Adresy v České republice
+databnffr data.bnf.fr - Bibliothèque nationale de France
+datacnrit Open Data from the Italian National Research Council
+datagov Data.gov
+datagovie DataGovIE - Irish Government Data
+datagovuktimeintervals data.gov.uk Time Intervals
+datahnmhu data-hnm-hu - Hungarian National Museum Datasets
+dataincubatorclimb Climb Dataincubator
+dataincubatordiscogs Discogs in RDF
+dataincubatormetoffice Metoffice Weather Forecasts
+dataincubatormoseley Moseley Folk Festival Data
+dataincubatormusicbrainz Data Incubator: MusicBrainz
+dataincubatornasa NASA Space Flight & Astronaut data in RDF
+dataincubatorourairports Airport data from Our Airports published as RDF
+dataincubatorpokedex Pokedex data in RDF
+dataincubatorsmcjournals Scottish Mountaineering Council Journals Issues 1-36
+dataopenacuk data.open.ac.uk- Linked Data from the Open University
+dataperseefr Persée in RDF
+datasouthamptonacuk data.southampton.ac.uk with SPARQL endpoint
+dataszepmuveszetihu data-szepmuveszeti-hu
+dataodwtw Open Data Web
+datafaqs DataFAQs
+datahub datahub
+dataturcyllodfortouristsincastillayleonspain DATATURCYL - LOD for tourists in Castilla y León (Spain)
+datosartiumorg datos-artium-org
+datosbcncl Datos.bcn.cl
+datosbnees datos.bne.es
+dbacademic dbacademic
+dbkwik DBkWik
+dblpdeustognoss DBLP Research Groups (University of Deusto-GNOSS)
+dbnary dbnary
+dbpedia DBpedia
+dbpediaabstractcorpus DBpedia abstract corpus
+dbpediacommons DBpedia Commons
+dbpediade DBpedia in German
+dbpediael DBpedia in Greek
+dbpediaes DBpedia in Spanish
+dbpediaeu DBpedia in Basque
+dbpediafr DBpedia in French
+dbpediaja DBpedia in Japanese
+dbpedialite dbpedia lite
+dbpedialive DBpedia-Live
+dbpedianl DBpedia in Dutch
+dbpediapt DBpedia in Portuguese
+dbpediaspotlight DBpedia Spotlight
+dbpediaspotlightnifnercorpus DBpedia Spotlight NIF NER Corpus
+dbpediawikidata DBpedia Wikidata
+dbpedia DBpedia
+dbtropes DBTropes
+dbtune DBTune – Music-Related RDF
+dbtuneartistslastfm DBTune.org Artists: Last.fm
+dbtuneaudioscrobbler DBTune.org AudioScrobbler RDF Service
+dbtuneclassical DBTune.org/classical
+dbtunejohnpeelsessions DBTune.org John Peel sessions RDF server
+dbtunemagnatune DBTune.org Magnatune RDF server
+dbtunemusicbrainz DBTune.org Musicbrainz D2R Server
+dbtunemyspace DBTune.org MySpace RDF Service
+dclgopenuplabs OpenUpLabs DCLG
+dcssheffield data.dcs
+debudget Germany - Bundesministerium der Finanzen - Budget
+degaapontologylexicon de-gaap-ontology-lexicon
+debianpackagetrackingsystem Debian Package Tracking System
+delimitacionterritorialjuntasadministrativaszaragoza Delimitación Territorial de las Juntas Administrativas de Zaragoza
+demografie Demografie
+desaparecidos Projeto Desaparecidos
+deustoentrepreneurship Deusto Entrepreneurship: sharing business knowledge
+deustotech DeustoTech (Deusto Institute of Technology)
+deutschebiographie Deutsche Biographie
+deutschenationalbibliografiednb Deutsche Nationalbibliografie (DNB)
+dev8d dev8d
+deweydecimalclassification Dewey Decimal Classification (DDC)
+diachronicontologiespeoplesdaily Diachronic Ontologies from People's Daily
+diavgeia Diavgeia
+didactalia Didactalia- índice de recursos educativos para profesores- padres y alumnos (GNOSS)
+diigofeed diigo.feed
+disgenet DisGeNET
+disk CAP Italia in RDF
+distritoszaragoza Distritos de Zaragoza
+dkhdeustoknowledgehub DKH (Deusto Knowledge Hub)
+dm2e DM2E
+dmozrdfdump DMOZ RDF Dump
+dnbgemeinsamenormdatei Gemeinsame Normdatei (GND)
+doapstore DOAP Store
+doi CrossRef DOI Resolver
+drugdatahifm Drug Data from the Health Insurance Fund of Macedonia
+dspace dspace
+duraarklinkedbuildingdata DURAARK - Linked Building Data
+dutchnationalregulationsmetalex MetaLex Document Server
+dutchshipsandsailors Dutch Ships and Sailors
+dwsgroup DWS-Group
+E1 E1 - Nuvem dados
+eagleialaska eagle-i @ University of Alaska Fairbanks
+eagleicau eagle-i @ Clark Atlanta University
+eagleiccnycuny eagle-i @ The City College of New York
+eagleicdrewu eagle-i @ Charles R. Drew University
+eagleidartmouth eagle-i @ Dartmouth College
+eagleifamu eagle-i @ Florida Agricultural and Mechanical University
+eagleiharvard eagle-i @ Harvard University
+eagleihawaii eagle-i @ University of Hawai’i at Mānoa
+eagleihoward eagle-i @ Howard University
+eagleihuntercuny eagle-i @ Hunter College
+eagleijsu eagle-i @ Jackson State University
+eagleimeharry eagle-i @ Meharry Medical College
+eagleimontana eagle-i @ Montana State University
+eagleimsm eagle-i @ Morehouse School of Medicine
+eagleiohsu eagle-i @ Oregon Health and Science University
+eagleipsm eagle-i @ Ponce School of Medicine
+eagleitsu eagle-i @ Texas Southern University
+eagleituskegee eagle-i @ Tuskegee University
+eagleiuccaribe eagle-i @ Universidad Central del Caribe
+eagleiupr eagle-i@ University of Puerto Rico - Medical Sciences Campus
+eagleiutep eagle-i @ University of Texas at El Paso
+eagleiutsa eagle-i @ University of Texas at San Antonio
+eagleivanderbilt eagle-i @ Vanderbilt University
+eagleixula eagle-i @ Xavier University of Louisiana
+Earthquake Emergency situation
+ecblinkeddata European Central Bank (ECB) Linked Data
+ecbstatisticslinkeddata European Central Bank Statistics (PublicData.eu)
+eccotcplinkeddata ECCO-TCP Eighteenth Century Texts Linked Data
+eclap ECLAP
+ecs School of Electronics and Computer Science- University of Southampton
+edificioshistoricoszaragoza Edificios Históricos en Zaragoza
+edublogs Edublogs
+educationdatagovuk education.data.gov.uk
+educationopenuplabs OpenUpLabs Education
+educationalprogramssisvu Educational programs - SISVU
+eea European Environment Agency Published Products
+eearod EEA Reporting Obligations Database
+eeavocabularies EEA Vocabularies
+egeuniversitylinkedopendata Ege University Linked Open Data
+EGovOntology E-Government Ontology
+ei2a Aragon Interoperable Information Structure EI2A - aragon open data
+eionetrdf EIONET RDF Data
+eltedigitalinstitutionalrepositoryedit ELTE Digital Institutional Repository (EDIT)
+elviajero El Viajero's tourism dataset
+emn EMN
+enaktingco2emission EnAKTing CO2 Emission Dataset
+enaktingcrime EnAKTing Crime Dataset
+enaktingenergy EnAKTing Energy Dataset
+enaktingmortality EnAKTing Mortality Dataset
+enaktingnhs EnAKTing NHS Dataset
+enaktingpopulation EnAKTing Population Dataset
+enelshops Enel Shops
+energyefficiency Energy efficiency assessments and improvements
+englishheritagearchaeologicalsciencesthesaurus English Heritage Archaeological Sciences Thesaurus
+englishheritagebuildingmaterialsthesaurus English Heritage Building Materials Thesaurus
+englishheritagecomponentsthesaurus English Heritage Components Thesaurus
+englishheritageeventtypesthesaurus English Heritage Event Types Thesaurus
+englishheritageevidencethesaurus English Heritage Evidence Thesaurus
+englishheritagemaritimecraftthesaurus English Heritage Maritime Craft Thesaurus
+englishheritagemonumenttypesthesaurus English Heritage Monument Types Thesaurus
+englishheritageperiodslist English Heritage Periods List
+englishindexofmultipledeprivationranking2010 English Index of Multiple Deprivation Ranking 2010
+englishindexofmultipledeprivationscore2010 English Index of Multiple Deprivation Score 2010
+englishindicesofmultipledeprivation English Indices of Multiple Deprivation
+englishwordnet English WordNet
+englishheritageplaces English Heritage Places
+enipedia Enipedia - Energy Industry Data
+entrezgene Entrez Gene
+entrezgeneextract Entrez Gene Extract
+environmentagencybathingwaterquality Environment Agency Bathing Water Quality
+environmentdatagovuk environment.data.gov.uk
+environmentalapplicationsreferencethesaurus EARTh
+EO metadata Micka (EO metadata) @PSNC
+epacdr EPA-CDR
+epafrs EPA-FRS
+eparcra EPA-RCRA
+epasrs EPA-SRS
+epatri EPA-TRI
+epo European Patent Office (EPO)
+eprintsharvestrkbexplorer ePrints Harvest (RKBExplorer)
+eprtr European Pollutant Release and Transfer Register (E-PRTR)
+esmsssidrugprices List of prices of medicinal products marketed in Kingdom of Spain
+esdstandards ESD Standards: Controlled lists for the UK public sector
+esdtoolkit ESD-Toolkit
+esislearning Dataset Esis
+euagenciesbodies EU Agencies and decentralized bodies (Agencies)
+eudgttm EU Directorate-General for Translation (DGT) - Acquis Communautaire
+euinstitutions Institutions and Bodies of the European Union
+euparliamentmedia EU Parliament Media Library
+euwhoiswho EU Who Is Who
+eumidalinkeddata EUMIDA as Linked Data
+eunis European Nature Information System
+eurlexrdf EUR-Lex as Linked Data
+eurobarometerstandard Standard Eurobarometer
+European Patent Information EPO patents
+europeanelectionresults European Election Results
+europeanalod Europeana Linked Open Data
+europeanalodv1 Europeana Linked Open Data V1.0
+europeanasparql Europeana SPARQL
+eurosentiment EuroSentiment
+eurostatrdf Eurostat RDF datasets
+eurovoc EuroVoc
+eurovocinskos EUROVOC in SKOS
+euscreen European Television Heritage
+euskadifarmacias Farmacias en Euskadi
+eutcproductions Edinburgh University Theatre Company Productions
+eventmedia EventMedia
+eventkg EventKG
+eventseer Eventseer
+Face Link Face Link
+facebooklids Facebook Linked Data Service
+factforge Fact Forge
+FADN 2019 Farm Accountancy Data Network (FADN) linked dataset from 2019 @PSNC
+FAO species FAO ASFIS classification of biological entities @PSNC
+faogeopoliticalontology FAO geopolitical ontology
+faolinkeddata Food and Agriculture Organization of the United Nations (FAO) Linked Data
+farmbiochembl ChEMBL-RDF (@ Uppsala University)
+farmersmarketsgeographicdataunitedstates Farmers Markets Geographic Data (United States)
+farolappdataset FarolApp Streetlight Dataset
+fataltrafficaccidentsingreekroads Fatal Traffic Accidents in greek roads
+federaleconomicrdf Federal Reserve Economic Data RDF
+feedwrapperlids Feed Wrapper
+FHIR STU3 FHIR STU3
+fiesta FiESTA
+fileCUsersaDesktopurnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976owl nan
+finnishmunicipalities Finnish municipalities and regional classifications
+firmao firmao
+fisharchaeologicalobjectsthesaurus FISH Archaeological Objects Thesaurus
+Fishery Stock Dataset Norway fishery stocks dataset @PSNC
+fishesoftexas Fishes of Texas
+flickrwrappr flickr? wrappr
+flickrperson flickr.person
+flickrvideoobject flickr.videoobject
+flyted Fly-TED
+flyatlas FlyAtlas
+flybase Flybase
+flyted Flyted
+foodista Foodista
+foodpedia FOODpedia - Linked Data Dataset about Food Products and Ingredients
+forgecourseinformation FORGE Course information
+framebaseschema FrameBase schema
+framenet FrameNet
+framester Framester
+frblinkeddata Federal Reserve Board (FRB) Linked Data
+freebase Freebase
+freeyorkorg Freeyork
+frenchschoolprogram French School Program
+frenchschoolsystem French School System
+frenchtimebank French TimeBank
+fuberlincordis Community Research and Development Information Service (CORDIS)
+fuberlindailymed DailyMed
+fuberlindblp DBLP Bibliography Database in RDF (FU Berlin)
+fuberlindiseasome Diseasome
+fuberlindrugbank DrugBank
+fuberlineccompetition European Commission Competition data set (FU Berlin)
+fuberlineuraxess EURAXESS - Researchers in Motion
+fuberlineures European Employment Services (EURES)
+fuberlineurostat Eurostat in RDF (FU Berlin)
+fuberlinmedicare MediCare
+fuberlinprojectgutenberg Project Gutenberg in RDF (FU Berlin)
+fuberlinsider SIDER: Side Effect Resource
+fuberlinstitch STITCH: Chemical-Protein Interactions
+fv fv
+GACS Global Agricultural Concept Space
+galenfromcoodeorg Galen from co-ode.org
+galicianeurowordnetlemonlexicon30 Galician EuroWordNet-lemon lexicon (3.0)
+garnicaplywood Garnica Plywood Catalogue
+gemeenschappelijkethesaurusaudiovisuelearchieven Gemeenschappelijke Thesaurus Audiovisuele Archieven ? Common Thesaurus Audiovisual Archives
+gemet GEneral Multilingual Environmental Thesaurus
+gemetannotated gemet-annotated
+geneexpressionatlasrdf Gene Expression Atlas RDF
+Generalized Super Ontology Super Ontology
+geoplace geo.place
+geodomainwn geodomainwn
+geoecuador GeoEcuador
+geographicnamesinformationsystemgnis Geographic Names Information System (GNIS)
+geographicopenuplabs OpenUpLabs Geographic
+geolinkeddata GeoLinkedData
+geologicalsurveyofaustriathesaurus Geological Survey of Austria (GBA) - Thesaurus
+geonamessemanticweb GeoNames Semantic Web
+geospatialworldnet Geospatial World 
+geospecies GeoSpecies Knowledge Base
+geowordnet GeoWordNet
+germanlaborlawthesaurus German labor law thesaurus
+germlex Linked Old Germanic Dictionaries
+gesisthesoz TheSoz Thesaurus for the Social Sciences (GESIS)
+gettyaat Art & Architecture Thesaurus
+gettytgn The Getty Thesaurus of Geographic Names
+gipuzkoademografia Gipuzkoa Demografia
+glastonbury2011 Glastonbury 2011 Programme
+globalchangeinformationsystem Global Change Information System
+globalhungerindex2011 Global Hunger Index (2011)
+glottolog Glottolog
+gnosscomasocialandsemanticplatform GNOSS.com- a Social and Semantic Platform
+gnusocialsocialumeahackerspacese GNUsocial social.umeahackerspace.se
+goannotationsfromncbiandebi GO annotations from National Center for Biotechnology Information (NCBI) and European Bioinformatics Institute (EBI)
+gold General Ontology of Linguistic Description
+googleartwrapper GoogleArt wrapper
+govagribusdenmark GovAgriBus Denmark
+governmentwebintegrationforlinkeddata GovWILD - Government Web Integration for Linked Data
+govtrack GovTrack.us U.S Congress Legislative Data
+greekadministrativegeography greek-administrative-geography
+greekwordnet Greek Wordnet
+greekchildrensartmuseum Greek Children Art  Museum dataset
+greencompetitivenessgnoss Green Competitiveness (GNOSS)
+grrp Accommodations in Piedmont (LinkedOpenData.it)
+grrt Accommodations in Tuscany (LinkedOpenData.it)
+GTS Geological Timescale
+GTSont Geological Timescale Ontology
+Guillaume Forget GUTSTOK 
+gutenberg Project Gutenberg
+gwaili Global WordNet Association Interlingual Index
+hclsknowledgebase HCLS Knowledge Base
+HealthCare Ontology HealthCare Ontology
+heartfailure Meriterm Heart Failure Multilingual Terminology
+hebisbibliographicresources HeBIS - Bibliographic Resources of the Library Union Catalogues of Hessen and parts of the Rhineland Palatinate
+hedatuz Hedatuz
+hellenicfirebrigade Hellenic Fire Brigade
+hellenicpolice Hellenic Police
+homologene Homologene
+hongse gseg
+httpdatanoticiasuniversianet Noticias Universia
+httpwwwiwmicgiarorgpublicationsiwmiworkingpapers http://www.iwmi.cgiar.org/publications/iwmi-working-papers/
+httpdatalinkedeodataeuroadidStateRoadD010Turkey1 nan
+httpguavaiissinicaedutwr4r nan
+httprdfnaturallexiconorgzhontCedict nan
+httpsensormeasurementappspotcomdatasetnaturopathydataset nan
+httpwwwsemanticweborgambrishontologies202010untitledontology24 nan
+httpswwwchildrensartmuseumgrLDproject nan
+httpswwwluigiusaiitlinkeddataluigiusai nan
+huahinhealthtourismdataset Hua Hin Health Tourism Data Set
+hudlibraryusagedata University of Huddersfield -- Circulation and Recommendation Data
+hungariannationallibrarycatalog Hungarian National Library (NSZL) catalog
+iaterdf IATE RDF
+iatiaslinkeddata IATI as Linked Data
+icane ICANE
+ichoose ichoose
+identifiersorg Identifiers.org
+idreffr IdRef: Sudoc authority data
+ids Intercontinental Dictionary Series
+ietflang ietflang
+iislodtest Test Site- LOD Lab 317
+imsparql im@sparql
+imagery bailingniao imagery bailingniao
+imagesnippets Imagesnippets Image Descriptions
+imflinkeddata International Monetary Fund (IMF) Linked Data
+imgpedia IMGpedia
+importstatusofgmocrops Import Status of GMO Crops
+incomeandproductioncostofgrapebyyear Income and production cost of grape by year
+incomeandproductioncostofpearbyyear Income and production cost of pear by year
+inertiaenergyconsumptionexamplelinkeddata INERTIA (INERTIA Energy Consumption Example Linked Data)
+ineverycrea IneveryCREA- la comunidad de la creatividad educativa
+ineverycreaargentina IneveryCREA Argentina- la comunidad de la creatividad educativa
+influencetrackerdataset Influence Tracker Dataset
+insemtives INSEMTIVES
+instagramperson instagram.person
+instagramvideoobject instagram.videoobject
+instancehubcountries Instance Hub Countries
+instancehubfiscalyears Instance Hub Fiscal Years
+instancehuborganizations Instance Hub Organizations
+instancehubpeople Instance Hub People
+instancehubuscivilservants Instance Hub US Civil Servants
+instancehubuscongressionalcommittees Instance Hub US Congressional Committees
+instancehubuscongressionaldistricts Instance Hub US Congressional Districts
+instancehubuscrops Instance Hub US Crops
+instancehubusfederalagencies Instance Hub US Federal Agencies
+instancehubusstatesandterritories Instance Hub US States and Territories
+instancehubustoxicchemicals Instance Hub US Toxic Chemicals
+integratedhumangeographyserviceforlod Integrated Human Geography Service for LOD by National Geographic Information Institute- Korea
+interactivemapsgnoss Interactive Maps- a collection of interactive flash maps (GNOSS)
+interakcemeziinnmiltkami Interakce mezi účinnými látkami
+intervalue intervalue
+Inztrow Inztrow
+iptcnewscodes IPTC NewsCodes
+irsteaweatherdatasetofthemontoldreexperimentalfarm Irstea Weather Dataset of the Montoldre Experimental Farm
+iserve iServe: Linked Services Registry
+isicv4 ISIC V4
+isidore Isidore
+isildbpedia ISIL->DBpedia
+iso31662data Linked ISO 3166-2 Data
+iso639oasis Published subjects for languages in ISO 639
+isocat ISOcat
+isocatmetadata ISOcat-metadata
+ispralodihi ISPRA - Mitigation measures in Italy for national soil protection
+ispralodplace ISPRA - The administrative divisions of Italy (regions/provinces/municipalities)
+ispralodrmn ISPRA - The Italian National Tide Gauge Network (RMN)
+ispralodron ISPRA - The Italian Data Buoy Network (RON)
+ispralodsc ISPRA - Soil Consumption Indicators in Italy
+ISSN 00803626 Pierwszy polski podręcznik bibliotekarski
+ISSN 00803626 Aktualne zagadnienia klasyfikacji map
+ISSN00803626 Pierwszy polski podręcznik bibliotekarski
+istatimmigration ISTAT Immigration (LinkedOpenData.it)
+istatimmigrazione ISTAT Immigrazione (Linkedopendata.it)
+itaifadrugprices List of prices of medicinal products marketed in Italian Republic
+italianpublicschoolslinkedopendatait Italian public schools (LinkedOpenData.it)
+iucractacryste Academic Bibliography data available from Acta Cryst E
+iwmiresearchreports IWMI Research Reports
+iwn IWN
+jglobalknowledge J-GLOBAL knowledge
+jucsjournalofuniversalcomputerscience J.UCS Journal of Universal Computer Science
+jamendodbtune DBTune.org Jamendo RDF Server
+japanradioactivitystat National Radioactivity Stat as Linked Data
+jelclassification JEL Classification
+jiscopenbibblbnb1 JISC Open Bibliography British National Bibliography dataset
+jita JITA Classification System of Library and Information Science
+jmdict The JMdict (Japanese-Multilingual Dictionary) project
+johngoodwinsfamilytree John Goodwin's Family Tree
+jptextbook Japanese Textbook
+jrcnamesec JRC-Names
+jrcnamesmlode JRC-Names-MLODE
+judaicalink JudaicaLink
+kaistsilverstandardcorpus KAIST silver standard corpus
+kaken KAKEN
+kallikratismunicipalities Kallikratis municipalities
+kasabiopenflightsroutes Openflights Routes
+klappstuhlclub Klappstuhlclub
+knoesislinkedsensordata Linked Sensor Data (Kno.e.sis)
+knowledgemap Knowledge Forest
+KnowledgeFusion Knowledge Forest
+kore50nifnercorpus KORE 50 NIF NER Corpus
+koreaintellectualpropertofficekipo Korea Intellectual Propert Office(KIPO)
+Kronika naukowa Biblioteki Jagiellońskiej Kronika naukowa Biblioteki Uniwersyteckiej w Łodzi
+ktr Korean Traditional Recipes
+kupkb Kidney and Urinary Pathway Knowledge Base
+livppravkyzeskl Léčivé přípravky ze SÚKL
+l3sdblp DBLP in RDF (L3S)
+lakdataset Learning Analytics and Knowledge (LAK) Dataset
+languageauthoritylist  Language Name Authority List 
+LARK Lark
+latclinksets LATC Linksets
+lcc Leipzig Corpora Collection (LCC)
+lcsh Library of Congress Subject Headings
+lcsubjects LCSubjects.org Library of Congress Subject Headings
+ldqmdbpedia2016 LDQM - Accessibility of DBpedia resources
+learnedgenreontologyeng Learned Genre Ontology Eng
+learnedgenreontologyintl Learned Genre Ontology Intl
+LEGIJA STRANACA U ime Legije
+legislationopenuplabs OpenUpLabs Legislation
+lemonuby lemonUby
+lemonwiktionary LemonWiktionary
+lexinrdf LEXIN-RDF
+lexinfo lexinfo
+lexvo Lexvo
+lexvoorg Lexvo.org
+libris LIBRIS
+libver Public Library of Veroia
+lichfieldspending Lichfield District Council - Spending
+lime Linguistic Metadata (LIME) vocabulary
+lingvoj lingvoj ? Languages of the World (Multilingual RDF Descriptions)
+linkedcrunchbase Linked Crunchbase
+linkeddrugs LinkedDrugs: Linked Drug Product Data on a Global Scale
+linkededgar Linked EDGAR (OntologyCentral)
+linkedeurostat Linked Eurostat (OntologyCentral)
+linkedhypernyms linked hypernyms
+linkedlifedata Linked Life Data
+linkedlogainm Linked Logainm
+linkednuts Linked NUTS
+linkedopenaaltodataservice Linked Open Aalto Data Service
+linkedopencamera Linked Open Camera (LinkedOpenData.it)
+linkedopencommerce Linked Open Commerce
+linkedopendataofecology Linked Open Data of Ecology
+linkedopennumbers Linked Open Numbers
+linkedopenpiracy Linked Open Piracy
+linkedopensenate Linked Open Senate (linkedopendata.it)
+linkedopenvocabularieslov Linked Open Vocabularies (LOV)
+linkedperiodicals Linked Periodicals Database
+linkedstockindex Linked Index
+linkedstructuredproductlabels Linked Structured Product Labels
+linkedtaiwangeonames Linked Taiwan Geo-Names
+linkedtcga Linked TCGA
+linkeduserfeedback Linked User Feedback
+linkedusptopatentdata USPTO Patent data
+linkedwebapis Linked Web APIs dataset
+linkedarc linkedarc.net archaeological datasets
+linkedcrowdsourceddata Linked Crowdsourced Data
+linkedct LinkedCT
+linkedgeodata LinkedGeoData
+linkedgeodataaerodromes LinkedGeoData: Aerodromes
+linkedlccn LinkedLCCN
+linkedmarkmail LinkedMarkMail
+linkedmdb Linked Movie DataBase
+linkedspending LinkedSpending: OpenSpending becomes Linked Open Data
+linkedstats LinkedStats
+linkedupcatalogueofeducationaldatasets LinkedUp Catalogue of Educational Datasets
+linkingopendrugdata Linking Open Drug Data (LODD)
+linklion LinkLion - A Link Repository for the Web of Data
+lionsden Lion's Den
+listaencabezamientosmateria Lista de  Encabezamientos de Materia as Linked Open Data
+livtdm LIVIVO Text Mining Data
+livtdm2017 LIVIVO Text Mining Data 2017
+lobi Linked Open Biomedical Investigations
+lobidorganisations lobid-organisations
+lobidresources lobid-Bibliographic Resources
+loc Linked Open Colors
+Location Ontology Location Ontology
+locv Linked Open Computer Vision
+lodalot LOD-a-lot
+loditscuoleitaliane Scuole Italiane (linkedopendata.it)
+lodtaiwan Open Data Web - a CKAN based linked open data repository in Taiwan
+lod2projectwiki LOD2 Project Wiki
+lodacbdls LODAC BDLS
+lodrussiamath LODRussia Math
+lodrussianano LODRussia Nano
+lodstats LODStats
+lodum LODUM
+lofd lofd
+loius Linking Italian University Statistics Project
+loiuslinkingitalianuniversitystatistics LOIUS project - Linking Italian University Statistics
+londongazette The London Gazette - Gazettes Data
+losmetar Weather Stations
+lowerlayersuperoutputareas Lower Layer Super Output Areas
+LPIS Poland Polish Land Parcel Information System (LPIS) dataset @PSNC
+LPIS Czech Republic Land parcel dataset (LPIS) from Czech Republic @PSNC
+lremapauth A collection of Authors for LREC2014 and related Workshops
+lremapconf LREC2014 and related Workshops
+lremapri First not-normalized set of language resources from LREC2014
+lremapsub A collection of Submissions for LREC2014 and related Workshops
+lsq LSQ
+Luminairessenlis Linked rules
+mnovkurzyvzhledemkeur Měnové kurzy vzhledem k EUR
+makg Microsoft Academic Knowledge Graph
+manchesteruniversityreadinglists Manchester University Reading Lists
+manish engineering equipment ontology
+mapareferenciabogota Mapa de Referencia para Bogotá- Distrito Capital
+mapareferenciabogotadc Mapa de Referencia para Bogotá D.C
+marccodes MARC Codes List
+masc Manually Annotated Sub-Corpus (MASC) of the Open American National Corpus
+mascbnnif MASC-BN-NIF
+massobservationarchivecatalogue Mass Observation Archive catalogue
+medline medline
+meducator mEducator: Linked Educational Resources
+meshfinnish Finnish translation of mesh
+meshheadings MeSH headings
+meshipsvskosrdf MeSH- IPSV - SKOS RDF
+meshpairs MeSH pairs
+meshtitles MeSH titles
+metadatakzkonmzpspcz Metadata k zákonům z psp.cz
+metadatakzkonmzezakonyprolidiczdvukzkovznn Metadata k zákonům ze zakonyprolidi.cz - dvě ukázková znění
+metashare MetaShare metadata model
+mexico MExiCo
+miguiadeviajesgnoss Mi Guía de Viajes- colección de guías de viaje para viajeros (GNOSS)
+mismuseosgnoss Mis Museos- índice semántico de museos- artistas y obras de arte (GNOSS)
+mlsa MLSA - A Multi-layered Reference Corpus for German Sentiment Analysis
+mond The MOND modular ontology for NIF data
+mondis MONDIS
+monumentoszaragoza Monumentos
+morelab MORElab
+msc Mathematics Subject Classification
+multexteast Multext-East
+multilingualeulaw The DGT Multilingual Translation Memory of the Acquis Communautaire
+multimedialab Multimedia Lab
+munichoffenerhaushalt Munich Offener Haushalt
+muninnworldwari Muninn World War I
+museiitaliani Musei Italiani
+museosespaniagnoss Museos de España- colección de museos públicos y privados españoles (GNOSS)
+museumsinitaly Italian Museums
+musicbrainz MusicBrainz
+musicnetcodex MusicNet Codex
+muziekweb Muziekweb
+myexperiment myExperiment
+myfamilylineage My Family Lineage
+myontologytest My ontology test
+myopenlinkdataspaces myopenlink dataspaces
+nlexaslinkeddata N-Lex as Linked Data
+naics2007 NAICS 2007
+naics2012 NAICS 2012
+nalt National Agricultural Library Thesaurus
+Names  Usernames 
+nationaldietlibraryauthorities Web NDL Authorities - National Diet Library of Japan
+nationaldietlibrarysubjectheadings National Diet Library of Japan subject headings
+nationallibraryofgreeceauthorityrecords National Library of Greece Authority Records
+Naturopathy Naturopathy Knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.
+naturopathy2 Naturopathy
+ncithesaurus NCI Thesaurus
+ndfrt NDF-RT
+near Near
+neel Neel
+neurocommonstextminingpilot Neurocommons text mining pilot
+neurolexwiki NeuroLex Wiki
+newbornphotographymaternityphotoshootshivanigoyal Shivani Goyal Photography
+news100nifnercorpus News-100 NIF NER Corpus
+newsweek Newsweek
+nextprot neXtProt
+nextwebgnoss Next Web- a global knowledge network of semantic technology and Web 3.0 (GNOSS)
+nhsjargon NHS Jargon RDF
+nlm2007mesh NLM 2007 MeSH
+nlrdatasetmod National Library of Russia BibCore Dataset
+nobelprizes Nobel Prizes
+NoiPA NoiPA
+nomenclatorasturias Nomenclator Asturias
+nomisma nomisma
+nomismaorg Nomisma.org 
+Norway Fishery  Norway fishery stocks dataset
+norwegiangeodivisions Norwegian geo-divisions
+norwegiansoe NorwegianSoE
+nottinghamtrentuniversityresourcelists Nottingham Trent University Resource Lists
+npg Nature Publishing Group - ALL
+npm NPM
+ntnusc NTNU special collections
+nutsgeovocab NUTS (GeoVocab)
+nvd Norsk inndeling av vitenskapsdisipliner
+nvs NERC Vocabulary Server 2.0
+nytimeslinkedopendata New York Times - Linked Open Data
+oanc American National Corpus - Open Portion
+oanetzwerk OANetzwerk
+obceokresyakrajeeskrepubliky Obce- okresy a kraje České republiky
+ocd Italian Chamber of Deputies - official dataset
+oceandrillingborehole oceandrilling-borehole
+oceandrillingcodices Ocean Drilling - Codices
+oceandrillingdbseabed Ocean Drilling - dbSEABED
+oceandrillingforams Ocean Drilling - Forams
+oceandrillingjanus Ocean Drilling - Janus LOD
+oceandrillingjanusamp Ocean Drilling - Janus Age Models
+oceandrillingldeo Ocean Drilling - LDEO log files as data (TEST leg 218 only)
+oclcfast Faceted Application of Subject Terminology
+odc Open Data Communities
+odcimdenvironmentscore Index of Multiple Deprivation- Living Environment Deprivation Domain- Scores 2010
+odcimdrank2007 Index of Multiple Deprivation Ranking- 2007
+odclsoa Open Data Communities - Lower layer Super Output Areas
+odcpopulation2005 Estimated mid-year population 2005
+ods Open Discovery Space (ODS)
+oecdlinkeddata Organisation for Economic Co-operation and Development (OECD) Linked Data
+offenerhaushalt Offener Haushalt
+ogolod Orthology and Diseases Information - OGO
+olac OLAC Metadata
+olia OLiA
+oliadiscourse OLiA Discourse
+OLU  Open Land Use
+omegawiki OmegaWiki
+omwnals Albanet WordNet (as part of Open Multilingual WordNet)
+omwnarb Arabic WordNet (as part of Open Multilingual WordNet)
+omwnbul BulTreeBank WordNet (as part of Open Multilingual WordNet)
+omwncow Chinese WordNet (as part of Open Multilingual WordNet)
+omwncwn Chinese WordNet (as part of Open Multilingual WordNet)
+omwndan DanNet WordNet (as part of Open Multilingual WordNet)
+omwnell Greek WordNet (as part of Open Multilingual WordNet)
+omwneng Princeton WordNet (as part of Open Multilingual WordNet)
+omwnfas Persian WordNet (as part of Open Multilingual WordNet)
+omwnfin FinnWordNet WordNet (as part of Open Multilingual WordNet)
+omwnfra WOLF WordNet (as part of Open Multilingual WordNet)
+omwnheb Hebrew WordNet (as part of Open Multilingual WordNet)
+omwnhrv Croatian WordNet (as part of Open Multilingual WordNet)
+omwnisl IceWordNet WordNet (as part of Open Multilingual WordNet)
+omwnita MultiWordNet WordNet (as part of Open Multilingual WordNet)
+omwniwn ItalWordnet WordNet (as part of Open Multilingual WordNet)
+omwnjpn Japanese WordNet (as part of Open Multilingual WordNet)
+omwnmcr Multilingual Central Repository (as part of Open Multilingual WordNet)
+omwnmsa Wordnet WordNet (as part of Open Multilingual WordNet)
+omwnnld Open WordNet (as part of Open Multilingual WordNet)
+omwnnor Norwegian WordNet (as part of Open Multilingual WordNet)
+omwnpol plWordNet WordNet (as part of Open Multilingual WordNet)
+omwnpor OpenWN-PT WordNet (as part of Open Multilingual WordNet)
+omwnron Romanian WordNet (as part of Open Multilingual WordNet)
+omwnslk Slovak WordNet (as part of Open Multilingual WordNet)
+omwnslv sloWNet WordNet (as part of Open Multilingual WordNet)
+omwnswe Swedish WordNet (as part of Open Multilingual WordNet)
+omwntha Thai WordNet (as part of Open Multilingual WordNet)
+ontobeefdomain OntoBeef Domain
+ontosnewsportal Ontos News Portal
+ookaboordfdump Ookaboo RDF dump
+Open Land Use Open Land Use @PSNC
+openbantuisixhosalexicon Open Bantu isiXhosa Lexicon
+opencoursewareconsortiummetadatainrdf Open Courseware Consortium metadata in RDF
+opendataeuskadi Open Data Euskadi
+opendatarisp Open Data RISP- the Spanish Open Data community
+opendatathesaurus Open Data Thesaurus
+opendatatorvergata Open Data @ Tor Vergata
+openelectiondataproject Open Election Data Project
+openenergyinfowiki OpenEI - Open Energy Info
+openlibrary Open Library
+opendirectory Open Directory
+openbiomedflyatlas flyatlas
+opencalais OpenCalais
+opencorporates OpenCorporates - The Open Database Of The Corporate World
+opencyc OpenCyc
+opendatacommunitiesdevlocalauthorityservices opendatacommunities-dev-local-authority-services
+opendatacommunitieshomelessnessacceptancesper1000 opendatacommunities-homelessness-acceptances-per-1000
+opendatacommunitieshomelessnesshouseholdsaccommodatedtemporaryhousingtypes opendatacommunities-homelessness-households-accommodated-temporary-housing-types
+opendatacommunitieshouseholds2008 opendatacommunities-households-2008
+opendatacommunitieshouseholdsaccommodatedper1000 opendatacommunities-households-accommodated-per-1000
+opendatacommunitieshouseholdsprojectionspopulation opendatacommunities-households-projections-population
+opendatacommunitieshouseholdsprojectionstotalhouseolds opendatacommunities-households-projections-totalhouseolds
+opendatacommunitieshouseholdssociallettingsgeneralneedslettingsprphouseholdcomposition opendatacommunities-households-social-lettings-general-needs-lettings-prp-household-composition
+opendatacommunitieshouseholdssociallettingsgeneralneedslettingsprpnumberbedrooms opendatacommunities-households-social-lettings-general-needs-lettings-prp-number-bedrooms
+opendatacommunitieshousingmarket opendatacommunities-housing-market
+opendatacommunitiesimdcrimerank2010 opendatacommunities-imd-crime-rank-2010
+opendatacommunitiesimdenvironmentrank2010 opendatacommunities-imd-environment-rank-2010
+opendatacommunitiesimdincomerankla2010 opendatacommunities-imd-income-rank-la-2010
+opendatacommunitiesimdrank2010 opendatacommunities-imd-rank-2010
+opendatacommunitiesimdscore2010 opendatacommunities-imd-score-2010
+opendatacommunitiesimpactindicatorsaffordablehousingstarts opendatacommunities-impact-indicators-affordable-housing-starts
+opendatacommunitiesimpactindicatorsenergyefficiencynewbuilds opendatacommunities-impact-indicators-energy-efficiency-new-builds
+opendatacommunitiesimpactindicatorshousingstarts opendatacommunities-impact-indicators-housing-starts
+opendatacommunitiesimpactindicatorsplanningapplicationsgranted opendatacommunities-impact-indicators-planning-applications-granted
+opendatacommunitiesinputindicatorslocalauthorityfundingfromgovernmentgrant opendatacommunities-input-indicators-local-authority-funding-from-government-grant
+opendatacommunitiesnetadditionaldwellings opendatacommunities-net-additional-dwellings
+opendatacommunitiesserviceexpenditure opendatacommunities-service-expenditure
+opendatacommunitiessocietalwellbeingdeprivationimdeducationrankla2010 opendatacommunities-societal-wellbeing-deprivation-imd-education-rank-la-2010
+opendatacommunitiessocietalwellbeingdeprivationimdemploymentrankla2010 opendatacommunities-societal-wellbeing-deprivation-imd-employment-rank-la-2010
+opendatacommunitiessocietalwellbeingdeprivationimdemploymentscore2010 opendatacommunities-societal-wellbeing-deprivation-imd-employment-score-2010
+opendatacommunitiessocietalwellbeingdeprivationimdhealthrankla2010 opendatacommunities-societal-wellbeing-deprivation-imd-health-rank-la-2010
+opendatacommunitiessocietalwellbeingdeprivationimdhealthscore2010 opendatacommunities-societal-wellbeing-deprivation-imd-health-score-2010
+opendatacommunitiessocietalwellbeingdeprivationimdhousingrankla2010 opendatacommunities-societal-wellbeing-deprivation-imd-housing-rank-la-2010
+opendatacommunitiessocietalwellbeingdeprivationimdincomerankla2010 opendatacommunities-societal-wellbeing-deprivation-imd-income-rank-la-2010
+opendatacommunitiessocietalwellbeingdeprivationimdrank2007 opendatacommunities-societal-wellbeing-deprivation-imd-rank-2007
+opendatacommunitiessocietalwellbeingdeprivationimdrank2010 opendatacommunities-societal-wellbeing-deprivation-imd-rank-2010
+opendatacommunitiessocietalwellbeingdeprivationimdrankla2010 opendatacommunities-societal-wellbeing-deprivation-imd-rank-la-2010
+opendatacommunitiessocietalwellbeingdeprivationimdscore2010 opendatacommunities-societal-wellbeing-deprivation-imd-score-2010
+opendatacommunitiestransparencyimpactindicatorsaffordablehousingstarts opendatacommunities-transparency-impact-indicators-affordable-housing-starts
+opendatacommunitiestransparencyimpactindicatorshouseholdsintemporaryaccommodation opendatacommunities-transparency-impact-indicators-households-in-temporary-accommodation
+opendatacommunitiestransparencyimpactindicatorshousingstarts opendatacommunities-transparency-impact-indicators-housing-starts
+opendatacommunitiestransparencyimpactindicatorsneighbourhoodplans opendatacommunities-transparency-impact-indicators-neighbourhood-plans
+opendatacommunitiestransparencyimpactindicatorstroubledfamilies opendatacommunities-transparency-impact-indicators-troubled-families
+opendatacommunitiestransparencyinputindicatorslocalauthoritiesworkingwithtroubledfamilies opendatacommunities-transparency-input-indicators-local-authorities-working-with-troubled-families
+opendatacommunitiestransparencyinputindicatorslocalauthorityfundingfromgovernmentgrant opendatacommunities-transparency-input-indicators-local-authority-funding-from-government-grant
+opendatacommunitieswellbeinghappyyesterdaystandarddeviation opendatacommunities-wellbeing-happy-yesterday-standard-deviation
+opendatacommunitieswellbeinglsoahappyyesterdaymean opendatacommunities-wellbeing-lsoa-happy-yesterday-mean
+opendatacommunitieswellbeingworthwhilemean opendatacommunities-wellbeing-worthwhile-mean
+opendataec Open Data of Ecuador
+opendatascotlandgrapheducationpupilsbyschoolanddatazone opendatascotland-graph-education-pupils-by-school-and-datazone
+opendatascotlandgraphsimdrank opendatascotland-graph-simd-rank
+opendatascotlandsimdcrimerank opendatascotland-simd-crime-rank
+opendatascotlandsimdeducationrank opendatascotland-simd-education-rank
+opendatascotlandsimdemploymentrank opendatascotland-simd-employment-rank
+opendatascotlandsimdgeographicaccessrank opendatascotland-simd-geographic-access-rank
+opendatascotlandsimdhealthrank opendatascotland-simd-health-rank
+opendatascotlandsimdhousingrank opendatascotland-simd-housing-rank
+opendatascotlandsimdincomerank opendatascotland-simd-income-rank
+openlinklodcache OpenLink Software LOD Cache
+openlinkswdataspaces openlinksw dataspaces
+openlylocal Openly Local :: Making Local Government More Transparent
+openmobilenetwork OpenMobileNetwork
+opentox OpenTox
+openuplabs OpenUpLabs Datasets
+opus OPUS - an open source parallel corpus
+orcid ORCID Connecting Research and Researchers
+ordnancesurveylinkeddata Ordnance Survey Linked Data
+oreilly oreilly
+organicedunet Organic Edunet Linked Open Data
+orlandowomenswritinglinkedopendataset The Orlando Women's Writing Linked Open Data Set
+osmsemanticnetwork OSM Semantic Network
+OTM Open Transport Map @PSNC
+ounldspaceinrdf OUNL DSpace in RDF
+oxacukcatalogue Dataset catalogue (University of Oxford)
+oxacukcataloguemetadata Dataset catalogue (University of Oxford)
+oxacukopenmeters OpenMeters (University of Oxford)
+oxacuktimeseries Time-series metadata (University of Oxford)
+oxacukvacancies Vacancies (University of Oxford)
+oxacukwwwoxacukevents Events calendar for the University (University of Oxford)
+oxpoints OxPoints (University of Oxford)
+palienglishlexicon Pali English Lexicon
+panlex PanLex
+parolesimplelexinfoontologylexicons Parole/Simple 'lexinfo' Ontology & lexicons
+patentsdatagovuk patents.data.gov.uk
+pdevlemon PDEV-Lemon
+pdevlemon pdevlemon
+periodo PeriodO Period Gazetteer
+personalhomepages Personal_Homepages
+PersonOnto Ontology of University People
+PGxLOD PGxLOD
+phoible Phonetics Information Base and Lexicon (PHOIBLE)
+planetdataprojectwiki PlanetData Project Wiki
+pleiades Pleiades
+pokepediafr Poképédia
+polymathvirtuallibrary Polymath Virtual Library (Authority data) - Fundación Ignacio Larramendi
+predictingbarleyvolumeandwholesaleprices Barley trading volume and wholesale prices
+predictingcorntradingvolumeandwholesaleprices Corn trading volume and wholesale prices
+predictingonionvolumeandwholesaleprices Onion trading volume and wholesale prices
+predictingpotatotradingvolumeandwholesaleprices Potato trading volume and wholesale price
+predictingwholesaleimportsbyregionofapples Predicting wholesale imports by region of apples
+predictingwholesaleimportsbyregionofbarley Predicting wholesale imports by region of barley
+predictingwholesaleimportsbyregionofbean Predicting wholesale imports by region of bean
+predictingwholesaleimportsbyregionofcabbage Predicting wholesale imports by region of cabbage
+predictingwholesaleimportsbyregionofcorn Predicting wholesale imports by region of corn
+predictingwholesaleimportsbyregionofcrab Predicting wholesale imports by region of crab
+predictingwholesaleimportsbyregionofcucumber Predicting wholesale imports by region of cucumber
+predictingwholesaleimportsbyregionoflettuce2 Predicting wholesale imports by region of lettuce
+predictingwholesaleimportsbyregionofonion Predicting wholesale imports by region of onion
+predictingwholesaleimportsbyregionofoystermushroom Predicting wholesale imports by region of oyster mushroom
+predictingwholesaleimportsbyregionofpotato Predicting wholesale imports by region of potato
+predictingwholesaleimportsbyregionofradish2 Predicting wholesale imports by region of radish
+predictingwholesaleimportsbyregionofriceplant Predicting wholesale imports by region of rice plant
+predictingwholesaleimportsbyregionofwatermelon Predicting wholesale imports by region of watermelon
+prefixcc prefix.cc
+prelex PreLex
+prelingerarchives Prelinger Archives
+premon PreMOn (Predicate Model for Ontologies)
+princetonlibraryfindingaids Princeton Library FindingAids
+printedbookauctioncatalogues English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland
+Prior Panel Prior Panel
+procedimientostramitesservicioszaragoza Procedimientos- trámites y servicios
+procomunsparql Procomún SPARQL
+prodjiscprojectdirectoryinrdf PROD - JISC Project Directory in RDF
+productdb ProductDB
+productontology Product Types Ontology
+prospectsandtrendsgnoss Prospects and Trends (GNOSS)
+provenanceweb provenanceweb
+proyectoapadrina Proyecto Apadrina-  Marketing Punto de Venta
+pscscatalogue Product Scheme Classifications Catalogue
+pshsubjectheadings Polythematic Structured Subject Heading System
+PubChem RDF PubChem RDF
+publicrecordofficevictoriasemanticwiki Public Record Office Victoria Semantic Wiki
+publicspendingingreece Public Spending in Greece
+publicationsofcharlesuniversityinprague Publications of Charles University in Prague
+publikaceuniverzitykarlovyvpraze Publikace Univerzity Karlovy v Praze
+qboairbase QBOAirbase
+qualitywebdataorg qualitywebdata.org
+Qualité de lair  Qualité de l'air
+Qualité de lair dans le monde Qualité de l'air dans le monde
+quotationsbook Quotations Book
+r4r Relations for Reusing (R4R) Ontology
+racaillodcorolawe Romanian CoRoLa Word Embeddings
+racaillodromaniantreebank Universal Dependencies Treebank Romanian
+radatana Rådata nå!
+rainisandaspazijalinkeddigitalcollection "Rainis and Aspazija" Linked Digital Collection
+raphaelresearchresource Raphael Research Resource
+ravensburglocalshoppinggraph Ravensburg Local Shopping Graph
+RbPLLGU Polish LGU financial statements
+rcahmsarchaeologicalobjectsthesaurus RCAHMS Archaeological Objects Thesaurus
+rcahmsmaritimecraftthesaurus RCAHMS Maritime Craft Thesaurus
+rcahmsmonumenttypesthesaurus RCAHMS Monument Types Thesaurus
+rcahmwmonumenttypesthesaurus RCAHMW Monument Types Thesaurus
+rcahmwperiodslist RCAHMW Periods List
+rdfbookmashup RDF Book Mashup
+rdfizelastfm Last.FM RDFization of Events- Artists- and Users
+rdflicense RDFLicense
+rdfohloh RDFohloh
+reactomerdf Reactome RDF
+rechtspraak Rechtspraak.nl
+redunointernacionalsantillana Red Uno Internacional (Santillana)
+referencedatagovuk reference.data.gov.uk
+regiony Regiony
+reload Repository for Linked Open Archival Data
+remote Sensing  Land use merced dataset
+renewableenergygenerators Renewable Energy Generators
+researchdatagovuk research.data.gov.uk
+researchobjectinagricoltureandfoodoftheuniversityofnaples Research object in Agricolture and Food of the University of Naples
+restauranteszaragoza Restaurantes
+reuters128nifnercorpus Reuters-128 NIF NER Corpus
+revyu Revyu.com - Review Anything
+rgsdfg sdafsadf
+riese RDFizing and Interlinking the EuroStat Data Set Effort
+rijksmuseum Rijksmuseum Collection Data
+rism Répertoire International des Sources Musicales - RISM
+rismauthorities RISM Authority data
+rk engineering equipment ontology
+rkbexploreracm Association for Computing Machinery (ACM) (RKBExplorer)
+rkbexplorerbudapest Budapest University of Technology and Economics (RKBExplorer)
+rkbexplorerciteseer CiteSeer (Research Index) (RKBExplorer)
+rkbexplorercordis Community R&D Information Service (CORDIS) (RKBExplorer)
+rkbexplorercourseware Resilient Computing Courseware (RKBExplorer)
+rkbexplorercrime Street level crime reports for England and Wales
+rkbexplorercrm crm
+rkbexplorercurriculum ReSIST MSc in Resilient Computing Curriculum (RKBExplorer)
+rkbexplorerdarmstadt Technische Universität Darmstadt (RKBExplorer)
+rkbexplorerdblp DBLP Computer Science Bibliography (RKBExplorer)
+rkbexplorerdeepblue Deep Blue (RKBExplorer)
+rkbexplorerdeploy DEPLOY (RKBExplorer)
+rkbexplorerdigitaleconomy digitaleconomy
+rkbexplorerdotac dotAC (RKBExplorer)
+rkbexplorerecs School of Electronics and Computer Science- University of Southampton
+rkbexplorerenaktingpsi enaktingpsi
+rkbexplorereprints ePrints3 Institutional Archive Collection (RKBExplorer)
+rkbexplorerepsrc epsrc
+rkbexplorerera ERA - Australian Research Council publication ratings (RKBExplorer)
+rkbexplorereurecom Institut Eurécom (RKBExplorer)
+rkbexplorerforeign rkb-explorer-foreign
+rkbexplorerft France Telecom Recherche et Développement (RKBExplorer)
+rkbexplorerfun fun
+rkbexplorergdlc gdlc
+rkbexploreribm IBM Research GmbH (RKBExplorer)
+rkbexplorerieee IEEE Papers (RKBExplorer)
+rkbexploreririt Université Paul Sabatier - Toulouse 3 (RKB Explorer)
+rkbexploreritaly Diverse Italian ReSIST Partner Institutions (RKBExplorer)
+rkbexplorerjisc UK JISC (RKBExplorer)
+rkbexplorerkaunas Vytautas Magnus University- Kaunas (RKBExplorer)
+rkbexplorerkisti Korean Institute of Science Technology and Information (RKBExplorer)
+rkbexplorerlaas LAAS-CNRS (RKBExplorer)
+rkbexplorerlisbon Fundação da Faculdade de Ciencas da Universidade de Lisboa (RKBExplorer)
+rkbexplorernewcastle University of Newcastle upon Tyne (RKBExplorer)
+rkbexplorernotube notube
+rkbexplorernsf National Science Foundation (RKBExplorer)
+rkbexploreroai Open Archive Initiative Harvest over OAI-PMH (RKBExplorer)
+rkbexploreropencyc OpenCyc (RKBExplorer)
+rkbexploreros Ordnance Survey (RKBExplorer)
+rkbexplorerphotos photos
+rkbexplorerpisa Università di Pisa (RKBExplorer)
+rkbexplorerrae2001 Research Assessment Exercise 2001 (RKBExplorer)
+rkbexplorerresex ReSIST Resilience Mechanisms (RKBExplorer.com)
+rkbexplorerrisks RISKS Digest (RKBExplorer)
+rkbexplorerroma Università degli studi di Roma "La Sapienza" (RKBExplorer)
+rkbexplorerroni roni
+rkbexplorersouthampton School of Electronics and Computer Science- University of Southampton (RKBExplorer)
+rkbexplorerulm Universität Ulm (RKBExplorer)
+rkbexplorerunlocode UN/LOCODE (RKBExplorer)
+rkbexplorerwebconf webconf
+rkbexplorerwebscience Web Science Conference (RKBExplorer)
+rkbexplorerwiki ReSIST Project Wiki (RKBExplorer)
+rkbexplorerwordnet WordNet (RKBExplorer)
+rkbexplorerdata RKB Explorer Data
+rosettaproject The Rosetta Project
+ROSHANI ontology terrorist attack
+ROSHANI SAHU TERRORIST ATTACK ONTOLOGY
+Rozprawa artykuł x
+rpmfind Rpm Find
+rss500nifnercorpus RSS-500 NIF NER CORPUS
+rubentaelman Ruben Taelman's Data
+rubenverborgh Ruben Verborgh's data
+russianuniversitiesspecialities Russian Universities Specialities
+ruthes RuThes Cloud
+rxnorm RxNorm
+sadisemanticwebservicesframeworkregistry SADI Semantic Web Services framework registry
+saldo SALDO
+saldordf SALDO-RDF
+saldomrdf SALDOM-RDF
+salzburgerlandcomde Salzburgerland DE
+salzburgerlandcomen Salzburgerland EN
+salzburgerlandcomit Salzburgerland IT
+sameasorg sameAs.org
+sandrartnet sandrart.net
+sandre Taxons 
+sanskritenglishlexicon Sanskrit English Lexicon
+santillanaguidedataset Santillana Guide Dataset
+SATAR test SATAR test 
+schemaorg schema.org
+schemapedia Schemapedia: RDF schema compendium
+scholarlydata scholarlydata
+scholarometer Scholarometer
+sciencecommons Science Commons
+sciencewise ScienceWise
+scoreboard The Digital Agenda Scoreboard of the European Commission
+SDG A Knowledge Organization System for the United Nations Sustainable Development Goals
+sears sears.com
+secrdfabout U.S. Securities and Exchange Commission Corporate Ownership RDF Data (rdfabout)
+secold Source Code Ecosystem Linked Data
+seekatwdicttoolsforeducationwebshare SEEK-AT-WD ICT tools for education - Web-Share
+semanlink semanlink
+semanticlibrary Semantic Library
+semanticprofilingnetwork Semantic Profiling Network
+semanticuniverse Semantic Universe Data
+semanticwebdogfood Semantic Web Dog Food Corpus
+semanticwebgrundlagen semantic-web-grundlagen
+semanticwebjournal semantic-web-journal
+semanticxbrl Semantic XBRL Financial Data
+semanticbible Semantic Bible
+semanticquran SemanticQuran
+semantictweet SemanticTweet
+semanticweborg semanticweb.org
+semsolcrunchbase Semantic CrunchBase
+sensoresdeintellidomo Sensores de IntelliDomo
+sentiws SentimentWortschatz
+seoulbikedata seoul-bike-data
+serendipity Serendipity
+shoahvictimsnames Shoah victims? names
+Shripriya Dubey Person
+similedatacollection SIMILE Data Collection
+simple SIMPLE
+sitcv4 SITC-V4
+sligalnetrdf SLI Galnet- the Galician wordnet- at version 3.0.26-  in RDF format
+slideshare2rdf Slideshare2RDF Server
+slidewikirdfsparql Slidewiki (RDF/SPARQL)
+slod Linked Stage Graph
+slovnkcpv2008commonprocurementvocabulary2008 Slovník CPV 2008 - Common Procurement Vocabulary 2008
+Smart POI dataset Smart Points Of Interest @PSNC
+smartlink SmartLink: Linked Services Non-Functional Properties
+snik SNIK
+socialnetworksandarchivalcontextfall2011 Social Networks and Archival Context Fall 2011
+SocialLink SocialLink
+sociallink SocialLink
+SocialRoles FamilyRelations as SocialRole
+socialsemwebthesaurus Social Semantic Web Thesaurus
+Soil maps Erosion-endangered soil zones dataset from Czech Republic @PSNC
+somya omer terrorrist ontology
+sors SORS
+soudyeskrepubliky Soudy České republiky
+southamptonacuk southampton-ac-uk
+southamptonacukapps Apps using our data (University of Southampton)
+southamptonecseprints ECS Southampton EPrints
+spanishlinguisticdatasets Spanish Linguistic Datasets
+sparqlendpointstatus SPARQL Endpoint Status
+spcpublikovanskl SPC publikovaná SÚKL
+spqr SPQR
+springernaturescigraph Springer Nature SciGraph
+srcmf Syntactic Reference Corpus of Medieval French (SRCMF)
+ssf Lexicon of Syntactic and Semantic Framework
+ssflexicon SSF
+standrewsresourcelists St. Andrews University Resource Lists
+stac STAC
+stafforganogramsandpayscottishgovernment Organogram and staff pay data for The Scottish Government
+stafforganogramsandpaythurrockthamesgatewaydevelopmentcorporation Organogram and staff pay data for Thurrock Thames Gateway Development Corporation
+statisticsdatagovuk statistics.data.gov.uk
+statisticsonfataltrafficaccidentsingreekroads Statistics on Fatal Traffic Accidents in greek roads
+statusnet1w6org statusnet-1w6-org
+statusnet20100org statusnet-20100-org
+statusnetalexandrefrankecom statusnet-alexandrefranke-com
+statusnetatarifroschde statusnet-atari-frosch-de
+statusnetbelfalasorg statusnet-belfalas-org
+statusnetbkali statusnet-bka-li
+statusnetbonifazec statusnet-bonifaz-ec
+statusnetced117net statusnet-ced117-net
+statusnetchickenkillercom statusnet-chickenkiller-com
+statusnetchromicorg statusnet-chromic-org
+statusnetcooleysekulanet statusnet-cooleysekula-net
+statusnetcoreyaviscom statusnet-coreyavis-com
+statusnetdatenfahrtorg statusnet-datenfahrt-org
+statusnetdavidhaberthuerch statusnet-davidhaberthuer-ch
+statusnetdeuxpica statusnet-deuxpi-ca
+statusnetdoomicilede statusnet-doomicile-de
+statusnetdtdnsnet statusnet-dtdns-net
+statusnetequestriarpnet statusnet-equestriarp-net
+statusnetexdcnet statusnet-exdc-net
+statusnetfcaccom statusnet-fcac-com
+statusnetfcestradacom statusnet-fcestrada-com
+statusnetfragdevcom statusnet-fragdev-com
+statusnetfreelishus statusnet-freelish-us
+statusnetgegeweborg statusnet-gegeweb-org
+statusnetglouorg statusnet-glou-org
+statusnetgomertroniccom statusnet-gomertronic-com
+statusnethackerpossecom statusnet-hackerposse-com
+statusnethiicoil statusnet-hii-co-il
+statusnetilikefreedomro statusnet-ilikefreedom-ro
+statusnetimirhilfr statusnet-imirhil-fr
+statusnetintegralbluecom statusnet-integralblue-com
+statusnetjohndrinkwatername statusnet-johndrinkwater-name
+statusnetjonkmanca statusnet-jonkman-ca
+statusnetkaimicc statusnet-kaimi-cc
+statusnetkathrylfr statusnet-kathryl-fr
+statusnetkenzoidcom statusnet-kenzoid-com
+statusnetkeuserfr statusnet-keuser-fr
+statusnetldnfainet statusnet-ldn-fai-net
+statusnetlebsanftorg statusnet-lebsanft-org
+statusnetlegadolibrecomar statusnet-legadolibre-com-ar
+statusnetlinuxwranglingcom statusnet-linuxwrangling-com
+statusnetludostnet statusnet-ludost-net
+statusnetlydiastenchcom statusnet-lydiastench-com
+statusnetmkuttnercom statusnet-m-kuttner-com
+statusnetmacnoorg statusnet-macno-org
+statusnetmamalibrecomar statusnet-mamalibre-com-ar
+statusnetmaymaynet statusnet-maymay-net
+statusnetmorphtownde statusnet-morphtown-de
+statusnetmrblognl statusnet-mrblog-nl
+statusnetmulestablenet statusnet-mulestable-net
+statusnetmystatustk statusnet-my-status-tk
+statusnetopensimchateu statusnet-opensim-chat-eu
+statusnetorangeseedsorg statusnet-orangeseeds-org
+statusnetotbmfr statusnet-otbm-fr
+statusnetourcoffsorgau statusnet-ourcoffs-org-au
+statusnetpandaidau statusnet-panda-id-au
+statusnetpianaeu statusnet-piana-eu
+statusnetplanetlibreorg statusnet-planet-libre-org
+statusnetpostblueinfo statusnet-postblue-info
+statusnetprogvalnet statusnet-progval-net
+statusnetqdnxorg statusnet-qdnx-org
+statusnetqthfr statusnet-qth-fr
+statusnetquitterse statusnet-quitter-se
+statusnetrainbowdashnet statusnet-rainbowdash-net
+statusnetrecitorg statusnet-recit-org
+statusnetrusswurmorg statusnet-russwurm-org
+statusnetsamnobleorg statusnet-samnoble-org
+statusnetschiessleorg statusnet-schiessle-org
+statusnetscoffoninet statusnet-scoffoni-net
+statusnetsebseb01net statusnet-sebseb01-net
+statusnetshnoullenet statusnet-shnoulle-net
+statusnetskilledtestscom statusnet-skilledtests-com
+statusnetsomsantsnet statusnet-somsants-net
+statusnetsoucycc statusnet-soucy-cc
+statusnetspiporg statusnet-spip-org
+statusnetspraciorg statusnet-spraci-org
+statusnetssweenynet statusnet-ssweeny-net
+statusnetstatusnet statusnet-status-net
+statusnetsweetiebellenet statusnet-sweetiebelle-net
+statusnettekkcomar statusnet-tekk-com-ar
+statusnetthelovebugorg statusnet-thelovebug-org
+statusnetthornton2com statusnet-thornton2-com
+statusnettimttmycouk statusnet-timttmy-co-uk
+statusnettl1ncom statusnet-tl1n-com
+statusnettschlotfeldtde statusnet-tschlotfeldt-de
+statusnetunisiegende statusnet-uni-siegen-de
+steak Super Terminology System(STEAK) - Linked Open Data
+stitchrameau RAMEAU subject headings (STITCH)
+strukturovanpopisyzfda Strukturované popisy z FDA
+stwthesaurusforeconomics STW Thesaurus for Economics
+SudershanTech SudershanTech
+sudocfr Sudoc bibliographic data
+Suface Forestière Mondiale 19902016 Suface Forestière Mondiale 1990-2016
+surgeradio Surge Radio
+swedishopenculturalheritage Swedish Open Cultural Heritage
+swefnrdf SweFN-RDF
+swetodblp SwetoDblp
+Swift Swift Vocabulary
+symbolicdata SymbolicData
+symptomsinchinese Symptoms in Chinese
+sztakilod National Digital Data Archive of Hungary (partial)
+t4gminfo Thesaurus for Graphic Materials (t4gm.info)
+tags2condelicious tags2con delicious
+taiwangeographicnames Taiwan geographic names
+talisopenlibrary Open Library data mirror in the Talis Platform
+talkbank nan
+taxonconcept TaxonConcept Knowledge Base
+taxonconceptassets taxonconcept-assets
+taxonconceptoccurences taxonconcept-occurences
+taxrefld TAXREF-LD: Linked Data French Taxonomic Register
+tcga The Cancer Genome Atlas
+tcgaroadmap TCGA Roadmap
+tcmgeneditdataset TCMGeneDIT Dataset
+tds TDS
+tedtalks TED Talks
+tekord TEKORD
+telegraphis Telegraphis Linked Data
+templeovtheelemurdatasets Temple ov thee Lemur
+terencereadingcomprehensiondataset TERENCE Reading Comprehension Dataset
+terminesp Terminesp Linked Data
+Terrorist attack Ontology
+Terrorist Attack 1 Terrorist Attack1
+tesauromateriasbupm Tesauro materias BUPM
+teseo Teseo
+Test Test
+test Test
+Test  Test
+testee xxxxx
+texailexicon Texai Lexicon
+tharawatmagazinecom tharawat magazine
+The Central Bank of the Republic of Uzbekistan Open data of Uzbekistan
+The Respublic of Uzbekistan Open data of Uzbekistan
+theciardring The CIARD RING
+thedruginteractionknowledgebase The Drug Interaction Knowledge Base
+theeuropeanlibraryopendataset The European Library Open Dataset
+theeurostatlinkeddata The Eurostat Linked Data
+thekazanuniversitymuseumaslinkedopendataintheeuropeanadatamodel The Kazan University Museum as Linked Open Data in the Europeana Data Model
+thelivinglodcloud The Living LOD Cloud
+themidilinkeddatacloud The MIDI Linked Data Cloud
+theviewfrom The View From
+thecontentwranglercom The Content Wrangler
+thesaurusbncf Thesaurus BNCF
+thesaurusdatenwissen Thesaurus Datenwissen
+thesaurusw Thesaurus W for Local Archives
+thesesfr theses.fr
+Thinkphile ThinkPhile (Publisher | Blog - Content -News - and Media Website)
+thist ThIST
+tip TIP
+tourpedia Tourpedia
+traditionalkoreanmedicine Traditional Korean Medicine Ontology
+trafficscotland Traffic Scotland
+transparencylinkeddata Transparency International Linked Data
+transportdatagovuk transport.data.gov.uk
+transportopenuplabs OpenUpLabs Transport
+twarql Twarql
+twcdatagov TWC Data-gov
+twcdemos Tetherless World Constellation Demonstrations
+twchealthdata HealthData.gov Platform (HDP) on the Semantic Web
+twchub Instance Hub (all)
+twcieeevis IEEE VIS Source Data
+twclogd TWC: Linking Open Government Data
+twcopendap twc-opendap
+tweetskb TweetsKB - A Public and Large-Scale RDF Corpus of Annotated Tweets
+twitterlids Twitter Linked Data Service
+typepad typepad
+ubmannheimlinkeddata Linked Data Service der Universitätsbibliothek Mannheim
+uberblic Uberblic.org
+ufo Unified Foundational Ontology
+UgandaDisastersrdfdata  Uganda Disasters
+uislinkeddata UNESCO Institute for Statistics (UIS) Linked Data
+uklegislationapi UK Legislation
+ukpostcodes UK Postcodes
+umbel UMBEL (Upper Mapping and Binding Exchange Layer)
+umthes UMTHES
+unhazardousnumbers UN Hazardous Materials Numbers
+unescothesaurus UNESCO Thesaurus
+unescothes UNESCO Thesaurus
+unistatkis20112012inrdfkeyinformationsetukuniversities UNISTAT-KIS 2011/2012 in RDF (Key Information Set - UK Universities)
+unistatkisinrdfkeyinformationsetukuniversities UNISTAT-KIS in RDF (Key Information Set - UK Universities)
+universaldependenciestreebankancientgreek Universal Dependencies Treebank Ancient_Greek
+universaldependenciestreebankancientgreekproiel Universal Dependencies Treebank Ancient_Greek-PROIEL
+universaldependenciestreebankarabic Universal Dependencies Treebank Arabic
+universaldependenciestreebankbasque Universal Dependencies Treebank Basque
+universaldependenciestreebankbulgarian Universal Dependencies Treebank Bulgarian
+universaldependenciestreebankcatalan Universal Dependencies Treebank Catalan
+universaldependenciestreebankchinese Universal Dependencies Treebank Chinese
+universaldependenciestreebankcoptic Universal Dependencies Treebank Coptic
+universaldependenciestreebankcroatian Universal Dependencies Treebank Croatian
+universaldependenciestreebankczech Universal Dependencies Treebank Czech
+universaldependenciestreebankczechcac Universal Dependencies Treebank Czech-CAC
+universaldependenciestreebankczechcltt Universal Dependencies Treebank Czech-CLTT
+universaldependenciestreebankdanish Universal Dependencies Treebank Danish
+universaldependenciestreebankdutch Universal Dependencies Treebank Dutch
+universaldependenciestreebankdutchlassysmall Universal Dependencies Treebank Dutch-LassySmall
+universaldependenciestreebankenglish Universal Dependencies Treebank English
+universaldependenciestreebankenglishesl Universal Dependencies Treebank English-ESL
+universaldependenciestreebankenglishlines Universal Dependencies Treebank English-LinES
+universaldependenciestreebankestonian Universal Dependencies Treebank Estonian
+universaldependenciestreebankfinnish Universal Dependencies Treebank Finnish
+universaldependenciestreebankfinnishftb Universal Dependencies Treebank Finnish-FTB
+universaldependenciestreebankfrench Universal Dependencies Treebank French
+universaldependenciestreebankgalician Universal Dependencies Treebank Galician
+universaldependenciestreebankgaliciantreegal Universal Dependencies Treebank Galician-TreeGal
+universaldependenciestreebankgerman Universal Dependencies Treebank German
+universaldependenciestreebankgothic Universal Dependencies Treebank Gothic
+universaldependenciestreebankgreek Universal Dependencies Treebank Greek
+universaldependenciestreebankhebrew Universal Dependencies Treebank Hebrew
+universaldependenciestreebankhindi Universal Dependencies Treebank Hindi
+universaldependenciestreebankhungarian Universal Dependencies Treebank Hungarian
+universaldependenciestreebankindonesian Universal Dependencies Treebank Indonesian
+universaldependenciestreebankirish Universal Dependencies Treebank Irish
+universaldependenciestreebankitalian Universal Dependencies Treebank Italian
+universaldependenciestreebankjapanese Universal Dependencies Treebank Japanese
+universaldependenciestreebankjapanesektc Universal Dependencies Treebank Japanese-KTC
+universaldependenciestreebankkazakh Universal Dependencies Treebank Kazakh
+universaldependenciestreebanklatin Universal Dependencies Treebank Latin
+universaldependenciestreebanklatinittb Universal Dependencies Treebank Latin-ITTB
+universaldependenciestreebanklatinproiel Universal Dependencies Treebank Latin-PROIEL
+universaldependenciestreebanklatvian Universal Dependencies Treebank Latvian
+universaldependenciestreebanknorwegian Universal Dependencies Treebank Norwegian
+universaldependenciestreebankoldchurchslavonic Universal Dependencies Treebank Old_Church_Slavonic
+universaldependenciestreebankpersian Universal Dependencies Treebank Persian
+universaldependenciestreebankpolish Universal Dependencies Treebank Polish
+universaldependenciestreebankportuguese Universal Dependencies Treebank Portuguese
+universaldependenciestreebankportuguesebosque Universal Dependencies Treebank Portuguese-Bosque
+universaldependenciestreebankportuguesebr Universal Dependencies Treebank Portuguese-BR
+universaldependenciestreebankromanian Universal Dependencies Treebank Romanian
+universaldependenciestreebankrussian Universal Dependencies Treebank Russian
+universaldependenciestreebankrussiansyntagrus Universal Dependencies Treebank Russian-SynTagRus
+universaldependenciestreebanksanskrit Universal Dependencies Treebank Sanskrit
+universaldependenciestreebankslovak Universal Dependencies Treebank Slovak
+universaldependenciestreebankslovenian Universal Dependencies Treebank Slovenian
+universaldependenciestreebanksloveniansst Universal Dependencies Treebank Slovenian-SST
+universaldependenciestreebankspanish Universal Dependencies Treebank Spanish
+universaldependenciestreebankspanishancora Universal Dependencies Treebank Spanish-AnCora
+universaldependenciestreebankswedish Universal Dependencies Treebank Swedish
+universaldependenciestreebankswedishlines Universal Dependencies Treebank Swedish-LinES
+universaldependenciestreebankswedishsignlanguage Universal Dependencies Treebank Swedish_Sign_Language
+universaldependenciestreebanktamil Universal Dependencies Treebank Tamil
+universaldependenciestreebankturkish Universal Dependencies Treebank Turkish
+universaldependenciestreebankukrainian Universal Dependencies Treebank Ukrainian
+universaldependenciestreebankuyghur Universal Dependencies Treebank Uyghur
+universaldependenciestreebankvietnamese Universal Dependencies Treebank Vietnamese
+universidaddecuencalinkeddata Universidad de Cuenca - LinkedData
+universitatpompeufabralinkeddata Universitat Pompeu Fabra - linked data
+universityofbristol University of Bristol
+universityplymouthreadinglists University of Plymouth Reading Lists
+universitysussexreadinglists University of Sussex Reading Lists
+unodc UNODC - Statistics on criminal justice
+Upper Ontology Sup_Ont: An Upper Ontology
+Urban Atlas  Urban Atlas dataset
+Urban Atlas Dataset Urban Atlas dataset @PSNC
+uriburner URIBurner
+urnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976 Vocabularios de los Códigos de Derecho de la Ciberseguridad en España
+Uros Legija Susa Legija Stranaca
+Uros Susa Legija
+uspoliticalviolence US Political Violence
+usagereviewcorpus USAGE review corpus
+utpllod Universidad Técnica Particular de Loja - Linked Open Data
+vkazyziskuaztrtobcr Výkazy zisku a ztrát obcí ČR
+varsha terrorist attack
+Vehicule Autonome VA
+verrijktkoninkrijk Verrijkt Koninkrijk
+viaf VIAF: The Virtual International Authority File
+viaspublicaszaragoza Vías Públicas de Zaragoza (Localización)
+vimeovideoobject vimeo.videoobject
+vivo VIVO
+vivocornelluniversity VIVO Cornell
+vivocuboulder VIVO CU-Boulder
+vivoindianauniversity VIVO Indiana
+vivoponce VIVO Ponce
+vivoscrippsresearchinstitute VIVO Scripps Research Institute
+vivouniversityofflorida VIVO University of Florida
+vivoweillcornellmedicalcollege VIVO Weill Cornell Medical College
+vivowustl VIVO WUSTL
+vivo2doi vivo2doi
+vuwordnet WordNet 3.0 (VU Amsterdam)
+vulnerapedia vulnerapedia
+Vyvasta Statybu imone - Vyvasta
+w3c W3C
+w3cprovenanceincubatorgroupvocabularymappings W3C Provenance Incubator Group Vocabulary Mappings
+w3cwordnet WordNet 2.0 (W3C)
+warsampo WarSampo
+wasabi WASABI RDF Knowledge Graph
+Water Areas Classification FAO water areas classification as linked data @PSNC
+Water Buffer Water buffer dataset from Czech Republic @PSNC
+webisalod WebIsALOD
+webnmasunotraveler webnmasunotraveler
+whiskycircleinfo Whisky Circle
+WHOnto Corona Virus Infected Cases Ontology
+wikidata Wikidata
+wikilinksrdfnif Wikilinks RDF/NIF
+wikipathways WikiPathways
+wikiwordthesaurus WikiWord Thesaurus Data
+wiktionarydbpediaorg wiktionary.dbpedia.org
+wingsworkflowprovenancedataset Wings workflow provenance dataset
+wnwikiinstances Wordnet-Wikipedia/DBpedia instance mapping
+wold World Loanword Database
+wordliftioblogen WordLift Blog EN
+wordliftioblogit WordLift IT
+wordnet Wordnet
+wordnetrdf WordNet-RDF
+wordpress wordpress
+wordpresspost wordpress.post
+worldbanklinkeddata World Bank Linked Data
+worldfactbookfuberlin World Factbook (FU Berlin)
+worldwidewebfoundation World Wide Web Foundation
+wp WikiPathways
+wundergroundweatherreport wunderground.weatherreport
+ww1lod World War 1 as Linked Open Data
+xlendiamphorae XlendiAmphorae
+xlidlexica xLiD-Lexica
+xwn Open Multilingual Wordnet
+xx xxx
+yago YAGO
+yahoogeoplanet Yahoo Geoplanet RDF
+yalesenselab Yale Senselab
+yovisto Yovisto - academic video search
+ysa Yleinen suomalainen asiasanasto - YSA
+yso YSO - General Finnish Ontology
+ysofiallars yso-fi-allars
+ysofiysa yso-fi-ysa
+zaragozadatosabiertos Datos Abiertos de Zaragoza
+zaragozaturruta zaragoza_turruta
+zbwlabs ZBW Labs
+zbwpressemappe20 20th Century Press Archives
+zhishilemon zhishi.lemon
+zhishime Zhishi.me
+zitgistmusicbrainz MusicBrainz (zitgist.com)
+红色经典歌曲关联数据集 红色经典歌曲关联数据集
