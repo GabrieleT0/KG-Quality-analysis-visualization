@@ -357,6 +357,8 @@ html,body{
 }
 
 #container-btn{
+  border: 3px solid #0090eacc;
+  border-radius: 15px;
   background-color: white;
   margin-left: 50px;
   position: fixed;
