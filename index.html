@@ -30,6 +30,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     
+    
     <div class="row">
         <div class="left">
           <h2 id="titleMen">KGs analyzed</h2>
@@ -45,30 +46,30 @@
         </div>
 
     <div class="right" style="width: 30%;">
-    <div class = 'wrapper' style="text-align: center; " >
-        <div id = 'metrics' style="align-items: center;">
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="score" name="metric" value="Score" checked><label for="score">Score</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="believ" name="metric" value="Believability" checked><label for="believ">Believability</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="av" name="metric" value="Availability" ><label for="av" >Availability</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="lic" name="metric" value="Licensing"> <label for="lic">Licensing</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="int" name="metric" value="Interlinking"> <label for="int">Interlinking-Reputation</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="sec" name="metric" value="Security"> <label for="sec">Security</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="perf" name="metric" value="Performance"> <label for="perf">Performance</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="acc" name="metric" value="Accuracy"> <label for="acc">Accuracy</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="cons" name="metric" value="Consistency"> <label for="cons">Consistency</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="verif" name="metric" value="Verifiability"> <label for="verif">Verifiability</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="vol" name="metric" value="Volatility"> <label for="vol">Volatility</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="curr" name="metric" value="Currency"> <label for="curr">Currency</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="con" name="metric" value="Conciseness"> <label for="con">Conciseness</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="com" name="metric" value="Completeness"> <label for="com">Completeness</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="amount" name="metric" value="Amount"> <label for="amount">Amount of data</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="repConc" name="metric" value="RepresentationalConciseness"> <label for="repConc">Representational conciseness</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="repCons" name="metric" value="RepresentationalConsistency"> <label for="repCons">Representational consistency</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="under" name="metric" value="Understendability"> <label for="under">Understendability</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="interp" name="metric" value="Interpretability"> <label for="interp">Interpretability</label></div>
-            <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="vers" name="metric" value="Versatility"> <label for="vers">Versatility</label></div>
+        <div class = 'wrapper' style="text-align: center; " >
+            <div id = 'metrics' style="align-items: center;">
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="score" name="metric" value="Score" checked><label for="score">Score</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="believ" name="metric" value="Believability" checked><label for="believ">Believability</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="av" name="metric" value="Availability" ><label for="av" >Availability</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="lic" name="metric" value="Licensing"> <label for="lic">Licensing</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="int" name="metric" value="Interlinking"> <label for="int">Interlinking-Reputation</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="sec" name="metric" value="Security"> <label for="sec">Security</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="perf" name="metric" value="Performance"> <label for="perf">Performance</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="acc" name="metric" value="Accuracy"> <label for="acc">Accuracy</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="cons" name="metric" value="Consistency"> <label for="cons">Consistency</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="verif" name="metric" value="Verifiability"> <label for="verif">Verifiability</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="vol" name="metric" value="Volatility"> <label for="vol">Volatility</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="curr" name="metric" value="Currency"> <label for="curr">Currency</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="con" name="metric" value="Conciseness"> <label for="con">Conciseness</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="com" name="metric" value="Completeness"> <label for="com">Completeness</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="amount" name="metric" value="Amount"> <label for="amount">Amount of data</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="repConc" name="metric" value="RepresentationalConciseness"> <label for="repConc">Representational conciseness</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="repCons" name="metric" value="RepresentationalConsistency"> <label for="repCons">Representational consistency</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="under" name="metric" value="Understendability"> <label for="under">Understendability</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="interp" name="metric" value="Interpretability"> <label for="interp">Interpretability</label></div>
+                <div class='input-radio'><input type="radio" onclick="passValue(idKG,this);" id="vers" name="metric" value="Versatility"> <label for="vers">Versatility</label></div>
+            </div>
         </div>
-    </div>
     
     <script>
     var metric = document.querySelector('input[name="metric"]:checked');
