@@ -3,6 +3,16 @@ function passValue(x,metric) {
   	var a = x;
 	idKG = x
 	m = document.querySelector('input[type="radio"][name="metric"]:checked')
+	elements = document.getElementsByClassName("KGbutton")
+    for(var i = 0; i< elements.length;i++){
+        elements[i].style.backgroundColor = "white"
+        elements[i].style.color = "black"
+        addClick(elements[i])
+    }
+    li = document.getElementById(x)
+    li.style.backgroundColor = "#00ea89cc"
+    li.style.color = "white"
+    li.style.borderRadius = "5px"
   	if(m == null){ //IF NO METRIC SELECTED, AVAILABILITY IS SHOWN BY DEFAULT
     	Highcharts.chart({
       		chart:{
@@ -3621,4 +3631,11 @@ function myFunction() {
 		li[i].style.display = "none";
 	  }
 	}
+}
+
+function addClick(li){
+    li.addEventListener("click",function(){
+        li.style.backgroundColor = "#00ea89cc"
+        li.style.color = "white"
+    });
 }

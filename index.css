@@ -673,10 +673,10 @@ footer {
 }
 
 .KGbutton:hover{
-  font-weight: 500;
-  color: white;
-  border-radius: 5px;
-  background-color: #00ea89cc;
+  font-weight: 500 !important;
+  color: white !important;
+  border-radius: 5px !important;
+  background-color: #00ea89cc !important;
 }
 
 #mySearch{
