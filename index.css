@@ -118,6 +118,7 @@ a:hover {
 }
 
 #tableInt{
+  border-color: white;
   margin-left: 40px;
 }
 
@@ -718,4 +719,10 @@ border: 2px solid #0090eacc;
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+#wrap-tbInt{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  float: right;
 }
