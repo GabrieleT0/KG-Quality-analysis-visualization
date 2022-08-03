@@ -2030,6 +2030,15 @@ function compare(ids,metrics){
                         var text = xmlhttp.responseText;
                         // Now convert it into array using regex
                         ids = text.split("\n");
+                        fullName = text.trim().split("\n");
+                        ids = []
+                        names = []
+                        for(var i = 0; i<fullName.length;i++){
+                            id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                            ids.push(id)
+                            name = fullName[i].trim().slice(fullName[i].indexOf(' ') + 1);
+                            names.push(name)
+                        }
                         wrapTab = document.getElementById('wrapScore')
                         wrapTab.style.display = 'block'
                         table = document.createElement('table')
