@@ -90,7 +90,6 @@ atcpublikovanskl ATC publikovaná SÚKL
 atheliarfid Athelia RFID- a global knowledge network of RFID technology
 aueblinkedopendata AUEB Linked Open Data
 austrianskiracers Alpine Ski Racers of Austria
- 
 babelnet BabelNet
 Baceviciuslt Bacevicius.lt
 bag Basisregistratie Adressen en Gebouwen
@@ -1057,7 +1056,6 @@ loius Linking Italian University Statistics Project
 loiuslinkingitalianuniversitystatistics LOIUS project - Linking Italian University Statistics
 londongazette The London Gazette - Gazettes Data
 losmetar Weather Stations
- 
 lowerlayersuperoutputareas Lower Layer Super Output Areas
 LPISPoland Polish Land Parcel Information System (LPIS) dataset @PSNC
 LPISCzechRepublic Land parcel dataset (LPIS) from Czech Republic @PSNC
@@ -1717,16 +1715,6 @@ umthes UMTHES
 unhazardousnumbers UN Hazardous Materials Numbers
 unescothesaurus UNESCO Thesaurus
 unescothes UNESCO Thesaurus
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 unistatkis20112012inrdfkeyinformationsetukuniversities UNISTAT-KIS 2011/2012 in RDF (Key Information Set - UK Universities)
 unistatkisinrdfkeyinformationsetukuniversities UNISTAT-KIS in RDF (Key Information Set - UK Universities)
 universaldependenciestreebankancientgreek Universal Dependencies Treebank Ancient_Greek
