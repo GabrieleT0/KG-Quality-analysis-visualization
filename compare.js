@@ -39,12 +39,17 @@ function compare(ids,metrics){
                     text: 'Availability of SPARQL endpoint',
                 },
                 yAxis: {
+                    min: -1,
+                    max: 1,
                     allowDecimals: false,
                         title: {
                             text: 'Status'
                         }
                 },
                 xAxis: {
+                    tickInterval:  7 * 24 * 3600 * 1000,
+                    startOnTick: true,
+                    startOfWeek: 0,
                     type:'datetime',
                 },
                 rangeSelector: {
@@ -56,6 +61,7 @@ function compare(ids,metrics){
                 },
                 plotOptions: {
                     series: {
+                        pointInterval: 7 * 24 * 3600 * 1000,
                         label: {
                             connectorAllowed: false
                         },
@@ -98,11 +104,16 @@ function compare(ids,metrics){
                     text: 'Availability of RDF dump',
                 },
                 yAxis: {
+                    min: -1,
+                    max: 1,
                     title: {
                         text: 'Status'
                     }
                 },
                 xAxis: {
+                    tickInterval:  7 * 24 * 3600 * 1000,
+                    startOnTick: true,
+                    startOfWeek: 0,
                     type:'datetime',
                 },
                 legend: {
@@ -113,11 +124,11 @@ function compare(ids,metrics){
                     enabled:true
                 },
                 plotOptions: {
+                    pointInterval: 7 * 24 * 3600 * 1000,
                     series: {
                         label: {
                             connectorAllowed: false
                         },
-                        pointStart: 2010
                     }
                 },
                 tooltip:{
@@ -395,12 +406,21 @@ function compare(ids,metrics){
                     align: 'center',
                 },
                 xAxis: {
+                    tickInterval:  7 * 24 * 3600 * 1000,
                     type:'datetime',
                 },
                 yAxis: {
                     title: {
                         text: 'Observations'
                     },
+                },
+                plotOptions: {
+                    series: {
+                        pointInterval: 7 * 24 * 3600 * 1000,
+                        label: {
+                            connectorAllowed: false
+                        },
+                      }
                 },
             });
               //CHART FOR THROUGHPUT
@@ -429,12 +449,21 @@ function compare(ids,metrics){
                     align: 'center',
                 },
                 xAxis: {
+                    tickInterval:  7 * 24 * 3600 * 1000,
                     type:'datetime',
                 },
                 yAxis: {
                     title: {
                         text: 'Observations'
                     },
+                },
+                plotOptions: {
+                    series: {
+                        pointInterval: 7 * 24 * 3600 * 1000,
+                        label: {
+                            connectorAllowed: false
+                        },
+                      }
                 },
             });
             for(var i = 0; i<ids.length;i++){
@@ -601,26 +630,15 @@ function compare(ids,metrics){
                             }
                         }],
                     },
-                    tooltip:{
-                        shared:true
+                    tooltip: {
+                        shared: true,
+                        pointFormat: '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
                     },
-                    responsive: {
-                        rules: [{
-                            condition: {
-                                maxWidth: 500
-                            },
-                            chartOptions: {
-                                legend: {
-                                    align: 'center',
-                                    verticalAlign: 'bottom',
-                                    layout: 'horizontal'
-                                },
-                                pane: {
-                                    size: '70%'
-                                }
-                            }
-                        }]
-                    }    
+                    legend: {
+                        align: 'right',
+                        verticalAlign: 'middle',
+                        layout: 'vertical'
+                    }, 
                 });
                 for(var i = 0; i<ids.length; i++){
                     drawSingleAcc(ids[i],chartAcc2)

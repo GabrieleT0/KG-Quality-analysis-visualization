@@ -141,6 +141,8 @@ function passValue(x,metric) {
 								type:'datetime',
 							},
 							yAxis: {
+								min: -1,
+								max: 1,
 								allowDecimals: false,
 								title: {
 									text: 'Status'
@@ -211,6 +213,8 @@ function passValue(x,metric) {
 								}
 							},
 							yAxis: {
+								min: -1,
+								max: 1,
 								title: {
 									text: 'Status'
 								}
