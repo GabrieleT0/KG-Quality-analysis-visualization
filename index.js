@@ -118,10 +118,10 @@ function passValue(x,metric) {
 							measurementsRDF.push(dataRDF)
 							dataDef = [date_utc,parseFloat(parseFloat(line[89]).toFixed(2))]
 							measurementsDef.push(dataDef)
-						}			
+						}		
 						Highcharts.chart({ //CHART FOR SPARQL ENDPOINT AVAILABILITY
 							chart:{
-								type : 'line',
+								type : 'spline',
 								renderTo: 'container',
 							},
 							title: {
