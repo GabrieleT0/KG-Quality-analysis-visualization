@@ -90,6 +90,7 @@ atcpublikovanskl ATC publikovaná SÚKL
 atheliarfid Athelia RFID- a global knowledge network of RFID technology
 aueblinkedopendata AUEB Linked Open Data
 austrianskiracers Alpine Ski Racers of Austria
+ 
 babelnet BabelNet
 Baceviciuslt Bacevicius.lt
 bag Basisregistratie Adressen en Gebouwen
@@ -424,7 +425,7 @@ blablaitemlist blabla.itemlist
 blablaitemlist blabla.itemlist
 bllthesaurus Bibliography of Linguistic Literature (BLL) Thesaurus
 blukbnb British National Bibliography (BNB) - Linked Open Data
-bncfns Thesaurus BNCF
+bncfns nan
 bpr BPR ? Bibliography of the Italian Parliament and electoral studies
 brazilianpoliticians Brazilian Politicians
 braziliancities BrazilianCities
@@ -435,29 +436,29 @@ bsv French Plant Health Bulletins
 bundoffenerhaushalt Bund Offener Haushalt
 bundestagnebeneinkuenfte BundestagNebeneinkuenfte
 businessdatagovuk business.data.gov.uk
-BVMC Biblioteca Virtual Miguel de Cervantes
+BVMC nan
 cabbage Price changes due to cabbage imports
 cablegate cablegate
 calames Calames
-CaLiGraph CaLiGraph
+CaLiGraph nan
 canlink can-link
 capitalyrdf Postal codes Italy (LinkedOpenData.it)
 catalaneurowordnetlemonlexicon30 Catalan EuroWordNet-lemon lexicon (3.0)
 catalogusprofessorumlipsiensis Catalogus Professorum Lipsiensis
-CatchRecord20142019 Norway catch records dataset @PSNC
+CatchRecord20142019 nan
 ce4r CE4R Knowledge Centre Corporate Excellence – Centre for Reputation Leadership
-ceo Linked Data Cultural Heritage Agency of the Netherlands
+ceo nan
 chargingstations Charging Stations
 chatgamecorpus Chat Game corpus
 chebi Chemical Entities of Biological Interest (ChEBI)
 chem2bio2rdf Chem2Bio2RDF
 chemblrdf ChEMBL RDF
 chempediardf ChemPedia RDF
-ChineseRedClassicSongLinkedDataDataset Chinese Red Song Linked Data Dataset
+ChineseRedClassicSongLinkedDataDataset nan
 chroniclingamerica Chronicling America
-cht Cultural Heritage Thesaurus
+cht nan
 ciardring ciard-ring
-cinemathequequebecoiselinkedopendata Cinémathèque québécoise Linked Open Data
+cinemathequequebecoiselinkedopendata nan
 cipfa CIPFA
 ckan Comprehensive Knowledge Archive Network
 cleanenergydatareegle Linked Clean Energy Data (reegle.info)
@@ -470,7 +471,7 @@ clldsails CLLD-SAILS
 clldwals CLLD-WALS
 clldwold CLLD-WOLD
 codinventory COD inventory
-CoDa Cooperation Databank
+CoDa nan
 codeendpoint CODE Endpoint
 coinsopenuplabs OpenUpLabs COINS
 colinda COLINDA - Conference Linked Data
@@ -487,18 +488,18 @@ connectivityofloddatasets LODsyndesis Dataset
 copaclibrarycatalogue Copac: union catalogue of major University- Specialist- and National Libraries in the UK and Ireland
 copyrighttermbank CopyrightTermBank
 core CORE - Semantic Similarity of Open Access publications
-Corinelinkeddataset Corine linked dataset @PSNC
+Corinelinkeddataset nan
 corn Corn's Famous mountainous district (Hongcheon) Environmental Status
 cornsfamousmountainousdistrictgoesanenvironmentalstatus Corn's Famous mountainous district (Goesan) Environmental Status
 cornsfamousmountainousdistrictjeongseonenvironmentalstatus Corn's Famous mountainous district (Jeongseon) Environmental Status
 cornetto Cornetto1.2
-corporatebody Corporate Body Named Authority List 
+corporatebody nan
 corscheck CORS Check - HTTP Header Logs for Linked Open Data
-countryauthoritylist Country Name Authority List
+countryauthoritylist nan
 courtsthesaurus Courts thesaurus
-CovidontheWeb Covid-on-the-Web Dataset
+CovidontheWeb nan
 cpa2008 CPA 2008
-CPC Cooperative Patent Classification
+CPC nan
 cpc2008 CPC 2008
 cpv2003 CPV  2003
 cpv2008 CPV 2008
@@ -546,8 +547,8 @@ czsaocheckactionslaw List of laws used in inspection reports of SAO
 czsidcdrugingredients Active ingredients of medicinal products available in Czech Republic
 czsidcdrugprices List of prices of reimbursed medicinal products marketed in Czech republic
 czsidcdrugs Medicinal products marketed in Czech Republic
-czsouhrnnetypyovm Summary types of Czech institutions of public power
-czvavaievaluation2013 Evaluation of VaVaI results for 2013
+czsouhrnnetypyovm nan
+czvavaievaluation2013 nan
 czvavaifundingproviders State funding providers
 czvavaiorganizations Organizations active in R&D
 czvavaiprogrammes R&D Programmes
@@ -575,14 +576,14 @@ dataopenacuk data.open.ac.uk- Linked Data from the Open University
 dataperseefr Persée in RDF
 datasouthamptonacuk data.southampton.ac.uk with SPARQL endpoint
 dataszepmuveszetihu data-szepmuveszeti-hu
-dataodwtw Open Data Web
+dataodwtw nan
 datafaqs DataFAQs
 datahub datahub
 dataturcyllodfortouristsincastillayleonspain DATATURCYL - LOD for tourists in Castilla y León (Spain)
 datosartiumorg datos-artium-org
 datosbcncl Datos.bcn.cl
 datosbnees datos.bne.es
-dbacademic dbacademic
+dbacademic nan
 dbkwik DBkWik
 dblpdeustognoss DBLP Research Groups (University of Deusto-GNOSS)
 dbnary dbnary
@@ -645,7 +646,7 @@ duraarklinkedbuildingdata DURAARK - Linked Building Data
 dutchnationalregulationsmetalex MetaLex Document Server
 dutchshipsandsailors Dutch Ships and Sailors
 dwsgroup DWS-Group
-E1 E1 - Nuvem dados
+E1 nan
 eagleialaska eagle-i @ University of Alaska Fairbanks
 eagleicau eagle-i @ Clark Atlanta University
 eagleiccnycuny eagle-i @ The City College of New York
@@ -670,7 +671,7 @@ eagleiutep eagle-i @ University of Texas at El Paso
 eagleiutsa eagle-i @ University of Texas at San Antonio
 eagleivanderbilt eagle-i @ Vanderbilt University
 eagleixula eagle-i @ Xavier University of Louisiana
-Earthquake Emergency situation
+Earthquake nan
 ecblinkeddata European Central Bank (ECB) Linked Data
 ecbstatisticslinkeddata European Central Bank Statistics (PublicData.eu)
 eccotcplinkeddata ECCO-TCP Eighteenth Century Texts Linked Data
@@ -685,8 +686,8 @@ eea European Environment Agency Published Products
 eearod EEA Reporting Obligations Database
 eeavocabularies EEA Vocabularies
 egeuniversitylinkedopendata Ege University Linked Open Data
-EGovOntology E-Government Ontology
-ei2a Aragon Interoperable Information Structure EI2A - aragon open data
+EGovOntology nan
+ei2a nan
 eionetrdf EIONET RDF Data
 eltedigitalinstitutionalrepositoryedit ELTE Digital Institutional Repository (EDIT)
 elviajero El Viajero's tourism dataset
@@ -710,7 +711,7 @@ englishheritageperiodslist English Heritage Periods List
 englishindexofmultipledeprivationranking2010 English Index of Multiple Deprivation Ranking 2010
 englishindexofmultipledeprivationscore2010 English Index of Multiple Deprivation Score 2010
 englishindicesofmultipledeprivation English Indices of Multiple Deprivation
-englishwordnet English WordNet
+englishwordnet nan
 englishheritageplaces English Heritage Places
 enipedia Enipedia - Energy Industry Data
 entrezgene Entrez Gene
@@ -718,7 +719,7 @@ entrezgeneextract Entrez Gene Extract
 environmentagencybathingwaterquality Environment Agency Bathing Water Quality
 environmentdatagovuk environment.data.gov.uk
 environmentalapplicationsreferencethesaurus EARTh
-EOmetadata Micka (EO metadata) @PSNC
+EOmetadata nan
 epacdr EPA-CDR
 epafrs EPA-FRS
 eparcra EPA-RCRA
@@ -730,7 +731,7 @@ eprtr European Pollutant Release and Transfer Register (E-PRTR)
 esmsssidrugprices List of prices of medicinal products marketed in Kingdom of Spain
 esdstandards ESD Standards: Controlled lists for the UK public sector
 esdtoolkit ESD-Toolkit
-esislearning Dataset Esis
+esislearning nan
 euagenciesbodies EU Agencies and decentralized bodies (Agencies)
 eudgttm EU Directorate-General for Translation (DGT) - Acquis Communautaire
 euinstitutions Institutions and Bodies of the European Union
@@ -740,14 +741,14 @@ eumidalinkeddata EUMIDA as Linked Data
 eunis European Nature Information System
 eurlexrdf EUR-Lex as Linked Data
 eurobarometerstandard Standard Eurobarometer
-EuropeanPatentInformation EPO patents
+EuropeanPatentInformation nan
 europeanelectionresults European Election Results
 europeanalod Europeana Linked Open Data
 europeanalodv1 Europeana Linked Open Data V1.0
 europeanasparql Europeana SPARQL
 eurosentiment EuroSentiment
 eurostatrdf Eurostat RDF datasets
-eurovoc EuroVoc
+eurovoc nan
 eurovocinskos EUROVOC in SKOS
 euscreen European Television Heritage
 euskadifarmacias Farmacias en Euskadi
@@ -755,11 +756,11 @@ eutcproductions Edinburgh University Theatre Company Productions
 eventmedia EventMedia
 eventkg EventKG
 eventseer Eventseer
-FaceLink Face Link
+FaceLink nan
 facebooklids Facebook Linked Data Service
 factforge Fact Forge
-FADN2019 Farm Accountancy Data Network (FADN) linked dataset from 2019 @PSNC
-FAOspecies FAO ASFIS classification of biological entities @PSNC
+FADN2019 nan
+FAOspecies nan
 faogeopoliticalontology FAO geopolitical ontology
 faolinkeddata Food and Agriculture Organization of the United Nations (FAO) Linked Data
 farmbiochembl ChEMBL-RDF (@ Uppsala University)
@@ -768,13 +769,13 @@ farolappdataset FarolApp Streetlight Dataset
 fataltrafficaccidentsingreekroads Fatal Traffic Accidents in greek roads
 federaleconomicrdf Federal Reserve Economic Data RDF
 feedwrapperlids Feed Wrapper
-FHIRSTU3 FHIR STU3
+FHIRSTU3 nan
 fiesta FiESTA
 fileCUsersaDesktopurnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976owl nan
 finnishmunicipalities Finnish municipalities and regional classifications
 firmao firmao
 fisharchaeologicalobjectsthesaurus FISH Archaeological Objects Thesaurus
-FisheryStockDataset Norway fishery stocks dataset @PSNC
+FisheryStockDataset nan
 fishesoftexas Fishes of Texas
 flickrwrappr flickr? wrappr
 flickrperson flickr.person
@@ -791,7 +792,7 @@ framenet FrameNet
 framester Framester
 frblinkeddata Federal Reserve Board (FRB) Linked Data
 freebase Freebase
-freeyorkorg Freeyork
+freeyorkorg nan
 frenchschoolprogram French School Program
 frenchschoolsystem French School System
 frenchtimebank French TimeBank
@@ -809,7 +810,7 @@ fuberlinprojectgutenberg Project Gutenberg in RDF (FU Berlin)
 fuberlinsider SIDER: Side Effect Resource
 fuberlinstitch STITCH: Chemical-Protein Interactions
 fv fv
-GACS Global Agricultural Concept Space
+GACS nan
 galenfromcoodeorg Galen from co-ode.org
 galicianeurowordnetlemonlexicon30 Galician EuroWordNet-lemon lexicon (3.0)
 garnicaplywood Garnica Plywood Catalogue
@@ -817,7 +818,7 @@ gemeenschappelijkethesaurusaudiovisuelearchieven Gemeenschappelijke Thesaurus Au
 gemet GEneral Multilingual Environmental Thesaurus
 gemetannotated gemet-annotated
 geneexpressionatlasrdf Gene Expression Atlas RDF
-GeneralizedSuperOntology Super Ontology
+GeneralizedSuperOntology nan
 geoplace geo.place
 geodomainwn geodomainwn
 geoecuador GeoEcuador
@@ -826,7 +827,7 @@ geographicopenuplabs OpenUpLabs Geographic
 geolinkeddata GeoLinkedData
 geologicalsurveyofaustriathesaurus Geological Survey of Austria (GBA) - Thesaurus
 geonamessemanticweb GeoNames Semantic Web
-geospatialworldnet Geospatial World 
+geospatialworldnet nan
 geospecies GeoSpecies Knowledge Base
 geowordnet GeoWordNet
 germanlaborlawthesaurus German labor law thesaurus
@@ -849,24 +850,24 @@ governmentwebintegrationforlinkeddata GovWILD - Government Web Integration for L
 govtrack GovTrack.us U.S Congress Legislative Data
 greekadministrativegeography greek-administrative-geography
 greekwordnet Greek Wordnet
-greekchildrensartmuseum Greek Children Art  Museum dataset
+greekchildrensartmuseum nan
 greencompetitivenessgnoss Green Competitiveness (GNOSS)
 grrp Accommodations in Piedmont (LinkedOpenData.it)
 grrt Accommodations in Tuscany (LinkedOpenData.it)
-GTS Geological Timescale
-GTSont Geological Timescale Ontology
-GuillaumeForget GUTSTOK 
+GTS nan
+GTSont nan
+GuillaumeForget nan
 gutenberg Project Gutenberg
-gwaili Global WordNet Association Interlingual Index
+gwaili nan
 hclsknowledgebase HCLS Knowledge Base
-HealthCareOntology HealthCare Ontology
+HealthCareOntology nan
 heartfailure Meriterm Heart Failure Multilingual Terminology
 hebisbibliographicresources HeBIS - Bibliographic Resources of the Library Union Catalogues of Hessen and parts of the Rhineland Palatinate
 hedatuz Hedatuz
 hellenicfirebrigade Hellenic Fire Brigade
 hellenicpolice Hellenic Police
 homologene Homologene
-hongse gseg
+hongse nan
 httpdatanoticiasuniversianet Noticias Universia
 httpwwwiwmicgiarorgpublicationsiwmiworkingpapers http://www.iwmi.cgiar.org/publications/iwmi-working-papers/
 httpdatalinkedeodataeuroadidStateRoadD010Turkey1 nan
@@ -888,8 +889,8 @@ idreffr IdRef: Sudoc authority data
 ids Intercontinental Dictionary Series
 ietflang ietflang
 iislodtest Test Site- LOD Lab 317
-imsparql im@sparql
-imagerybailingniao imagery bailingniao
+imsparql nan
+imagerybailingniao nan
 imagesnippets Imagesnippets Image Descriptions
 imflinkeddata International Monetary Fund (IMF) Linked Data
 imgpedia IMGpedia
@@ -918,7 +919,7 @@ integratedhumangeographyserviceforlod Integrated Human Geography Service for LOD
 interactivemapsgnoss Interactive Maps- a collection of interactive flash maps (GNOSS)
 interakcemeziinnmiltkami Interakce mezi účinnými látkami
 intervalue intervalue
-Inztrow Inztrow
+Inztrow nan
 iptcnewscodes IPTC NewsCodes
 irsteaweatherdatasetofthemontoldreexperimentalfarm Irstea Weather Dataset of the Montoldre Experimental Farm
 iserve iServe: Linked Services Registry
@@ -934,9 +935,9 @@ ispralodplace ISPRA - The administrative divisions of Italy (regions/provinces/m
 ispralodrmn ISPRA - The Italian National Tide Gauge Network (RMN)
 ispralodron ISPRA - The Italian Data Buoy Network (RON)
 ispralodsc ISPRA - Soil Consumption Indicators in Italy
-ISSN00803626 Pierwszy polski podręcznik bibliotekarski
-ISSN00803626 Aktualne zagadnienia klasyfikacji map
-ISSN00803626 Pierwszy polski podręcznik bibliotekarski
+ISSN00803626 nan
+ISSN00803626 nan
+ISSN00803626 nan
 istatimmigration ISTAT Immigration (LinkedOpenData.it)
 istatimmigrazione ISTAT Immigrazione (Linkedopendata.it)
 itaifadrugprices List of prices of medicinal products marketed in Italian Republic
@@ -964,17 +965,17 @@ kasabiopenflightsroutes Openflights Routes
 klappstuhlclub Klappstuhlclub
 knoesislinkedsensordata Linked Sensor Data (Kno.e.sis)
 knowledgemap Knowledge Forest
-KnowledgeFusion Knowledge Forest
+KnowledgeFusion nan
 kore50nifnercorpus KORE 50 NIF NER Corpus
 koreaintellectualpropertofficekipo Korea Intellectual Propert Office(KIPO)
-KronikanaukowaBibliotekiJagiellońskiej Kronika naukowa Biblioteki Uniwersyteckiej w Łodzi
+KronikanaukowaBibliotekiJagiellońskiej nan
 ktr Korean Traditional Recipes
 kupkb Kidney and Urinary Pathway Knowledge Base
 livppravkyzeskl Léčivé přípravky ze SÚKL
 l3sdblp DBLP in RDF (L3S)
 lakdataset Learning Analytics and Knowledge (LAK) Dataset
-languageauthoritylist  Language Name Authority List 
-LARK Lark
+languageauthoritylist nan
+LARK nan
 latclinksets LATC Linksets
 lcc Leipzig Corpora Collection (LCC)
 lcsh Library of Congress Subject Headings
@@ -982,7 +983,7 @@ lcsubjects LCSubjects.org Library of Congress Subject Headings
 ldqmdbpedia2016 LDQM - Accessibility of DBpedia resources
 learnedgenreontologyeng Learned Genre Ontology Eng
 learnedgenreontologyintl Learned Genre Ontology Intl
-LEGIJASTRANACA U ime Legije
+LEGIJASTRANACA nan
 legislationopenuplabs OpenUpLabs Legislation
 lemonuby lemonUby
 lemonwiktionary LemonWiktionary
@@ -1040,7 +1041,7 @@ lobi Linked Open Biomedical Investigations
 lobidorganisations lobid-organisations
 lobidresources lobid-Bibliographic Resources
 loc Linked Open Colors
-LocationOntology Location Ontology
+LocationOntology nan
 locv Linked Open Computer Vision
 lodalot LOD-a-lot
 loditscuoleitaliane Scuole Italiane (linkedopendata.it)
@@ -1056,19 +1057,20 @@ loius Linking Italian University Statistics Project
 loiuslinkingitalianuniversitystatistics LOIUS project - Linking Italian University Statistics
 londongazette The London Gazette - Gazettes Data
 losmetar Weather Stations
+ 
 lowerlayersuperoutputareas Lower Layer Super Output Areas
-LPISPoland Polish Land Parcel Information System (LPIS) dataset @PSNC
-LPISCzechRepublic Land parcel dataset (LPIS) from Czech Republic @PSNC
+LPISPoland nan
+LPISCzechRepublic nan
 lremapauth A collection of Authors for LREC2014 and related Workshops
 lremapconf LREC2014 and related Workshops
 lremapri First not-normalized set of language resources from LREC2014
 lremapsub A collection of Submissions for LREC2014 and related Workshops
 lsq LSQ
-Luminairessenlis Linked rules
+Luminairessenlis nan
 mnovkurzyvzhledemkeur Měnové kurzy vzhledem k EUR
-makg Microsoft Academic Knowledge Graph
+makg nan
 manchesteruniversityreadinglists Manchester University Reading Lists
-manish engineering equipment ontology
+manish nan
 mapareferenciabogota Mapa de Referencia para Bogotá- Distrito Capital
 mapareferenciabogotadc Mapa de Referencia para Bogotá D.C
 marccodes MARC Codes List
@@ -1104,20 +1106,20 @@ museosespaniagnoss Museos de España- colección de museos públicos y privados 
 museumsinitaly Italian Museums
 musicbrainz MusicBrainz
 musicnetcodex MusicNet Codex
-muziekweb Muziekweb
+muziekweb nan
 myexperiment myExperiment
 myfamilylineage My Family Lineage
-myontologytest My ontology test
+myontologytest nan
 myopenlinkdataspaces myopenlink dataspaces
 nlexaslinkeddata N-Lex as Linked Data
 naics2007 NAICS 2007
 naics2012 NAICS 2012
 nalt National Agricultural Library Thesaurus
-Names Usernames 
+Names nan
 nationaldietlibraryauthorities Web NDL Authorities - National Diet Library of Japan
 nationaldietlibrarysubjectheadings National Diet Library of Japan subject headings
 nationallibraryofgreeceauthorityrecords National Library of Greece Authority Records
-Naturopathy Naturopathy Knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.
+Naturopathy nan
 naturopathy2 Naturopathy
 ncithesaurus NCI Thesaurus
 ndfrt NDF-RT
@@ -1125,20 +1127,20 @@ near Near
 neel Neel
 neurocommonstextminingpilot Neurocommons text mining pilot
 neurolexwiki NeuroLex Wiki
-newbornphotographymaternityphotoshootshivanigoyal Shivani Goyal Photography
+newbornphotographymaternityphotoshootshivanigoyal nan
 news100nifnercorpus News-100 NIF NER Corpus
 newsweek Newsweek
-nextprot neXtProt
+nextprot nan
 nextwebgnoss Next Web- a global knowledge network of semantic technology and Web 3.0 (GNOSS)
 nhsjargon NHS Jargon RDF
 nlm2007mesh NLM 2007 MeSH
 nlrdatasetmod National Library of Russia BibCore Dataset
 nobelprizes Nobel Prizes
-NoiPA NoiPA
+NoiPA nan
 nomenclatorasturias Nomenclator Asturias
 nomisma nomisma
-nomismaorg Nomisma.org 
-NorwayFishery Norway fishery stocks dataset
+nomismaorg nan
+NorwayFishery nan
 norwegiangeodivisions Norwegian geo-divisions
 norwegiansoe NorwegianSoE
 nottinghamtrentuniversityresourcelists Nottingham Trent University Resource Lists
@@ -1173,40 +1175,40 @@ ogolod Orthology and Diseases Information - OGO
 olac OLAC Metadata
 olia OLiA
 oliadiscourse OLiA Discourse
-OLU Open Land Use
+OLU nan
 omegawiki OmegaWiki
-omwnals Albanet WordNet (as part of Open Multilingual WordNet)
-omwnarb Arabic WordNet (as part of Open Multilingual WordNet)
-omwnbul BulTreeBank WordNet (as part of Open Multilingual WordNet)
-omwncow Chinese WordNet (as part of Open Multilingual WordNet)
-omwncwn Chinese WordNet (as part of Open Multilingual WordNet)
-omwndan DanNet WordNet (as part of Open Multilingual WordNet)
-omwnell Greek WordNet (as part of Open Multilingual WordNet)
-omwneng Princeton WordNet (as part of Open Multilingual WordNet)
-omwnfas Persian WordNet (as part of Open Multilingual WordNet)
-omwnfin FinnWordNet WordNet (as part of Open Multilingual WordNet)
-omwnfra WOLF WordNet (as part of Open Multilingual WordNet)
-omwnheb Hebrew WordNet (as part of Open Multilingual WordNet)
-omwnhrv Croatian WordNet (as part of Open Multilingual WordNet)
-omwnisl IceWordNet WordNet (as part of Open Multilingual WordNet)
-omwnita MultiWordNet WordNet (as part of Open Multilingual WordNet)
-omwniwn ItalWordnet WordNet (as part of Open Multilingual WordNet)
-omwnjpn Japanese WordNet (as part of Open Multilingual WordNet)
-omwnmcr Multilingual Central Repository (as part of Open Multilingual WordNet)
-omwnmsa Wordnet WordNet (as part of Open Multilingual WordNet)
-omwnnld Open WordNet (as part of Open Multilingual WordNet)
-omwnnor Norwegian WordNet (as part of Open Multilingual WordNet)
-omwnpol plWordNet WordNet (as part of Open Multilingual WordNet)
-omwnpor OpenWN-PT WordNet (as part of Open Multilingual WordNet)
-omwnron Romanian WordNet (as part of Open Multilingual WordNet)
-omwnslk Slovak WordNet (as part of Open Multilingual WordNet)
-omwnslv sloWNet WordNet (as part of Open Multilingual WordNet)
-omwnswe Swedish WordNet (as part of Open Multilingual WordNet)
-omwntha Thai WordNet (as part of Open Multilingual WordNet)
+omwnals nan
+omwnarb nan
+omwnbul nan
+omwncow nan
+omwncwn nan
+omwndan nan
+omwnell nan
+omwneng nan
+omwnfas nan
+omwnfin nan
+omwnfra nan
+omwnheb nan
+omwnhrv nan
+omwnisl nan
+omwnita nan
+omwniwn nan
+omwnjpn nan
+omwnmcr nan
+omwnmsa nan
+omwnnld nan
+omwnnor nan
+omwnpol nan
+omwnpor nan
+omwnron nan
+omwnslk nan
+omwnslv nan
+omwnswe nan
+omwntha nan
 ontobeefdomain OntoBeef Domain
 ontosnewsportal Ontos News Portal
 ookaboordfdump Ookaboo RDF dump
-OpenLandUse Open Land Use @PSNC
+OpenLandUse nan
 openbantuisixhosalexicon Open Bantu isiXhosa Lexicon
 opencoursewareconsortiummetadatainrdf Open Courseware Consortium metadata in RDF
 opendataeuskadi Open Data Euskadi
@@ -1287,7 +1289,7 @@ oreilly oreilly
 organicedunet Organic Edunet Linked Open Data
 orlandowomenswritinglinkedopendataset The Orlando Women's Writing Linked Open Data Set
 osmsemanticnetwork OSM Semantic Network
-OTM Open Transport Map @PSNC
+OTM nan
 ounldspaceinrdf OUNL DSpace in RDF
 oxacukcatalogue Dataset catalogue (University of Oxford)
 oxacukcataloguemetadata Dataset catalogue (University of Oxford)
@@ -1304,8 +1306,8 @@ pdevlemon PDEV-Lemon
 pdevlemon pdevlemon
 periodo PeriodO Period Gazetteer
 personalhomepages Personal_Homepages
-PersonOnto Ontology of University People
-PGxLOD PGxLOD
+PersonOnto nan
+PGxLOD nan
 phoible Phonetics Information Base and Lexicon (PHOIBLE)
 planetdataprojectwiki PlanetData Project Wiki
 pleiades Pleiades
@@ -1328,14 +1330,14 @@ predictingwholesaleimportsbyregionofoystermushroom Predicting wholesale imports 
 predictingwholesaleimportsbyregionofpotato Predicting wholesale imports by region of potato
 predictingwholesaleimportsbyregionofradish2 Predicting wholesale imports by region of radish
 predictingwholesaleimportsbyregionofriceplant Predicting wholesale imports by region of rice plant
-predictingwholesaleimportsbyregionofwatermelon Predicting wholesale imports by region of watermelon
-prefixcc prefix.cc
-prelex PreLex
+predictingwholesaleimportsbyregionofwatermelon nan
+prefixcc nan
+prelex nan
 prelingerarchives Prelinger Archives
 premon PreMOn (Predicate Model for Ontologies)
 princetonlibraryfindingaids Princeton Library FindingAids
 printedbookauctioncatalogues English Language Books listed in Printed Book Auction Catalogues from 17th Century Holland
-PriorPanel Prior Panel
+PriorPanel nan
 procedimientostramitesservicioszaragoza Procedimientos- trámites y servicios
 procomunsparql Procomún SPARQL
 prodjiscprojectdirectoryinrdf PROD - JISC Project Directory in RDF
@@ -1346,24 +1348,24 @@ provenanceweb provenanceweb
 proyectoapadrina Proyecto Apadrina-  Marketing Punto de Venta
 pscscatalogue Product Scheme Classifications Catalogue
 pshsubjectheadings Polythematic Structured Subject Heading System
-PubChemRDF PubChem RDF
+PubChemRDF nan
 publicrecordofficevictoriasemanticwiki Public Record Office Victoria Semantic Wiki
 publicspendingingreece Public Spending in Greece
 publicationsofcharlesuniversityinprague Publications of Charles University in Prague
 publikaceuniverzitykarlovyvpraze Publikace Univerzity Karlovy v Praze
 qboairbase QBOAirbase
 qualitywebdataorg qualitywebdata.org
-Qualitédelair Qualité de l'air
-Qualitédelairdanslemonde Qualité de l'air dans le monde
+Qualitédelair nan
+Qualitédelairdanslemonde nan
 quotationsbook Quotations Book
 r4r Relations for Reusing (R4R) Ontology
-racaillodcorolawe Romanian CoRoLa Word Embeddings
-racaillodromaniantreebank Universal Dependencies Treebank Romanian
+racaillodcorolawe nan
+racaillodromaniantreebank nan
 radatana Rådata nå!
 rainisandaspazijalinkeddigitalcollection "Rainis and Aspazija" Linked Digital Collection
 raphaelresearchresource Raphael Research Resource
 ravensburglocalshoppinggraph Ravensburg Local Shopping Graph
-RbPLLGU Polish LGU financial statements
+RbPLLGU nan
 rcahmsarchaeologicalobjectsthesaurus RCAHMS Archaeological Objects Thesaurus
 rcahmsmaritimecraftthesaurus RCAHMS Maritime Craft Thesaurus
 rcahmsmonumenttypesthesaurus RCAHMS Monument Types Thesaurus
@@ -1379,19 +1381,19 @@ redunointernacionalsantillana Red Uno Internacional (Santillana)
 referencedatagovuk reference.data.gov.uk
 regiony Regiony
 reload Repository for Linked Open Archival Data
-remoteSensing Land use merced dataset
+remoteSensing nan
 renewableenergygenerators Renewable Energy Generators
 researchdatagovuk research.data.gov.uk
 researchobjectinagricoltureandfoodoftheuniversityofnaples Research object in Agricolture and Food of the University of Naples
 restauranteszaragoza Restaurantes
 reuters128nifnercorpus Reuters-128 NIF NER Corpus
 revyu Revyu.com - Review Anything
-rgsdfg sdafsadf
+rgsdfg nan
 riese RDFizing and Interlinking the EuroStat Data Set Effort
 rijksmuseum Rijksmuseum Collection Data
 rism Répertoire International des Sources Musicales - RISM
 rismauthorities RISM Authority data
-rk engineering equipment ontology
+rk nan
 rkbexploreracm Association for Computing Machinery (ACM) (RKBExplorer)
 rkbexplorerbudapest Budapest University of Technology and Economics (RKBExplorer)
 rkbexplorerciteseer CiteSeer (Research Index) (RKBExplorer)
@@ -1447,9 +1449,9 @@ rkbexplorerwiki ReSIST Project Wiki (RKBExplorer)
 rkbexplorerwordnet WordNet (RKBExplorer)
 rkbexplorerdata RKB Explorer Data
 rosettaproject The Rosetta Project
-ROSHANI ontology terrorist attack
-ROSHANISAHU TERRORIST ATTACK ONTOLOGY
-Rozprawaartykuł x
+ROSHANI nan
+ROSHANISAHU nan
+Rozprawaartykuł nan
 rpmfind Rpm Find
 rss500nifnercorpus RSS-500 NIF NER CORPUS
 rubentaelman Ruben Taelman's Data
@@ -1461,15 +1463,15 @@ sadisemanticwebservicesframeworkregistry SADI Semantic Web Services framework re
 saldo SALDO
 saldordf SALDO-RDF
 saldomrdf SALDOM-RDF
-salzburgerlandcomde Salzburgerland DE
-salzburgerlandcomen Salzburgerland EN
-salzburgerlandcomit Salzburgerland IT
+salzburgerlandcomde nan
+salzburgerlandcomen nan
+salzburgerlandcomit nan
 sameasorg sameAs.org
 sandrartnet sandrart.net
-sandre Taxons 
+sandre nan
 sanskritenglishlexicon Sanskrit English Lexicon
 santillanaguidedataset Santillana Guide Dataset
-SATARtest SATAR test 
+SATARtest nan
 schemaorg schema.org
 schemapedia Schemapedia: RDF schema compendium
 scholarlydata scholarlydata
@@ -1477,7 +1479,7 @@ scholarometer Scholarometer
 sciencecommons Science Commons
 sciencewise ScienceWise
 scoreboard The Digital Agenda Scoreboard of the European Commission
-SDG A Knowledge Organization System for the United Nations Sustainable Development Goals
+SDG nan
 sears sears.com
 secrdfabout U.S. Securities and Exchange Commission Corporate Ownership RDF Data (rdfabout)
 secold Source Code Ecosystem Linked Data
@@ -1497,28 +1499,28 @@ semanticweborg semanticweb.org
 semsolcrunchbase Semantic CrunchBase
 sensoresdeintellidomo Sensores de IntelliDomo
 sentiws SentimentWortschatz
-seoulbikedata seoul-bike-data
+seoulbikedata nan
 serendipity Serendipity
 shoahvictimsnames Shoah victims? names
-ShripriyaDubey Person
+ShripriyaDubey nan
 similedatacollection SIMILE Data Collection
 simple SIMPLE
 sitcv4 SITC-V4
-sligalnetrdf SLI Galnet- the Galician wordnet- at version 3.0.26-  in RDF format
+sligalnetrdf nan
 slideshare2rdf Slideshare2RDF Server
 slidewikirdfsparql Slidewiki (RDF/SPARQL)
-slod Linked Stage Graph
+slod nan
 slovnkcpv2008commonprocurementvocabulary2008 Slovník CPV 2008 - Common Procurement Vocabulary 2008
-SmartPOIdataset Smart Points Of Interest @PSNC
+SmartPOIdataset nan
 smartlink SmartLink: Linked Services Non-Functional Properties
-snik SNIK
+snik nan
 socialnetworksandarchivalcontextfall2011 Social Networks and Archival Context Fall 2011
-SocialLink SocialLink
+SocialLink nan
 sociallink SocialLink
-SocialRoles FamilyRelations as SocialRole
+SocialRoles nan
 socialsemwebthesaurus Social Semantic Web Thesaurus
-Soilmaps Erosion-endangered soil zones dataset from Czech Republic @PSNC
-somyaomer terrorrist ontology
+Soilmaps nan
+somyaomer nan
 sors SORS
 soudyeskrepubliky Soudy České republiky
 southamptonacuk southampton-ac-uk
@@ -1528,9 +1530,9 @@ spanishlinguisticdatasets Spanish Linguistic Datasets
 sparqlendpointstatus SPARQL Endpoint Status
 spcpublikovanskl SPC publikovaná SÚKL
 spqr SPQR
-springernaturescigraph Springer Nature SciGraph
+springernaturescigraph nan
 srcmf Syntactic Reference Corpus of Medieval French (SRCMF)
-ssf Lexicon of Syntactic and Semantic Framework
+ssf nan
 ssflexicon SSF
 standrewsresourcelists St. Andrews University Resource Lists
 stac STAC
@@ -1628,14 +1630,14 @@ steak Super Terminology System(STEAK) - Linked Open Data
 stitchrameau RAMEAU subject headings (STITCH)
 strukturovanpopisyzfda Strukturované popisy z FDA
 stwthesaurusforeconomics STW Thesaurus for Economics
-SudershanTech SudershanTech
+SudershanTech nan
 sudocfr Sudoc bibliographic data
-SufaceForestièreMondiale19902016 Suface Forestière Mondiale 1990-2016
+SufaceForestièreMondiale19902016 nan
 surgeradio Surge Radio
 swedishopenculturalheritage Swedish Open Cultural Heritage
 swefnrdf SweFN-RDF
 swetodblp SwetoDblp
-Swift Swift Vocabulary
+Swift nan
 symbolicdata SymbolicData
 symptomsinchinese Symptoms in Chinese
 sztakilod National Digital Data Archive of Hungary (partial)
@@ -1643,7 +1645,7 @@ t4gminfo Thesaurus for Graphic Materials (t4gm.info)
 tags2condelicious tags2con delicious
 taiwangeographicnames Taiwan geographic names
 talisopenlibrary Open Library data mirror in the Talis Platform
-talkbank nan
+talkbank TalkBank
 taxonconcept TaxonConcept Knowledge Base
 taxonconceptassets taxonconcept-assets
 taxonconceptoccurences taxonconcept-occurences
@@ -1658,18 +1660,18 @@ telegraphis Telegraphis Linked Data
 templeovtheelemurdatasets Temple ov thee Lemur
 terencereadingcomprehensiondataset TERENCE Reading Comprehension Dataset
 terminesp Terminesp Linked Data
-Terroristattack Ontology
-TerroristAttack1 Terrorist Attack1
+Terroristattack nan
+TerroristAttack1 nan
 tesauromateriasbupm Tesauro materias BUPM
 teseo Teseo
-Test Test
+Test nan
 test Test
-Test Test
+Test nan
 testee xxxxx
 texailexicon Texai Lexicon
-tharawatmagazinecom tharawat magazine
-TheCentralBankoftheRepublicofUzbekistan Open data of Uzbekistan
-TheRespublicofUzbekistan Open data of Uzbekistan
+tharawatmagazinecom nan
+TheCentralBankoftheRepublicofUzbekistan nan
+TheRespublicofUzbekistan nan
 theciardring The CIARD RING
 thedruginteractionknowledgebase The Drug Interaction Knowledge Base
 theeuropeanlibraryopendataset The European Library Open Dataset
@@ -1678,12 +1680,12 @@ thekazanuniversitymuseumaslinkedopendataintheeuropeanadatamodel The Kazan Univer
 thelivinglodcloud The Living LOD Cloud
 themidilinkeddatacloud The MIDI Linked Data Cloud
 theviewfrom The View From
-thecontentwranglercom The Content Wrangler
+thecontentwranglercom nan
 thesaurusbncf Thesaurus BNCF
 thesaurusdatenwissen Thesaurus Datenwissen
 thesaurusw Thesaurus W for Local Archives
 thesesfr theses.fr
-Thinkphile ThinkPhile (Publisher | Blog - Content -News - and Media Website)
+Thinkphile nan
 thist ThIST
 tip TIP
 tourpedia Tourpedia
@@ -1705,8 +1707,8 @@ twitterlids Twitter Linked Data Service
 typepad typepad
 ubmannheimlinkeddata Linked Data Service der Universitätsbibliothek Mannheim
 uberblic Uberblic.org
-ufo Unified Foundational Ontology
-UgandaDisastersrdfdata Uganda Disasters
+ufo nan
+UgandaDisastersrdfdata nan
 uislinkeddata UNESCO Institute for Statistics (UIS) Linked Data
 uklegislationapi UK Legislation
 ukpostcodes UK Postcodes
@@ -1715,6 +1717,16 @@ umthes UMTHES
 unhazardousnumbers UN Hazardous Materials Numbers
 unescothesaurus UNESCO Thesaurus
 unescothes UNESCO Thesaurus
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 unistatkis20112012inrdfkeyinformationsetukuniversities UNISTAT-KIS 2011/2012 in RDF (Key Information Set - UK Universities)
 unistatkisinrdfkeyinformationsetukuniversities UNISTAT-KIS in RDF (Key Information Set - UK Universities)
 universaldependenciestreebankancientgreek Universal Dependencies Treebank Ancient_Greek
@@ -1766,7 +1778,7 @@ universaldependenciestreebankportuguesebosque Universal Dependencies Treebank Po
 universaldependenciestreebankportuguesebr Universal Dependencies Treebank Portuguese-BR
 universaldependenciestreebankromanian Universal Dependencies Treebank Romanian
 universaldependenciestreebankrussian Universal Dependencies Treebank Russian
-universaldependenciestreebankrussiansyntagrus Universal Dependencies Treebank Russian-SynTagRus
+universaldependenciestreebankrussiansyntagrus nan
 universaldependenciestreebanksanskrit Universal Dependencies Treebank Sanskrit
 universaldependenciestreebankslovak Universal Dependencies Treebank Slovak
 universaldependenciestreebankslovenian Universal Dependencies Treebank Slovenian
@@ -1787,19 +1799,19 @@ universityofbristol University of Bristol
 universityplymouthreadinglists University of Plymouth Reading Lists
 universitysussexreadinglists University of Sussex Reading Lists
 unodc UNODC - Statistics on criminal justice
-UpperOntology Sup_Ont: An Upper Ontology
-UrbanAtlas Urban Atlas dataset
-UrbanAtlasDataset Urban Atlas dataset @PSNC
+UpperOntology nan
+UrbanAtlas nan
+UrbanAtlasDataset nan
 uriburner URIBurner
-urnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976 Vocabularios de los Códigos de Derecho de la Ciberseguridad en España
-UrosLegijaSusa Legija Stranaca
-UrosSusa Legija
+urnwebprotegeontologyc0b8701e374c4d5abc60970f0cba1976 nan
+UrosLegijaSusa nan
+UrosSusa nan
 uspoliticalviolence US Political Violence
 usagereviewcorpus USAGE review corpus
 utpllod Universidad Técnica Particular de Loja - Linked Open Data
 vkazyziskuaztrtobcr Výkazy zisku a ztrát obcí ČR
-varsha terrorist attack
-VehiculeAutonome VA
+varsha nan
+VehiculeAutonome nan
 verrijktkoninkrijk Verrijkt Koninkrijk
 viaf VIAF: The Virtual International Authority File
 viaspublicaszaragoza Vías Públicas de Zaragoza (Localización)
@@ -1816,28 +1828,28 @@ vivowustl VIVO WUSTL
 vivo2doi vivo2doi
 vuwordnet WordNet 3.0 (VU Amsterdam)
 vulnerapedia vulnerapedia
-Vyvasta Statybu imone - Vyvasta
+Vyvasta nan
 w3c W3C
 w3cprovenanceincubatorgroupvocabularymappings W3C Provenance Incubator Group Vocabulary Mappings
 w3cwordnet WordNet 2.0 (W3C)
 warsampo WarSampo
-wasabi WASABI RDF Knowledge Graph
-WaterAreasClassification FAO water areas classification as linked data @PSNC
-WaterBuffer Water buffer dataset from Czech Republic @PSNC
+wasabi nan
+WaterAreasClassification nan
+WaterBuffer nan
 webisalod WebIsALOD
 webnmasunotraveler webnmasunotraveler
-whiskycircleinfo Whisky Circle
-WHOnto Corona Virus Infected Cases Ontology
+whiskycircleinfo nan
+WHOnto nan
 wikidata Wikidata
 wikilinksrdfnif Wikilinks RDF/NIF
 wikipathways WikiPathways
 wikiwordthesaurus WikiWord Thesaurus Data
 wiktionarydbpediaorg wiktionary.dbpedia.org
 wingsworkflowprovenancedataset Wings workflow provenance dataset
-wnwikiinstances Wordnet-Wikipedia/DBpedia instance mapping
+wnwikiinstances nan
 wold World Loanword Database
-wordliftioblogen WordLift Blog EN
-wordliftioblogit WordLift IT
+wordliftioblogen nan
+wordliftioblogit nan
 wordnet Wordnet
 wordnetrdf WordNet-RDF
 wordpress wordpress
@@ -1851,13 +1863,13 @@ ww1lod World War 1 as Linked Open Data
 xlendiamphorae XlendiAmphorae
 xlidlexica xLiD-Lexica
 xwn Open Multilingual Wordnet
-xx xxx
+xx nan
 yago YAGO
 yahoogeoplanet Yahoo Geoplanet RDF
 yalesenselab Yale Senselab
 yovisto Yovisto - academic video search
 ysa Yleinen suomalainen asiasanasto - YSA
-yso YSO - General Finnish Ontology
+yso nan
 ysofiallars yso-fi-allars
 ysofiysa yso-fi-ysa
 zaragozadatosabiertos Datos Abiertos de Zaragoza
@@ -1867,4 +1879,4 @@ zbwpressemappe20 20th Century Press Archives
 zhishilemon zhishi.lemon
 zhishime Zhishi.me
 zitgistmusicbrainz MusicBrainz (zitgist.com)
-红色经典歌曲关联数据集 红色经典歌曲关联数据集
+红色经典歌曲关联数据集 nan
