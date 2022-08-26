@@ -364,7 +364,7 @@ function passValue(x,metric) {
 						if (lastLine[90] == '[]')
 							licenseMr.innerHTML = 'Not indicated'
 						else
-							licenseMr.innerHTML = lastLine[90]
+							licenseMr.innerHTML = lastLine[89]
       				}
     			})
   				break;

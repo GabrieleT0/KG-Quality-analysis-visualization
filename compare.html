@@ -56,7 +56,9 @@
                         id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
                         ids.push(id)
                         name = fullName[i].trim().slice(fullName[i].indexOf(' ') + 1);
-                        names.push(name)
+                        lastIndex = name.lastIndexOf(" ");
+                        name = name.substring(0,lastIndex)
+                        names.push(name.trim())
                     }
                     for(var i = 0; i < ids.length; i++) {
                             name = names[i]

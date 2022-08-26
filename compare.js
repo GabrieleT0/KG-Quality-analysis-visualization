@@ -2146,21 +2146,37 @@ function drawScoreTab(id,tr){
     $(document).ready(function() {
         $.ajax({
             type: "GET",
-            url: './CSVforJS/'+id+'.csv',
+            url: 'KGid.txt',
             dataType: "text",
             success: function(data) {processData(data)}
         });
         function processData(data){
-            var lines = data.trim().split('\n');
-            var lastLine = lines[lines.length - 1].split(',');
-            kgName = lastLine[5]
-            score = parseFloat(lastLine[85])
-            tdN = document.createElement('td')
-            tdV = document.createElement('td')
-            tdN.innerHTML = kgName
-            tdV.innerHTML = score
-            tr.appendChild(tdN)
-            tr.appendChild(tdV)
+            fullName = data.trim().split("\n");
+            idsTxt = []
+            names = []
+            nscore = []
+            for(var i = 0; i<fullName.length;i++){
+                idTxt = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                idsTxt.push(idTxt)
+                name = fullName[i].trim().slice(fullName[i].indexOf(' '));
+                lastIndex = name.lastIndexOf(" ");
+                name = name.substring(0,lastIndex)
+                names.push(name.trim())
+                score = fullName[i].match(/[0-9]+/g)
+                nscore.push(score[0])
+            }
+            for(var i = 0; i<idsTxt.length;i++){
+                if(id == idsTxt[i]){
+                    kgName = names[i]
+                    score = parseFloat(nscore[i])
+                    tdN = document.createElement('td')
+                    tdV = document.createElement('td')
+                    tdN.innerHTML = kgName
+                    tdV.innerHTML = score
+                    tr.appendChild(tdN)
+                    tr.appendChild(tdV)
+                }
+            }
 
         }
     });
@@ -3665,7 +3681,7 @@ function drawLic(id,tr){
             tableCell.innerHTML = lastLine[5]
             tableCell2.innerHTML = lastLine[3]
             tableCell3.innerHTML = lastLine[4]
-            if(lastLine[90] == '[]')
+            if(lastLine[89] == '[]')
                 tableCellM.innerHTML = 'Not indicated'
             else
                 tableCellM.innerHTML = lastLine[90]
