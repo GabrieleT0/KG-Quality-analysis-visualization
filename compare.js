@@ -3684,7 +3684,7 @@ function drawLic(id,tr){
             if(lastLine[89] == '[]')
                 tableCellM.innerHTML = 'Not indicated'
             else
-                tableCellM.innerHTML = lastLine[90]
+                tableCellM.innerHTML = lastLine[89]
             tr.appendChild(tableCell)
             tr.appendChild(tableCell2)
             tr.appendChild(tableCellM)

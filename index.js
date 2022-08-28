@@ -361,7 +361,7 @@ function passValue(x,metric) {
 						header3.innerHTML = 'License human-redeable'
 						licenseMR.innerHTML = lastLine[3]
 						licenseHR.innerHTML = lastLine[4]
-						if (lastLine[90] == '[]')
+						if (lastLine[89] == '[]')
 							licenseMr.innerHTML = 'Not indicated'
 						else
 							licenseMr.innerHTML = lastLine[89]
