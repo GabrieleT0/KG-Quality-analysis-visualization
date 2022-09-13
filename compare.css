@@ -394,3 +394,13 @@ html,body{
 #exportDef-btn{
   margin-top: 15px;
 }
+
+#tabTrust{
+  float: left;
+  margin-left: 20px;
+}
+
+#reliablePr{
+  float: left;
+  margin-left: 80px;
+}

@@ -158,9 +158,6 @@
 
         <div id="wrapBeliev" style="display:none; margin-top: 40px;"></div>
         <div id="wrapT" style="display: none; ">
-            <div class="box">
-                <a class="wrapHelp" href="#popupBeliev"><img src="img/ask.png" width="43" height="43"/></a>
-            </div>
             <div id="popupBeliev" class="overlay">
                 <div class="popup">
                     <h2>Trust value</h2>
@@ -170,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <table id="reliablePr" style="margin-top: 45px; margin-left: 45px; float: left;">
+            <table id="reliablePr">
                 <tr>
                     <th id="headP">List of trusted providers</th>
                 </tr>
@@ -191,14 +188,13 @@
                 </tr>
             </table>
         </div>
-
         <div id="containerAvSPARQL" style="display: none; overflow-x:auto; margin-top: 80px; margin-left: 30px; margin-right: 30px; width: fit-content; width: 100%;"></div>
         <button style="display: none;" class='export-btn' id='exportSPARQL-btn' onclick="exportTableToCSV('SPARQLendpoint availability.csv','tabAvSPARQL')"><img src="img/csv-ico.png" width="60" height="60"/></button>
         <div id="containerAvDump" style="display: none; overflow-x:auto; margin-top: 80px; margin-left: 30px; margin-right: 30px; width: fit-content; width: 100%;"></div>
         <button style="display: none;" class='export-btn' id='exportDump-btn' onclick="exportTableToCSV('RDF dump availability.csv','tabAvRdf')"><img src="img/csv-ico.png" width="60" height="60"/></button>
         <div id="containerDef" style="display: none; overflow-x:auto; margin-top: 80px; margin-left: 30px; margin-right: 30px; width: fit-content; width: 100%;"></div>
         <button style="display: none;" class='export-btn' id='exportDef-btn' onclick="exportTableToCSV('Dereferenceability.csv','tabDef')"><img src="img/csv-ico.png" width="60" height="60"/></button>
-        <div id="containerInactiveL" style="display: none; margin-top: 40px"></div>></div>
+        <div id="containerInactiveL" style="display: none; margin-top: 40px"></div></div>
         <button style="display: none;" class='export-btn' id='exportIanctive-btn' onclick="exportTableToCSV('Status other links.csv','tabInactiveLinks')"><img src="img/csv-ico.png" width="60" height="60"/></button>
 
 
@@ -564,7 +560,6 @@
                 });
             </script>   
         </div>
-
 
         <footer>
             <img src="img/logo.png" width="110" height="70" style="margin-bottom: 15px;"/>

@@ -8,16 +8,32 @@ function compare(ids,metrics){
     switch(metrics.value){
         case 'Believability':
             hideDiv()
-            document.getElementById('wrapT').style.display = 'block'
+            document.getElementById('wrapT').style.display = 'inline-block'
             var div = document.getElementById('wrapBeliev')
             div.style.display = 'block'
+            tableTrust = document.createElement('table')
+            tableTrust.id = 'tabTrust'
+            trB = document.createElement('tr')
+            thName = document.createElement('th')
+            thName.innerHTML = 'KG name'
+            trB.appendChild(thName)
+            thTrust = document.createElement('th')
+            thHelp = document.createElement('th')
+            thHelp.innerHTML = '<a href="#popupBeliev" class="wrapHelp" ><img src="img/ask.png" width="43" height="43"/></a>'
+            thTrust.innerHTML = 'Trust value'
+            trB.appendChild(thTrust)
+            trB.appendChild(thHelp)
+            tableTrust.appendChild(trB)
             for(var i = 0; i< ids.length; i++){
-                var newDiv = document.createElement('div')
-                newDiv.style.display = 'inline-block'
-                if(div.children.length < ids.length)
-                    div.appendChild(newDiv);
-                     drawBeliev(ids[i],newDiv)
+                tr = document.createElement('tr')
+                drawBeliev(ids[i],tr)
+                tableTrust.appendChild(tr)
               }
+
+              if(div.children.length <= 0){
+                div.appendChild(tableTrust)
+            }
+            
             break;
 
         case 'Availability':
@@ -421,8 +437,8 @@ function compare(ids,metrics){
                                   keys: ['from', 'to'],
                                   layoutAlgorithm: {
                                       enableSimulation: true,
-                                      integration: 'verlet',
-									    linkLength: 100,
+                                      integration: 'euler',
+									    linkLength: 50,
 
                                   }
                               }
@@ -479,7 +495,7 @@ function compare(ids,metrics){
                                 nodeCounts[link[1]] = (nodeCounts[link[1]] || 0) + 1;
                             });
                 
-                            let radiusFactor = 3; //radius multiplier to graphically enlarge nodes
+                            let radiusFactor = 2; //radius multiplier to graphically enlarge nodes
                             //map each nodeCount to a node object setting the radius
                 
                             $(document).ready(function() {
@@ -505,34 +521,36 @@ function compare(ids,metrics){
                                         score = fullName[i].substring(n+1)
                                         score = score.trim()
                                         score = parseFloat(score)
-                                        color = '#ccf9ff'
+                                        color = '#07C8F9'
                                         if(nodeCounts[id] <= 20){
-                                            color = '#ccf9ff'
+                                            color = '#07C8F9'
                                             break;
                                         }
                                         else if (nodeCounts[id] <= 40){
-                                            color = '#7ce8ff'
+                                            color = '#09A6F3'
                                             break;
                                         }
                                         else if(nodeCounts[id] <= 60){
-                                            color = '#55d0ff'
+                                            color = '#0A85ED'
                                             break;
                                         }
                                         else if(nodeCounts[id] <= 80){
-                                            color = '#00acdf'
+                                            color = '#0C63E7'
                                             break;
                                         }
                                         else if(nodeCounts[id] > 100){
-                                            color = '#0080bf'
+                                            color = '#0D41E1'
                                             break;
                                         }
                                     } else {
                                         color = '#ccf9ff'
                                     }
+                                    if(nodeCounts[id]>50)
+                                        nodeCounts[id] = 50
                                 }
                                 return {
                                     id: id,
-                                    marker: { },
+                                    marker: {   radius: nodeCounts[id] * radiusFactor },
                                     color: color
                                 };
                         });
@@ -3694,7 +3712,7 @@ function drawLengthO(id,chart){
     });
 }
 
-function drawBeliev(id,div){
+function drawBeliev(id,tr){
     $(document).ready(function() {
         $.ajax({
             type: "GET",
@@ -3706,64 +3724,12 @@ function drawBeliev(id,div){
             var lines = data.trim().split('\n');
             var lastLine = lines[lines.length - 1].split(',');
             trustValue = parseFloat(lastLine[9]);
-
-            Highcharts.chart({
-                chart:{
-                    type : 'solidgauge',
-                    renderTo: div,
-                },
-                title: {
-                    style:{
-                        fontSize:'22px',
-                        fontWeight:'bold'
-                    },
-                    text: lastLine[5],
-                    },
-        
-                pane: {
-                    center: ['50%', '85%'],
-                    size: '140%',
-                    startAngle: -90,
-                    endAngle: 90,
-                    background: {
-                        backgroundColor:
-                        Highcharts.defaultOptions.legend.backgroundColor || '#EEE',
-                        innerRadius: '60%',
-                        outerRadius: '100%',
-                        shape: 'arc'
-                    }
-                },
-
-                yAxis: {
-                    stops: [
-                        [-1, '#eb4034'], // red
-                        [0,'#7dd5ed'], // light blue
-                        [0.5, '#DDDF0D'], // yellow
-                        [0.75,'#c6eb34'], //green-yellow
-                        [1, '#90ed7d'] // green
-                    ],
-                    lineWidth: 0,
-                    tickWidth: 0,
-                    minorTickInterval: null,
-                    tickAmount: 2,
-                        min: -1,
-                        max: 1,
-                    title: {
-                        text: 'Trust value'
-                    }
-                },
-                series: [{
-                    name: 'Trust value',
-                    data: [trustValue],
-                    dataLabels: {
-                        format:
-                      '<div style="text-align:center">' +
-                      '<span style="font-size:25px">{y}</span><br/>' +
-                      '<span style="font-size:12px;opacity:0.4"></span>' +
-                      '</div>'
-                    },
-                }]
-            });
+            tdN = document.createElement('td')
+            tdTrust = document.createElement('td')
+            tdN.innerHTML = lastLine[5]
+            tdTrust.innerHTML = trustValue
+            tr.appendChild(tdN)
+            tr.appendChild(tdTrust)
         }
     })
 }

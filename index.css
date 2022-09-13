@@ -108,14 +108,7 @@ a:hover {
   font-family: sans-serif, Helvetica,Arial ;
 }
 
-#reliablePr{
-  margin-top: 20px;
-  margin-right: 160px;
-  float:right;
-  display: none;
-  width: 20%;
-  margin-left: auto;
-}
+
 
 #tableInt{
   border-color: white;
