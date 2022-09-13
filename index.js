@@ -564,6 +564,33 @@ function passValue(x,metric) {
 									}
 								}
 							},
+							tooltip: {
+								formatter: function() {
+									for(var i = 0; i<fullName.length;i++){
+										id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+										filename = this.point.name.replaceAll('[\\/*?:"<>|]','')
+										filename = filename.replaceAll('-','')
+										filename = filename.replaceAll(' ','')
+										filename = filename.toLowerCase()
+										if(id == filename){
+											name = fullName[i].trim().slice(fullName[i].indexOf(' '));
+											lastIndex = name.lastIndexOf(" ");
+											name = name.substring(0,lastIndex);
+											n = fullName[i].lastIndexOf(" ");
+											score = fullName[i].substring(n+1)
+											score = score.trim()
+											score = parseFloat(score)
+											var text = '<b>KG name:</b> ' + name + '<br>' 
+											//+'<b>Score:</b>' + score;
+											return text
+										}
+										else{
+											text = this.point.name	
+										}
+									}
+								  return text;
+								}
+							  },
 							series: [{
 								name: 'Data in the graph',
 								
@@ -581,6 +608,77 @@ function passValue(x,metric) {
 							]}]
 						});
 					}
+					Highcharts.addEvent(
+						Highcharts.Series,
+						'afterSetOptions',
+						function (e) {
+								let nodeCounts = {};
+								//count connections for each From or To node
+								e.options.data.forEach(function (link) {
+									nodeCounts[link[0]] = (nodeCounts[link[0]] || 0) + 1;
+									nodeCounts[link[1]] = (nodeCounts[link[1]] || 0) + 1;
+								});
+					
+								let radiusFactor = 3; //radius multiplier to graphically enlarge nodes
+								//map each nodeCount to a node object setting the radius
+					
+								$(document).ready(function() {
+									$.ajax({
+										type: "GET",
+										url: 'KGid.txt',
+										dataType: "text",
+										async: false,
+										success: function(data) {processData(data)}
+									});
+									function processData(data){
+										fullName = data.trim().split("\n");
+								}
+								e.options.nodes = Object.keys(nodeCounts).map(function (id) {      
+									for(var i = 0; i<fullName.length;i++){
+										idTxt = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+										filename = id.replaceAll('[\\/*?:"<>|]','')
+										filename = filename.replaceAll('-','')
+										filename = filename.replaceAll(' ','')
+										filename = filename.toLowerCase()
+										if(filename == idTxt){
+											n = fullName[i].lastIndexOf(" ");
+											score = fullName[i].substring(n+1)
+											score = score.trim()
+											score = parseFloat(score)
+											color = '#ccf9ff'
+											if(nodeCounts[id] <= 20){
+												color = '#ccf9ff'
+												break;
+											}
+											else if (nodeCounts[id] <= 40){
+												color = '#7ce8ff'
+												break;
+											}
+											else if(nodeCounts[id] <= 60){
+												color = '#55d0ff'
+												break;
+											}
+											else if(nodeCounts[id] <= 80){
+												color = '#00acdf'
+												break;
+											}
+											else if(nodeCounts[id] > 100){
+												color = '#0080bf'
+												break;
+											}
+										} else {
+											color = '#ccf9ff'
+										}
+									}
+									return {
+										id: id,
+										marker: { },
+										color: color
+									};
+							});
+							})
+						}    
+						);	
 				});
   				break;
 

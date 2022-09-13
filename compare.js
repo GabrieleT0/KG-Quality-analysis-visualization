@@ -24,12 +24,22 @@ function compare(ids,metrics){
             hideDiv()
             divsE = []
             divsR = []
-            var div1 = document.getElementById('availability1')
-            div1.style.display = 'block'
-            var div2 = document.getElementById('availability2')
-            div2.style.display = 'block'
-            document.getElementById('containerDef').style.display = 'block'
+            var divTabAv = document.getElementById('containerAvSPARQL')
+            var divTabDump = document.getElementById('containerAvDump')
+            divTabDump.style.display = 'inline-block'
+            divTabAv.style.display = 'inline-block'
+            divTab = document.getElementById('containerInactiveL')
+            divTab.style.display = 'block'
+            document.getElementById('exportSPARQL-btn').style.display = 'block'
+            document.getElementById('exportDump-btn').style.display = 'block'
+            document.getElementById('exportIanctive-btn').style.display = 'block'
+            /* ACTIVATE WHEN DATA ABOUT URIs DEREFERENCEABILITY IS AVAILABLE
+            divTabDef = document.getElementById('containerDef')
+            divTabDef.style.display = 'block'
+            document.getElementById('exportDef-btn').style.display = 'block'
+            */
             //CHART FOR SPARQL ENDPOINT AVAILABILITY
+            /*
             const chart = Highcharts.chart('availability1', {
                 title: {
                     style:{
@@ -37,6 +47,9 @@ function compare(ids,metrics){
                         fontWeight:'bold'
                     },
                     text: 'Availability of SPARQL endpoint',
+                },
+                subtitle:{
+                    text: '1: Online; 0: Offline; -1: Absent'
                 },
                 yAxis: {
                     min: -1,
@@ -68,15 +81,7 @@ function compare(ids,metrics){
                       }
                 },
                 tooltip:{
-                    formatter: function(){
-                        if(this.y == 1){
-                            return '<b>' + this.series.name + '</b>' + '<br>'+ Highcharts.dateFormat('%Y %B %e',this.x) + '<br> Availability: <p style="color:#90ed7d"><b>Online</b></p>'
-                        } else if(this.y == 0){
-                            return '<b>' + this.series.name + '</b>' + '<br>'+ Highcharts.dateFormat('%Y %B %e',this.x) + '<br> Availability: <p style="color:#fd5e53"><b>Offline</b></p>'
-                        } else if (this.y == -1){
-                            return '<b>' + this.series.name + '</b>' + '<br>'+ Highcharts.dateFormat('%Y %B %e',this.x) + '<br> Availability: <p style="color:#fd5e53"><b>Absent</b></p>'
-                        }
-                    }
+                    shared: true,
                 },
                 responsive: {
                     rules: [{
@@ -132,15 +137,7 @@ function compare(ids,metrics){
                     }
                 },
                 tooltip:{
-                    formatter: function(){
-                        if(this.y == 1){
-                            return '<b>' + this.series.name + '</b>' + '<br>'+ Highcharts.dateFormat('%Y %B %e',this.x) + '<br> Availability: <p style="color:#90ed7d"><b>Online</b></p>'
-                        } else if(this.y == 0){
-                            return '<b>' + this.series.name + '</b>' + '<br>'+ Highcharts.dateFormat('%Y %B %e',this.x) + '<br> Availability: <p style="color:#fd5e53"><b>Offline</b></p>'
-                        } else if (this.y == -1){
-                            return '<b>' + this.series.name + '</b>' + '<br>'+ Highcharts.dateFormat('%Y %B %e',this.x) + '<br> Availability: <p style="color:#fd5e53"><b>Absent</b></p>'
-                        }
-                    }
+                        shared: true,
                 },
                 responsive: {
                     rules: [{
@@ -226,12 +223,114 @@ function compare(ids,metrics){
                     }]
                 }
             });
-   
+            */ 
+            tableSPARQL = document.createElement('table')
+            tableDump = document.createElement('table')
+            tableDef = document.createElement('table')
+            tableSPARQL.id = 'tabAvSPARQL'
+            tableDump.id = 'tabAvRdf'
+            tableDef.id = 'tabDef'
+            titleSPARQL = document.createElement('p')
+            titleDump = document.createElement('p')
+            titleDef = document.createElement('p')
+            titleSPARQL.innerHTML = 'SPARQL endpoint status'
+            titleSPARQL.id = 'titleS'
+            titleDef.id = 'titleDef'
+            titleDef.innerHTML = 'URIs dereferenceability'
+            titleDump.innerHTML = 'RDF dump status'
+            titleDump.id = 'titleDump'
+            $(document).ready(function() {
+                $.ajax({
+                    type: "GET",
+                    url: './CSVforJS/wp.csv',
+                    dataType: "text",
+                    async: false,
+                    success: function(data) {processData(data)}
+                });
+                function processData(data){
+                    analysisDate = []
+                    var lines = data.trim().split('\n');
+                    var lastLine = lines[lines.length - 1].split(',');
+                    for(var i = 1; i<lines.length; i++){
+                        line = lines[i].split(',')
+                        analysisDate.push(line[0])
+                    }
+                    tr1 = document.createElement('tr')
+                    tr2 = document.createElement('tr')
+                    tr3 = document.createElement('tr')
+                    tdName = document.createElement('th')
+                    tdName2 = document.createElement('th')
+                    tdName3 = document.createElement('th')
+                    tdName.innerHTML = 'KG name'
+                    tdName2.innerHTML = 'KG name'
+                    tdName3.innerHTML = 'KG name'
+                    tr1.appendChild(tdName)
+                    tr2.appendChild(tdName2)
+                    tr3.appendChild(tdName3)
+                    for(var i=0; i<analysisDate.length; i++){
+                        tdDate = document.createElement('th')
+                        tdDate2 = document.createElement('th')
+                        tdDate3 = document.createElement('th')
+                        tdDate.innerHTML = analysisDate[i]
+                        tdDate2.innerHTML = analysisDate[i]
+                        tdDate3.innerHTML = analysisDate[i]
+                        tr1.appendChild(tdDate)
+                        tr2.appendChild(tdDate2)
+                        tr3.appendChild(tdDate3)
+                    }
+                    tableSPARQL.appendChild(tr1)
+                    tableDump.appendChild(tr2)
+                    tableDef.appendChild(tr3)
+                }
+            });
+
+            table = document.createElement('table') //DYNAMIC CREATIO OF INACTIVE LINKS TABLE
+            table.className = "center"
+            table.style.marginTop = '45px'
+            table.id = 'tabInactiveLinks'
+            tableRow = document.createElement('tr')
+            th1 = document.createElement('th')
+            th2 = document.createElement('th')
+            th1.innerHTML = 'KG name'
+            th2.innerHTML = 'Inactive links'
+            tableRow.appendChild(th1)
+            tableRow.appendChild(th2)
+            table.appendChild(tableRow)
+
             for(var i = 0; i<ids.length;i++){
-                drawEndpoint(ids[i],chart)  //FOR EVERY KG SELECTED WE DRAW A SERIES ON THE GRAPH
-                drawDump(ids[i],chart2)
-                drawDef(ids[i],chart3)
+                //drawEndpoint(ids[i],chart)  //FOR EVERY KG SELECTED WE DRAW A SERIES ON THE GRAPH
+                //drawDump(ids[i],chart2)
+                trTab1 = document.createElement('tr')
+                drawAvailabilitySPARQL(ids[i],trTab1)
+                //drawDef(ids[i],chart3)
+                trTab2 = document.createElement('tr')
+                drawAvailabilityDump(ids[i],trTab2)
+                trTab3 = document.createElement('tr')
+                drawDef(ids[i],trTab3)
+                tr = document.createElement('tr')
+                drawTabIanctive(ids[i],tr)
+                table.appendChild(tr)
+                tableSPARQL.appendChild(trTab1)
+                tableDump.appendChild(trTab2)
+                tableDef.appendChild(trTab3)
             }
+            if(divTab.children.length <= 0)
+                divTab.appendChild(table)
+                
+            if(divTabAv.children.length <= 1){
+                divTabAv.appendChild(titleSPARQL)
+                divTabAv.appendChild(tableSPARQL)
+            }
+            if(divTabDump.children.length <= 1){
+                divTabDump.appendChild(titleDump)
+                divTabDump.appendChild(tableDump)
+            }
+            if(divTabDef.children.length <= 1){
+                divTabDef.appendChild(titleDef)
+                divTabDef.appendChild(tableDef)
+            }
+
+
             break;
 
         case 'Licensing':
@@ -286,28 +385,162 @@ function compare(ids,metrics){
                 function processData(data){
                     const obj = JSON.parse(data);
                     linksArr = obj.links
-                    console.log(linksArr)
                     data = []
-                    if (document.getElementById('all').checked){
-                        linksArr.forEach(function(point){
-                        data.push([point.source,point.target]) 
-                        });
-                    } 
-                    else {
-                        linksArr.forEach(function(point){
-                        for(var i = 0; i<ids.length; i++){  //CREATING THE ARRAY WITH DATA FOR THE INDUCTED GRAPH
-                            fnPointS = convertToValidFilename(point.source)
-                            fnPointT = convertToValidFilename(point.target)
-                            selectedId = ids[i].trim();
-                            if(selectedId === fnPointS || selectedId === fnPointT){
-                                data.push([point.source,point.target])
-                            }
+                     
+                    linksArr.forEach(function(point){
+                    for(var i = 0; i<ids.length; i++){  //CREATING THE ARRAY WITH DATA FOR THE INDUCTED GRAPH
+                        fnPointS = convertToValidFilename(point.source)
+                        fnPointT = convertToValidFilename(point.target)
+                        selectedId = ids[i].trim();
+                        if(selectedId === fnPointS || selectedId === fnPointT){
+                            data.push([point.source,point.target])
                         }
-                        });
-                        drawInter(div,data)
                     }
+                    });
+                    network =Highcharts.chart({
+                        chart:{
+                            type : 'networkgraph',
+                            renderTo: div,
+                          },
+                          title: {
+                              style:{
+                                  fontSize:'30px',
+                                  fontWeight:'bold'
+                              },
+                              text: 'Interlinking',
+                          },
+                          subtitle: {
+                            style:{
+                                fontSize:'18px',
+                            },
+                            align: 'center',
+                            text: 'Induced graph starting from the selected nodes.'
+                        },
+                          plotOptions: {
+                              networkgraph: {
+                                  keys: ['from', 'to'],
+                                  layoutAlgorithm: {
+                                      enableSimulation: true,
+                                      integration: 'verlet',
+									    linkLength: 100,
+
+                                  }
+                              }
+                          },
+                          tooltip: {
+                            formatter: function() {
+                                for(var i = 0; i<fullName.length;i++){
+                                    id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                                    filename = this.point.name.replaceAll('[\\/*?:"<>|]','')
+                                    filename = filename.replaceAll('-','')
+                                    filename = filename.replaceAll(' ','')
+                                    filename = filename.toLowerCase()
+                                    if(id == filename){
+                                        name = fullName[i].trim().slice(fullName[i].indexOf(' '));
+                                        lastIndex = name.lastIndexOf(" ");
+                                        name = name.substring(0,lastIndex);
+                                        n = fullName[i].lastIndexOf(" ");
+                                        score = fullName[i].substring(n+1)
+                                        score = score.trim()
+                                        score = parseFloat(score)
+                                        var text = '<b>KG name:</b> ' + name + '<br>' 
+                                        //+'<b>Score:</b>' + score;
+                                        return text
+                                    }
+                                    else{
+                                        text = this.point.name	
+                                    }
+                                }
+                              return text;
+                            }
+                          },
+                          series: [{
+                              dataLabels: {
+                                  enabled: true,
+                                  linkFormat: ''
+                              },
+                              id: 'Graph',
+                              marker: {
+                                  radius: 20,
+                              },
+                              data: data,
+                          }]
+                    });
                 }
-            });
+
+                Highcharts.addEvent(
+                    Highcharts.Series,
+                    'afterSetOptions',
+                    function (e) {
+                            let nodeCounts = {};
+                            //count connections for each From or To node
+                            e.options.data.forEach(function (link) {
+                                nodeCounts[link[0]] = (nodeCounts[link[0]] || 0) + 1;
+                                nodeCounts[link[1]] = (nodeCounts[link[1]] || 0) + 1;
+                            });
+                
+                            let radiusFactor = 3; //radius multiplier to graphically enlarge nodes
+                            //map each nodeCount to a node object setting the radius
+                
+                            $(document).ready(function() {
+                                $.ajax({
+                                    type: "GET",
+                                    url: 'KGid.txt',
+                                    dataType: "text",
+                                    async: false,
+                                    success: function(data) {processData(data)}
+                                });
+                                function processData(data){
+                                    fullName = data.trim().split("\n");
+                            }
+                            e.options.nodes = Object.keys(nodeCounts).map(function (id) {      
+                                for(var i = 0; i<fullName.length;i++){
+                                    idTxt = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                                    filename = id.replaceAll('[\\/*?:"<>|]','')
+                                    filename = filename.replaceAll('-','')
+                                    filename = filename.replaceAll(' ','')
+                                    filename = filename.toLowerCase()
+                                    if(filename == idTxt){
+                                        n = fullName[i].lastIndexOf(" ");
+                                        score = fullName[i].substring(n+1)
+                                        score = score.trim()
+                                        score = parseFloat(score)
+                                        color = '#ccf9ff'
+                                        if(nodeCounts[id] <= 20){
+                                            color = '#ccf9ff'
+                                            break;
+                                        }
+                                        else if (nodeCounts[id] <= 40){
+                                            color = '#7ce8ff'
+                                            break;
+                                        }
+                                        else if(nodeCounts[id] <= 60){
+                                            color = '#55d0ff'
+                                            break;
+                                        }
+                                        else if(nodeCounts[id] <= 80){
+                                            color = '#00acdf'
+                                            break;
+                                        }
+                                        else if(nodeCounts[id] > 100){
+                                            color = '#0080bf'
+                                            break;
+                                        }
+                                    } else {
+                                        color = '#ccf9ff'
+                                    }
+                                }
+                                return {
+                                    id: id,
+                                    marker: { },
+                                    color: color
+                                };
+                        });
+                        })
+                    }    
+                    );	
+                    
+            }); 
             table = document.createElement('table') //DYNAMIC CREATIO OF INTERLINKING TABLE
             table.className = "center"
             table.style.marginTop = '45px'
@@ -413,14 +646,12 @@ function compare(ids,metrics){
                     title: {
                         text: 'Observations'
                     },
+                    type:'logarithmic',
                 },
                 plotOptions: {
                     series: {
-                        pointInterval: 7 * 24 * 3600 * 1000,
-                        label: {
-                            connectorAllowed: false
-                        },
-                      }
+                        pointIntervalUnit: 'month'
+                    }
                 },
             });
               //CHART FOR THROUGHPUT
@@ -456,6 +687,7 @@ function compare(ids,metrics){
                     title: {
                         text: 'Observations'
                     },
+                    type:'logarithmic',
                 },
                 plotOptions: {
                     series: {
@@ -632,12 +864,11 @@ function compare(ids,metrics){
                     },
                     tooltip: {
                         shared: true,
-                        pointFormat: '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
                     },
                     legend: {
-                        align: 'right',
-                        verticalAlign: 'middle',
-                        layout: 'vertical'
+                        align: 'center',
+                        verticalAlign: 'bottom',
+                        layout: 'horizontal'
                     }, 
                 });
                 for(var i = 0; i<ids.length; i++){
@@ -1450,10 +1681,6 @@ function compare(ids,metrics){
                     }
                 },
         
-                rangeSelector: {
-                    enabled:true
-                },
-            
                 legend: {
                     layout: 'horizontal',
                     align: 'center',
@@ -1500,11 +1727,6 @@ function compare(ids,metrics){
                         fontSize:'24px'
                     }
                 },
-        
-                rangeSelector: {
-                    enabled:true
-                },
-            
                 legend: {
                     layout: 'horizontal',
                     align: 'center',
@@ -1551,10 +1773,6 @@ function compare(ids,metrics){
                     }
                 },
     
-                rangeSelector: {
-                    enabled:true
-                },
-        
                 legend: {
                     layout: 'horizontal',
                     align: 'center',
@@ -2051,11 +2269,19 @@ function compare(ids,metrics){
                         fullName = text.trim().split("\n");
                         ids = []
                         names = []
+                        nscore = []
                         for(var i = 0; i<fullName.length;i++){
-                            id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
-                            ids.push(id)
-                            name = fullName[i].trim().slice(fullName[i].indexOf(' ') + 1);
-                            names.push(name)
+                            idTxt = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                            ids.push(idTxt)
+                            name = fullName[i].trim().slice(fullName[i].indexOf(' '));
+                            lastIndex = name.lastIndexOf(" ");
+                            name = name.substring(0,lastIndex)
+                            names.push(name.trim())
+                            n = fullName[i].lastIndexOf(" ");
+                            score = fullName[i].substring(n+1)
+                            score = score.trim()
+                            score = parseFloat(score)
+                            nscore.push(score)
                         }
                         wrapTab = document.getElementById('wrapScore')
                         wrapTab.style.display = 'block'
@@ -2090,7 +2316,7 @@ function compare(ids,metrics){
                         thV.appendChild(btn2)
                         for(i = 0; i<ids.length; i++){
                             tr = document.createElement('tr')
-                            drawScoreTab(ids[i],tr)
+                            drawScoreChart(names[i],tr,nscore[i])
                             table.appendChild(tr)
                         }
                         if(wrapTab.children.length == 0)
@@ -2141,8 +2367,94 @@ function compare(ids,metrics){
 }
 
 //FUNCTIONS TO DRAW ON  CHART EVERY KG SELECTED
+function drawAvailabilitySPARQL(id,tr){
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: './CSVforJS/'+id+'.csv',
+            dataType: "text",
+            success: function(data) {processData(data)}
+        });
+        function processData(data){
+            var lines = data.trim().split('\n');
+            var lastLine = lines[lines.length - 1].split(',');
+            tdName = document.createElement('td')
+            tdName.innerHTML = lastLine[5]
+            tr.appendChild(tdName)
+            for(var i=1; i<lines.length;i++){
+                var line = lines[i].split(',')
+                tdSPARQL = document.createElement('td')
+                sparql = parseInt(line[1])
+                if(sparql == 1){
+                    tdSPARQL.innerHTML = 'Online'
+                    tdSPARQL.style.backgroundColor = '#00ea89cc'
+                }
+                else if(sparql == 0){
+                    tdSPARQL.innerHTML = 'Offline'
+                    tdSPARQL.style.backgroundColor = '#ff6666'
+                }
+                else if(sparql == -1){
+                    tdSPARQL.innerHTML = 'Absent'
+                    tdSPARQL.style.background = 'white'
+                }
+                else
+                    tdSPARQL.innerHTML = sparql
+                tr.appendChild(tdSPARQL)
+            }
+        }
+    });
+}
 
-function drawScoreTab(id,tr){
+function drawAvailabilityDump(id,tr){
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: './CSVforJS/'+id+'.csv',
+            dataType: "text",
+            success: function(data) {processData(data)}
+        });
+        function processData(data){
+            var lines = data.trim().split('\n');
+            var lastLine = lines[lines.length - 1].split(',');
+            tdName = document.createElement('td')
+            tdName.innerHTML = lastLine[5]
+            tr.appendChild(tdName)
+            for(var i=1; i<lines.length;i++){
+                var line = lines[i].split(',')
+                tdDump = document.createElement('td')
+                dump = parseInt(line[2])
+                if(dump == 1){
+                    tdDump.innerHTML = 'Online'
+                    tdDump.style.backgroundColor = '#00ea89cc'
+                }
+                else if(dump == 0){
+                    tdDump.innerHTML = 'Offline'
+                    tdDump.style.backgroundColor = '#ff6666'
+                }
+                else if(dump == -1){
+                    tdDump.innerHTML = 'Absent'
+                    tdDump.style.background = 'white'
+                }
+                else
+                    tdDump.innerHTML = sparql
+                tr.appendChild(tdDump)
+            }
+        }
+    });
+}
+
+function drawScoreChart(name,tr,score){
+    kgName = name
+    score = parseFloat(score)
+    tdN = document.createElement('td')
+    tdV = document.createElement('td')
+    tdN.innerHTML = kgName
+    tdV.innerHTML = score
+    tr.appendChild(tdN)
+    tr.appendChild(tdV)
+}
+
+function drawScoreTab(id,tr,score){
     $(document).ready(function() {
         $.ajax({
             type: "GET",
@@ -2162,8 +2474,11 @@ function drawScoreTab(id,tr){
                 lastIndex = name.lastIndexOf(" ");
                 name = name.substring(0,lastIndex)
                 names.push(name.trim())
-                score = fullName[i].match(/[0-9]+/g)
-                nscore.push(score[0])
+                n = fullName[i].lastIndexOf(" ");
+                score = fullName[i].substring(n+1)
+                score = score.trim()
+                score = parseFloat(score)
+                nscore.push(score)
             }
             for(var i = 0; i<idsTxt.length;i++){
                 if(id == idsTxt[i]){
@@ -2212,7 +2527,7 @@ function drawEndpoint(id,chart){
     });
 }
 
-function drawDef(id,chart){
+function drawDef(id,tr){
     $(document).ready(function() {
         $.ajax({
             type: "GET",
@@ -2221,23 +2536,19 @@ function drawDef(id,chart){
             success: function(data) {processData(data)}
         });
         function processData(data){
-            var date = []
-            var dataSeries = []
             var lines = data.trim().split('\n');
             var lastLine = lines[lines.length - 1].split(',');
-            var measurements = []
-            for(var j = 1; j< lines.length; j++){
-                line = lines[j].split(',')
-                var tab_date = line[0].split('-')
-                var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
-                data = [date_utc,parseFloat(parseFloat(line[89]).toFixed(2))]
-                measurements.push(data)
+            tdName = document.createElement('td')
+            tdName.innerHTML = lastLine[5]
+            tr.appendChild(tdName)
+            for(var i=1; i<lines.length;i++){
+                var line = lines[i].split(',')
+                tdDefV = document.createElement('td')
+                //defV = parseFloat(line[])
+                defV = '-'  //TODO ADD VALUE OF URIs DEFERECIABILITY WHEN AVAILABLE
+                tdDefV.innerHTML = defV
+                tr.appendChild(tdDefV)
             }
-            chart.addSeries({
-                name : lastLine[5],
-                data: measurements,
-            },false)
-            chart.redraw()
         }
     });
 }
@@ -3304,14 +3615,28 @@ function drawLengthS(id,chart){
         function processData(data){
             var lines = data.trim().split('\n');
             var lastLine = lines[lines.length - 1].split(',');
-            dataLengthS = []
+            analysisDate = []
             for(var i = 1; i<lines.length; i++){
-                line = lines[i].split(',')
-                var tab_date = line[0].split('-')
-                var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
-                data = [date_utc,parseInt(line[61]),parseInt(line[62]),parseInt(line[63]),parseInt(line[64]),parseInt(line[65])]
-                dataLengthS.push(data)
-            }
+				line = lines[i].split(',')
+				analysisDate.push(line[0])
+			}
+            $( "#datepickerRepConci" ).datepicker({
+                dateFormat:"yy-mm-dd",
+                beforeShowDay: function(date){
+                    var sdate = $.datepicker.formatDate('yy-mm-dd',date)
+                    if($.inArray(sdate,analysisDate) != -1){
+                        return[true]
+                    }
+                    return[false]
+                }
+            });
+            $("#datepickerRepConci").datepicker("setDate",lastLine[0])
+
+            dataLengthS = []
+            var tab_date = lastLine[0].split('-')
+            var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
+            data = [date_utc,parseInt(lastLine[61]),parseInt(lastLine[62]),parseInt(lastLine[63]),parseInt(lastLine[64]),parseInt(lastLine[65])]
+            dataLengthS.push(data)
      
             chart.addSeries({
                 name: lastLine[5],
@@ -3333,13 +3658,10 @@ function drawLengthP(id,chart){
             var lines = data.trim().split('\n');
             var lastLine = lines[lines.length - 1].split(',');
             dataLengthP = []
-            for(var i = 1; i<lines.length; i++){
-                line = lines[i].split(',')
-                var tab_date = line[0].split('-')
-                var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
-                data = [date_utc,parseInt(line[66]),parseInt(line[67]),parseInt(line[68]),parseInt(line[69]),parseInt(line[70])]
-                dataLengthP.push(data)
-            }
+            var tab_date = lastLine[0].split('-')
+            var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
+            data = [date_utc,parseInt(lastLine[66]),parseInt(lastLine[67]),parseInt(lastLine[68]),parseInt(lastLine[69]),parseInt(lastLine[70])]
+            dataLengthP.push(data)
             chart.addSeries({
                 name: lastLine[5],
                 data: dataLengthP,
@@ -3360,13 +3682,10 @@ function drawLengthO(id,chart){
             var lines = data.trim().split('\n');
             var lastLine = lines[lines.length - 1].split(',');
             dataLengthO = []
-            for(var i = 1; i<lines.length; i++){
-                line = lines[i].split(',')
-                var tab_date = line[0].split('-')
-                var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
-                data = [date_utc,parseInt(line[71]),parseInt(line[72]),parseInt(line[73]),parseInt(line[74]),parseInt(line[75])]
-                dataLengthO.push(data)
-            }
+            var tab_date = lastLine[0].split('-')
+            var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
+            data = [date_utc,parseInt(lastLine[71]),parseInt(lastLine[72]),parseInt(lastLine[73]),parseInt(lastLine[74]),parseInt(lastLine[75])]
+            dataLengthO.push(data)
             chart.addSeries({
                 name: lastLine[5],
                 data: dataLengthO,
@@ -3815,6 +4134,28 @@ function drawTableInt(id,tr){
     })
 }
 
+function drawTabIanctive(id,tr){
+        $(document).ready(function() {
+            $.ajax({
+                type: "GET",
+                url: './CSVforJS/'+id+'.csv',
+                dataType: "text",
+                success: function(data) {processData(data)}
+            });
+      
+            function processData(data) {
+                var lines = data.trim().split('\n');
+                var lastLine = lines[lines.length - 1].split(',');
+                td1 = document.createElement('td')
+                td2 = document.createElement('td')
+                td1.innerHTML = lastLine[5]
+                td2.innerHTML = '-' //TODO INSERT INACTIVE LINKS VALUE
+                tr.appendChild(td1)
+                tr.appendChild(td2)
+            }
+        })
+}
+
 function drawTableSec(id,tr){
     $(document).ready(function() {
         $.ajax({
@@ -3869,6 +4210,33 @@ function drawInter(div,data){
                   }
               }
           },
+          tooltip: {
+            formatter: function() {
+                for(var i = 0; i<fullName.length;i++){
+                    id = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                    filename = this.point.name.replaceAll('[\\/*?:"<>|]','')
+                    filename = filename.replaceAll('-','')
+                    filename = filename.replaceAll(' ','')
+                    filename = filename.toLowerCase()
+                    if(id == filename){
+                        name = fullName[i].trim().slice(fullName[i].indexOf(' '));
+                        lastIndex = name.lastIndexOf(" ");
+                            name = name.substring(0,lastIndex);
+                        n = fullName[i].lastIndexOf(" ");
+                        score = fullName[i].substring(n+1)
+                        score = score.trim()
+                        score = parseFloat(score)
+                        var text = '<b>KG name:</b> ' + name + '<br>' +
+                                    '<b>Score:</b>' + score;
+                        return text
+                    }
+                    else{
+                        text = this.point.name	
+                    }
+                }
+              return text;
+            }
+          },
           series: [{
               dataLabels: {
                   enabled: true,
@@ -3881,6 +4249,8 @@ function drawInter(div,data){
               data: data,
           }]
     });
+
+   
 }
 
 function drawIntPie(id,div){
@@ -4228,7 +4598,14 @@ function exportTableToCSV(filename,id) {
 }
 
 function hideDiv(){
-    document.getElementById('containerDef').style.display = 'none'
+    document.getElementById('exportDef-btn').style.display = 'none' 
+    document.getElementById('containerDef').style.display = 'none' 
+    document.getElementById('exportIanctive-btn').style.display = 'none'
+    document.getElementById('exportDump-btn').style.display = 'none'
+    document.getElementById('exportSPARQL-btn').style.display = 'none'
+    document.getElementById('containerAvDump').style.display = 'none'
+    document.getElementById('containerAvSPARQL').style.display = 'none'
+    document.getElementById('containerInactiveL').style.display = 'none'
     document.getElementById('downloadWrap').style.display = 'none'
     document.getElementById('wrap-warning-conc').style.display = 'none'
     document.getElementById('wrap-warning-cons').style.display = 'none'
@@ -4261,8 +4638,6 @@ function hideDiv(){
     document.getElementById('wrapSec').style.display = 'none'
     document.getElementById('wrapT').style.display = 'none'
     document.getElementById('wrapBeliev').style.display = 'none'
-    document.getElementById('availability1').style.display = 'none'
-    document.getElementById('availability2').style.display = 'none'
     document.getElementById('wrapLic').style.display = 'none'
     document.getElementById('interlinking').style.display = 'none'
     document.getElementById('wrap-tableInt').style.display = 'none'
@@ -4344,14 +4719,8 @@ function changeDataCons(dataSelected,ids){
                 }
             }],
         },
-
-        tooltips: {
-            enabled: true,
-            callbacks: {
-                label: function(tooltipItem, data) {
-                    return data.datasets[tooltipItem.datasetIndex].label + ' : ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
-                }
-            }
+        tooltip:{
+            shared:true
         },
         responsive: {
             rules: [{
@@ -4452,13 +4821,8 @@ function changeDataAcc(dateSelected,ids){
                 }
             }],
         },
-        tooltips: {
-            enabled: true,
-            callbacks: {
-                label: function(tooltipItem, data) {
-                    return data.datasets[tooltipItem.datasetIndex].label + ' : ' + data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
-                }
-            }
+        tooltip:{
+            shared : true
         },
         responsive: {
             rules: [{
@@ -4638,6 +5002,81 @@ function changeDataConciseness(dateSelected,ids){
     if(document.getElementById('concisenessTab').children.length == 0)
         document.getElementById('concisenessTab').appendChild(table)
 }
+
+function changeDataAv(dateSelected,ids){
+    document.getElementById('tabAv').remove()
+    tableAv = document.createElement('table')
+    tableAv.id = 'tabAv'
+
+    trAv = document.createElement('tr')
+    thKGname = document.createElement('th')
+    thKGname.innerHTML = 'KG name'
+    thSPARQL = document.createElement('th')
+    thSPARQL.innerHTML = 'SPARQL endpoint'
+    thRDFdump = document.createElement('th')
+    thRDFdump.innerHTML = 'RDF dump'
+    trAv.appendChild(thKGname)
+    trAv.appendChild(thSPARQL)
+    trAv.appendChild(thRDFdump)
+    tableAv.appendChild(trAv)
+
+    for(var i = 0; i<ids.length; i++){
+        tr2 = document.createElement('tr')
+        addRowAv(ids[i],dateSelected,tr2)
+        tableAv.appendChild(tr2)
+    }
+
+    if(document.getElementById('containerTabAv').children.length == 0)
+        document.getElementById('containerTabAv').appendChild(tableAv)
+}
+
+function addRowAv(id,dateSelected,tr){
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: './CSVforJS/'+id+'.csv',
+            dataType: "text",
+            success: function(data) {processData(data)}
+        });
+        function processData(data){
+            var lines = data.trim().split('\n');
+            var lastLine = lines[lines.length - 1].split(',');
+            for(var i = 1; i<lines.length; i++){
+				var line = lines[i].split(',')
+				if(line[0] == dateSelected){
+                    tdName = document.createElement('td')
+                    tdSPARQL = document.createElement('td')
+                    tdRDFd = document.createElement('td')
+                    tdName.innerHTML = line[5]
+                    sparql = parseInt(line[1])
+                    rdfD = parseInt(line[2])
+                    if(sparql == 1)
+                        tdSPARQL.innerHTML = 'Online'
+                    else if(sparql == 0)
+                        tdSPARQL.innerHTML = 'Offline'
+                    else if(sparql == -1)
+                        tdSPARQL.innerHTML = 'Absent'
+                    else
+                        tdSPARQL.innerHTML = sparql
+                    if(rdfD == 1)
+                        tdRDFd.innerHTML = 'Online'
+                    else if(rdfD == 0)
+                        tdRDFd.innerHTML = 'Offline'
+                    else if(rdfD == -1)
+                        tdRDFd.innerHTML = 'Absent'
+                    else
+                        tdRDFd.innerHTML = rdfD
+                    tr.appendChild(tdName)
+                    tr.appendChild(tdSPARQL)
+                    tr.appendChild(tdRDFd)
+                
+                }
+            }
+        
+        }
+    });
+}
+
 
 function addRowConci(id,dateSelected,tr){
     $(document).ready(function() {
@@ -4913,6 +5352,194 @@ function addSeriesAmount(id,chart,dateSelected){
             },false)
       
             chart.redraw();
+        }
+    });
+}
+
+function changeDataRepConc(dateSelected,ids){
+    const chartS = Highcharts.chart({ //REP. CONCISENESS BOXPLOT
+        chart: {
+            renderTo:'lengthS',
+            type: 'boxplot'
+        },
+        title: {
+            style:{
+                fontSize:'30px',
+                fontWeight:'bold'
+            },
+            text: 'URIs length (subject)'
+        },
+        subtitle: {
+            style:{
+                fontSize:'24px'
+            }
+        },
+
+    
+        legend: {
+            layout: 'horizontal',
+            align: 'center',
+        },
+    
+        xAxis: {
+            type:'datetime',
+        },
+    
+        yAxis: {
+            plotLines: [{
+                value: 80,
+                color: 'red',
+                width: 1,
+                label: {
+                    text: 'Optimal value: 80',
+                    align: 'center',
+                    style: {
+                        color: 'gray'
+                    }
+                }
+            }],
+            title: {
+                text: 'Observations'
+            },
+        },
+    });
+
+    const chartP = Highcharts.chart({
+        chart: {
+            renderTo:'lengthP',
+            type: 'boxplot'
+        } ,
+        title: {
+            style:{
+                fontSize:'30px',
+                fontWeight:'bold'
+            },
+            text: 'URIs length (predicate)'
+        },
+
+        subtitle: {
+            style:{
+                fontSize:'24px'
+            }
+        },
+    
+        legend: {
+            layout: 'horizontal',
+            align: 'center',
+        },
+    
+        xAxis: {
+            type:'datetime',
+        },
+    
+        yAxis: {
+            plotLines: [{
+                value: 80,
+                color: 'red',
+                width: 1,
+                label: {
+                    text: 'Optimal value: 80',
+                    align: 'center',
+                    style: {
+                        color: 'gray'
+                    }
+                }
+            }],
+            title: {
+                text: 'Observations'
+            },
+        },
+    });
+    const chartO = Highcharts.chart({
+        chart: {
+            renderTo:'lengthO',
+            type: 'boxplot'
+        },
+        title: {
+            style:{
+                fontSize:'30px',
+                fontWeight:'bold'
+            },
+            text: 'URIs length (object)'
+        },
+
+        subtitle: {
+            style:{
+                fontSize:'24px'
+            }
+        },
+
+        legend: {
+            layout: 'horizontal',
+            align: 'center',
+        },
+
+        xAxis: {
+            type:'datetime',
+        },
+
+        yAxis: {
+            plotLines: [{
+                value: 80,
+                color: 'red',
+                width: 1,
+                label: {
+                    text: 'Optimal value: 80',
+                    align: 'center',
+                style: {
+                    color: 'gray'
+                }
+                }
+            }],
+        title: {
+            text: 'Observations'
+        },
+        },
+    });
+    for(var i = 0; i<ids.length; i++){
+        addSeriesRepConc(ids[i],chartS,chartP,chartO,dateSelected)
+    }
+}
+
+function addSeriesRepConc(id,chartS,chartP,chartO,dateSelected){
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: './CSVforJS/'+id+'.csv',
+            dataType: "text",
+            success: function(data) {processData(data)}
+        });
+        function processData(data){
+            var lines = data.trim().split('\n');
+            var lastLine = lines[lines.length - 1].split(',');
+            dataLengthS = []
+            dataLengthP = []
+            dataLengthO = []
+            for(var i = 1; i<lines.length; i++){
+				var line = lines[i].split(',')
+				if(line[0] == dateSelected){
+                    var tab_date = lastLine[0].split('-')
+                    var date_utc = Date.UTC(parseInt(tab_date[0]),parseInt(tab_date[1])-1,parseInt(tab_date[2]));
+                    data = [date_utc,parseInt(line[61]),parseInt(line[62]),parseInt(line[63]),parseInt(line[64]),parseInt(line[65])]
+                    dataLengthS.push(data)
+                    data = [date_utc,parseInt(line[66]),parseInt(line[67]),parseInt(line[68]),parseInt(line[69]),parseInt(line[70])]
+                    dataLengthP.push(data)
+                    data = [date_utc,parseInt(line[71]),parseInt(line[72]),parseInt(line[73]),parseInt(line[74]),parseInt(line[75])]
+                    dataLengthO.push(data)
+                }
+            }
+            chartS.addSeries({
+                name: lastLine[5],
+                data: dataLengthS,
+            })
+            chartP.addSeries({
+                name: lastLine[5],
+                data: dataLengthP,
+            })
+            chartO.addSeries({
+                name: lastLine[5],
+                data: dataLengthO,
+            })
         }
     });
 }
@@ -5244,10 +5871,84 @@ function selectAll(){
 function downloadFullCSV(dateSelected){
     console.log(dateSelected)
     var a = document.createElement('a')
-	fileUrl = 'https://www.kg-quality-analysis-tool.online/'+dateSelected+'.csv'
+	fileUrl = 'https://kg-quality-analysis-visualization.com/'+dateSelected+'.csv'
     console.log(fileUrl)
 	a.href = fileUrl
 	a.setAttribute("download",fileUrl)
 	a.click()
 }
 
+function hashmapScore(){
+    Highcharts.addEvent(
+        Highcharts.Series,
+        'afterSetOptions',
+        function (e) {
+                let nodeCounts = {};
+                //count connections for each From or To node
+                e.options.data.forEach(function (link) {
+                    nodeCounts[link[0]] = (nodeCounts[link[0]] || 0) + 1;
+                    nodeCounts[link[1]] = (nodeCounts[link[1]] || 0) + 1;
+                });
+    
+                let radiusFactor = 3; //radius multiplier to graphically enlarge nodes
+                //map each nodeCount to a node object setting the radius
+    
+                $(document).ready(function() {
+                    $.ajax({
+                        type: "GET",
+                        url: 'KGid.txt',
+                        dataType: "text",
+                        async: false,
+                        success: function(data) {processData(data)}
+                    });
+                    function processData(data){
+                        fullName = data.trim().split("\n");
+                }
+                e.options.nodes = Object.keys(nodeCounts).map(function (id) {      
+                    for(var i = 0; i<fullName.length;i++){
+                        idTxt = fullName[i].trim().slice(0, fullName[i].indexOf(' '))
+                        filename = id.replaceAll('[\\/*?:"<>|]','')
+                        filename = filename.replaceAll('-','')
+                        filename = filename.replaceAll(' ','')
+                        filename = filename.toLowerCase()
+                        if(filename == idTxt){
+                            n = fullName[i].lastIndexOf(" ");
+                            score = fullName[i].substring(n+1)
+                            score = score.trim()
+                            score = parseFloat(score)
+                            color = '#d1fbd8'
+                            if(score <= 20){
+                                console.log('eemoi')
+                                color = '#d1fbd8'
+                                break;
+                            }
+                            else if (score <= 40){
+                                color = '#a3ee5b'
+                                break;
+                            }
+                            else if(score <= 60){
+                                color = '#66d855'
+                                break;
+                            }
+                            else if(score <= 80){
+                                color = '#40ba0f'
+                                break;
+                            }
+                            else if(score > 80){
+                                color = '#188300'
+                                break;
+                            }
+                        } else {
+                            color = '#d1fbd8'
+                        }
+                    }
+                    return {
+                    id: id,
+                    marker: { },
+                    color: color
+                    };
+            });
+            })
+        }    
+        );	
+}
