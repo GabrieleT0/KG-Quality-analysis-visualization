@@ -2415,8 +2415,8 @@ function drawAvailabilitySPARQL(id,tr){
                     tdSPARQL.innerHTML = 'Absent'
                     tdSPARQL.style.background = 'white'
                 }
-                else
-                    tdSPARQL.innerHTML = sparql
+                else if(isNaN(sparql))
+                    tdSPARQL.innerHTML = line[1]
                 tr.appendChild(tdSPARQL)
             }
         }
