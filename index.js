@@ -116,7 +116,7 @@ function passValue(x,metric) {
 							measurements.push(data)
 							dataRDF = [date_utc,parseInt(line[2])]
 							measurementsRDF.push(dataRDF)
-							dataDef = [date_utc,parseFloat(parseFloat(line[89]).toFixed(2))]
+							dataDef = [date_utc,parseFloat(parseFloat(line[91]).toFixed(2))]
 							measurementsDef.push(dataDef)
 						}		
 						Highcharts.chart({ //CHART FOR SPARQL ENDPOINT AVAILABILITY
@@ -1602,7 +1602,9 @@ function passValue(x,metric) {
 									},
 									text: lastLine[5]
 								},
-						
+								tooltip: {
+									shared: true,
+								},
 								rangeSelector: {
 									enabled:true
 								},
@@ -1894,6 +1896,7 @@ function passValue(x,metric) {
 								entities.push(data)
 								data = [date_utc,parseInt(line[60])]
 								properties.push(data)
+								console.log(entities,triples,properties);
 							}
               				Highcharts.chart({  //AMOUNT OF DATA CHART (CHANGE OVER TIME)
 								chart: {
@@ -1909,6 +1912,9 @@ function passValue(x,metric) {
 								}, 
 								rangeSelector: {
 									enabled:true
+								},
+								tooltip: {
+									shared: true,
 								},
 								xAxis: {
 									type:'datetime',
@@ -2079,7 +2085,7 @@ function passValue(x,metric) {
 							},     
 							legend: {
 								enabled: false
-							},        
+							},       
 							xAxis: {
 								type:'datetime',
 							},
@@ -2103,26 +2109,8 @@ function passValue(x,metric) {
 							series: [{
 								name: 'Observations',
 								data: lengthS,
-								tooltip: {
-									headerFormat: '<em>Date: {point.key}</em><br/>'
-								}
 								}, 
-								{
-								name: 'Outliers',
-								color: Highcharts.getOptions().colors[0],
-								type: 'scatter',
-								data: [ // x, y positions where 0 is the first category
-									
-								],
-								marker: {
-									fillColor: 'white',
-									lineWidth: 1,
-									lineColor: Highcharts.getOptions().colors[0]
-								},
-								tooltip: {
-									pointFormat: 'Observation: {point.y}'
-								}
-							}]
+							]
 						});
             			Highcharts.chart({
 							chart: {
